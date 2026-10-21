@@ -274,3 +274,10 @@ sucursales:
   #   Vea, Jumbo, Disco: el endpoint devuelve 0 puntos.  Coto: no devuelve JSON.  Changomás: no conecta.
   #   Café Martínez, Grido, Mostaza, KFC, Burger King, Starbucks, Lucciano's, Rapanui: listado cargado por JS
   #   sin endpoint público identificable en el HTML.  Dexter, Grimoldi: sin API VTEX.  Freddo: no responde.
+
+# ARCA (ver docs/ARCA.md): integración automática no viable; el sitio enlaza la consulta oficial manual.
+arca:
+  estado: verificacion_manual_enlazada
+  comprobado_el: "2026-10-20"
+  url_constancia: "https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do"
+  nota: "Si conocés el CUIT del comercio, podés verificar su inscripción en ARCA. Una inscripción no prueba que el local esté abierto."
