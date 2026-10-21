@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-20T22:50:40-03:00",
+ "fecha": "2026-10-20T23:23:45-03:00",
  "salud": [
   {
    "fuente": "osm",
@@ -11,7 +11,7 @@
    "senales": 27,
    "avisos": [],
    "detalle": {},
-   "segundos": 0.2
+   "segundos": 58.7
   },
   {
    "fuente": "medios_rss",
@@ -20,10 +20,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 6,
+   "senales": 7,
    "avisos": [],
    "detalle": {},
-   "segundos": 5.2
+   "segundos": 137.2
   },
   {
    "fuente": "directorios",
@@ -44,7 +44,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 3.3
+   "segundos": 253.3
   },
   {
    "fuente": "sucursales",
@@ -54,9 +54,10 @@
    "ok": true,
    "error": null,
    "senales": 0,
-   "avisos": [],
+   "avisos": [
+    "Frávega: BloqueadoPorRobots: robots.txt no permite https://www.fravega.com/sucursales"
+   ],
    "detalle": {
-    "Frávega": 10,
     "Supermercados Día": 98,
     "Carrefour": 70,
     "Easy": 12,
@@ -65,7 +66,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 3.5
+   "segundos": 272.7
   }
  ],
  "senales": [
@@ -742,6 +743,34 @@
     "etiqueta": "amenity=pub",
     "version": 1,
     "marca": null
+   }
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo_senal": "nota_prensa",
+   "nombre": "Cucuza Castiello",
+   "rubro": "Otros",
+   "partido": "San Fernando",
+   "detectado_el": "2026-10-20",
+   "url": "https://www.zonanortediario.com.ar/20/10/2026/cucuza-castiello-llega-a-victoria-con-una-noche-de-tango-y-un-homenaje-a-maradona/",
+   "localidad": "Victoria",
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "fecha_evento": null,
+   "precision_fecha": "sin_fecha",
+   "titulo_fuente": "Cucuza Castiello llega a Victoria con una noche de tango y un homenaje a Maradona",
+   "fecha_publicacion": "2026-10-20",
+   "fecha_registro": null,
+   "id_externo": "nota:69626b0a5b7c",
+   "detalle": "Nota en Zona Norte Diario: «llega»",
+   "extra": {
+    "medio": "Zona Norte Diario",
+    "estado_sugerido": "por_abrir",
+    "verbo": "llega",
+    "penalizaciones": [
+     "sin_contexto_comercial"
+    ]
    }
   },
   {

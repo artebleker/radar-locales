@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T22:50:27-03:00",
+ "actualizado": "2026-10-20T23:11:43-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,15 +9,15 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 33,
+  "candidatos": 34,
   "por_estado": {
    "abrio": 4,
-   "por_abrir": 2,
+   "por_abrir": 3,
    "detectado": 27
   },
   "por_confianza": {
    "alta": 1,
-   "media": 5,
+   "media": 6,
    "baja": 27
   }
  },
@@ -51,7 +51,7 @@
    "senales": 27,
    "avisos": [],
    "detalle": {},
-   "segundos": 0.2
+   "segundos": 58.7
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 6,
+   "senales": 7,
    "avisos": [],
    "detalle": {},
-   "segundos": 5.2
+   "segundos": 137.2
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 3.3
+   "segundos": 253.3
   },
   {
    "fuente": "sucursales",
@@ -94,9 +94,10 @@
    "ok": true,
    "error": null,
    "senales": 0,
-   "avisos": [],
+   "avisos": [
+    "Frávega: BloqueadoPorRobots: robots.txt no permite https://www.fravega.com/sucursales"
+   ],
    "detalle": {
-    "Frávega": 10,
     "Supermercados Día": 98,
     "Carrefour": 70,
     "Easy": 12,
@@ -105,7 +106,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 3.5
+   "segundos": 272.7
   }
  ],
  "arca": {
