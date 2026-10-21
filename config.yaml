@@ -150,3 +150,99 @@ extraccion:
   palabras_calle: [av, avenida, calle, ruta, colectora, pasaje, pje, esquina, diagonal, boulevard, bv, autopista, acceso, plaza]
   # Lugares fuera de zona escritos de otra forma que en OSM (los partidos y barrios porteños salen de OSM).
   fuera_de_zona_extra: [caba, "capital federal", "ciudad de buenos aires", "la plata", "mar del plata", cordoba, rosario, mendoza, tucuman, salta, neuquen, bariloche, "santa fe", "conurbano sur", "zona sur", "zona oeste", china, uruguay, chile, brasil, "estados unidos", espana]
+
+# Directorios de shoppings. Un adaptador genérico: cada sitio define sus páginas, el patrón de link de
+# cada tienda (el grupo 1 es el id) y de dónde sale el nombre. Verificados 2026-10-20 (robots.txt permite).
+#   nombre_desde: enlace (texto o alt del link) | selector (CSS dentro de la tarjeta) | slug | img_alt (sin links)
+#   {n} en la url = paginación desde 0 hasta que una página no traiga tiendas nuevas.
+#   lat/lon: del shopping en OSM (el partido se calcula por punto-en-polígono).
+directorios:
+  activa: true
+  max_paginas: 40
+  minimo_relativo: 0.8       # si hoy hay menos del 80 % de las tiendas del snapshot, se asume falla
+  patron_por_abrir: "proximamente|próximamente|nueva apertura|pronto abrimos|coming soon"
+  sitios:
+    - &cencosud
+      id: unicenter
+      nombre: Unicenter
+      osm: way/122963275
+      lat: -34.5079
+      lon: -58.52533
+      paginas: [{url: "https://shoppingscencosud.com.ar/unicenter/locales?page={n}"}]
+      enlace: "/unicenter/tiendas/([a-z0-9-]+)$"
+      nombre_desde: selector
+      selector: ".views-field-title"
+    - {<<: *cencosud, id: palmasdelpilar, nombre: Palmas del Pilar, osm: way/255756959, lat: -34.44696, lon: -58.86814,
+       paginas: [{url: "https://shoppingscencosud.com.ar/palmasdelpilar/locales?page={n}"}], enlace: "/palmasdelpilar/tiendas/([a-z0-9-]+)$"}
+    - {<<: *cencosud, id: portalescobar, nombre: Portal Escobar, osm: relation/4293806, lat: -34.36179, lon: -58.7957,
+       paginas: [{url: "https://shoppingscencosud.com.ar/escobar/locales?page={n}"}], enlace: "/escobar/tiendas/([a-z0-9-]+)$"}
+    - {<<: *cencosud, id: factorysanmartin, nombre: Factory San Martín, osm: way/30450376, lat: -34.56253, lon: -58.55696,
+       paginas: [{url: "https://shoppingscencosud.com.ar/sanmartin/locales?page={n}"}], enlace: "/sanmartin/tiendas/([a-z0-9-]+)$"}
+    - id: champagnat
+      nombre: Paseo Champagnat
+      osm: way/385309914
+      lat: -34.44975
+      lon: -58.91655
+      paginas:
+        - {url: "https://www.paseochampagnat.com.ar/locales-paseo-champagnat/planta-baja/"}
+        - {url: "https://www.paseochampagnat.com.ar/locales-paseo-champagnat/primer-piso/"}
+      nombre_desde: img_alt
+      excluir_alt: ["Paseo Champagnat"]
+    - id: remeros
+      nombre: Remeros Plaza
+      osm: way/318882382
+      lat: -34.40558
+      lon: -58.62004
+      paginas: [{url: "https://remerosplaza.com.ar/locales/"}]
+      enlace: "remerosplaza\\.com\\.ar/locales/([a-z0-9-]+)/?$"
+      nombre_desde: slug
+    - id: soleil
+      nombre: Soleil Premium Outlet
+      osm: relation/18710496
+      lat: -34.49148
+      lon: -58.59086
+      enlace: "/marcas/(?!categoria)([^/?#]+)$"
+      nombre_desde: enlace
+      paginas:
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/accesorios", rubro: Indumentaria y calzado}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/bebes", rubro: Indumentaria y calzado}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/calzado", rubro: Indumentaria y calzado}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/deportes", rubro: Indumentaria y calzado}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/electronica", rubro: Electro y tecnología}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/hombre", rubro: Indumentaria y calzado}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/mujer", rubro: Indumentaria y calzado}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/unisex", rubro: Indumentaria y calzado}
+        - {url: "https://www.soleilpremiumoutlet.com.ar/marcas/categoria/varios", rubro: Otros}
+    - id: tortugas
+      nombre: Tortugas Open Mall
+      osm: way/88609394
+      lat: -34.45264
+      lon: -58.72689
+      enlace: "^/locales/([a-z0-9-]+)$"
+      nombre_desde: enlace
+      paginas:
+        - {url: "https://www.tortugasopenmall.com/locales/indumentaria-femenina", rubro: Indumentaria y calzado}
+        - {url: "https://www.tortugasopenmall.com/locales/indumentaria-masculina", rubro: Indumentaria y calzado}
+        - {url: "https://www.tortugasopenmall.com/locales/indumentaria-infantil", rubro: Indumentaria y calzado}
+        - {url: "https://www.tortugasopenmall.com/locales/calzado", rubro: Indumentaria y calzado}
+        - {url: "https://www.tortugasopenmall.com/locales/accesorios-y-marroquineria", rubro: Indumentaria y calzado}
+        - {url: "https://www.tortugasopenmall.com/locales/lenceria-y-ropa-interior", rubro: Indumentaria y calzado}
+        - {url: "https://www.tortugasopenmall.com/locales/deportes", rubro: Indumentaria y calzado}
+        - {url: "https://www.tortugasopenmall.com/locales/belleza-y-cosmetica", rubro: Belleza y salud}
+        - {url: "https://www.tortugasopenmall.com/locales/opticas-y-salud-visual", rubro: Belleza y salud}
+        - {url: "https://www.tortugasopenmall.com/locales/farmacias-y-perfumerias", rubro: Belleza y salud}
+        - {url: "https://www.tortugasopenmall.com/locales/electronica-y-tecnologia", rubro: Electro y tecnología}
+        - {url: "https://www.tortugasopenmall.com/locales/cafes-y-gastronomia", rubro: Gastronomía}
+        - {url: "https://www.tortugasopenmall.com/locales/hogar-y-decoracion", rubro: Hogar y construcción}
+        - {url: "https://www.tortugasopenmall.com/locales/kioscos-y-supermercados", rubro: Alimentos y supermercados}
+        - {url: "https://www.tortugasopenmall.com/locales/entretenimiento-y-ocio", rubro: Otros}
+        - {url: "https://www.tortugasopenmall.com/locales/jugueteria-y-regaleria", rubro: Otros}
+        - {url: "https://www.tortugasopenmall.com/locales/servicios", rubro: Otros}
+        - {url: "https://www.tortugasopenmall.com/locales/librerias", rubro: Otros}
+        - {url: "https://www.tortugasopenmall.com/locales/mascotas", rubro: Otros}
+        - {url: "https://www.tortugasopenmall.com/locales/otros", rubro: Otros}
+      # Los slugs de categoría usan el mismo patrón que las tiendas: se excluyen.
+      excluir_ids: [indumentaria-femenina, indumentaria-masculina, indumentaria-infantil, calzado, accesorios-y-marroquineria, lenceria-y-ropa-interior, deportes, belleza-y-cosmetica, opticas-y-salud-visual, farmacias-y-perfumerias, electronica-y-tecnologia, cafes-y-gastronomia, gastronomia-y-cafes, hogar-y-decoracion, kioscos-y-supermercados, entretenimiento-y-ocio, jugueteria-y-regaleria, servicios, librerias, mascotas, otros]
+  # Probados y descartados (2026-10-20): Nordelta Centro Comercial y Al Río (no se encontró sitio oficial),
+  #   Terrazas de Mayo (dominio no resuelve), Norcenter (WordPress sin directorio accesible: /wp-json/wp/v2/types 404),
+  #   Shopping Torres del Sol (página de 1 KB sin directorio), La Aldea (no se encontró sitio).

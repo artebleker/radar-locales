@@ -121,6 +121,17 @@ def cmd_record(config, args) -> int:
         ruta.write_text(json.dumps(guardar, ensure_ascii=False, indent=0), encoding="utf-8")
         print(f"{len(guardar)} notas → {ruta.relative_to(cfg.RAIZ)}; feeds con error: {errores or 'ninguno'}")
         return 0
+    if args.fuente == "directorios":
+        from bs4 import BeautifulSoup
+        for sitio in config["directorios"]["sitios"]:
+            url = sitio["paginas"][0]["url"].format(n=0)
+            sopa = BeautifulSoup(cliente.pedir(url).text, "html.parser")
+            for tag in sopa(["script", "style", "svg", "head", "noscript", "iframe"]):
+                tag.decompose()
+            ruta = destino / f"{sitio['id']}.html"
+            ruta.write_text(f"<!-- {url} -->\n" + str(sopa), encoding="utf-8")
+            print(f"{sitio['nombre']}: {ruta.stat().st_size // 1024} KB → {ruta.relative_to(cfg.RAIZ)}")
+        return 0
     print(f"record no implementado para {args.fuente}")
     return 1
 
