@@ -84,6 +84,8 @@ make test              # pytest sin red (fixtures grabados)
 | `radar record --fuente X` | Graba respuestas reales en `tests/fixtures/X/` para las pruebas sin red. Nunca graba cuerpos de notas, teléfonos, emails ni usuarios de OSM. |
 | `radar serve [--puerto 8000]` | Sirve `site/`. Desde el celular, en la misma red Wi-Fi, se entra con `http://<IP-de-la-computadora>:8000`. |
 | `radar report` | Totales por fuente, partido, rubro, confianza y estado, más una muestra aleatoria de 15 candidatos para revisar a mano. |
+| `radar padron` | Fuerza la descarga del padrón de ARCA, sin esperar los 30 días. Tarda unos 45 s y usa unos 600 MB de memoria. |
+| `radar altas-cuit` | Escribe `data/altas_cuit/AAAA-MM.csv` con las personas jurídicas nuevas entre los dos últimos padrones. Es **privado**: está fuera de git y nunca se publica. |
 
 ### Windows
 
@@ -128,6 +130,7 @@ Todo lo configurable está en **`config.yaml`**: zona, rubros, fuentes, pesos, u
 ## Automatización y publicación
 
 - **`.github/workflows/actualizar.yml`:** se dispara todos los días a las 9:37 UTC (6:37 en Argentina) y también a mano, desde *Actions → Actualizar radar → Run workflow*. Corre `radar run`. Si los datos cambiaron, hace un commit de `data/` y `site/data/` con los totales en el mensaje. Al final despliega `site/` en GitHub Pages con el flujo oficial: `configure-pages@v6`, `upload-pages-artifact@v5` y `deploy-pages@v5`.
+- **Padrón de ARCA en Actions:** persiste entre corridas con `actions/cache@v6` (clave `padron-<run_id>`, que restaura la más reciente), sin commitearse. El workflow frena si algo de `data/padron_local/` o `data/altas_cuit/` quedara agregado al commit.
 - **`.github/workflows/tests.yml`:** corre pytest sin red en cada push.
 - **Pages:** está configurado en *Settings → Pages → Source: GitHub Actions*.
 
@@ -156,9 +159,19 @@ Se revisó el 2026-10-20 en netlify.com/pricing y en la documentación de planes
 
 ## ARCA (corroboración tributaria)
 
-**Estado: verificación manual enlazada.** Comprobado el 2026-10-20; el detalle y la evidencia están en [`docs/ARCA.md`](docs/ARCA.md).
+**Estado: integración automática implementada (parcial), más verificación manual enlazada.** Comprobado el 2026-10-21; el detalle y la evidencia están en [`docs/ARCA.md`](docs/ARCA.md).
 
-- **Archivo descargable de condición tributaria:** es oficial y gratuito, pero no trae domicilio, ni fechas, ni actividad detallada.
+**Padrón público (automático).** Cada 30 días se descarga el archivo masivo oficial de condición tributaria.
+
+- **Qué guarda:** se queda solo con las personas jurídicas, unas 535 mil. Las físicas se descartan al leer.
+- **Cómo cruza:** asocia el **CUIT** al candidato cuando el nombre coincide sin ambigüedad. La coincidencia es solo por nombre y de confianza baja, porque el archivo no trae domicilio: el CUIT puede ser el de la empresa dueña de la marca.
+- **Cómo se ve:** el sitio muestra el CUIT, la razón social y el tipo de coincidencia. No cambia el puntaje.
+- **Si falla:** se usa el padrón anterior, la falla queda en la salud de fuentes y el resto del radar sigue igual.
+- **Cuándo no asigna:** si hay más de una sociedad posible, el candidato queda como «ambiguo» y no se le asigna ningún CUIT.
+
+**Lo que sigue sin ser viable:**
+
+- **Cruce por domicilio, fecha de inicio o actividad:** el archivo descargable no trae esos datos. El código ya soporta el cruce por dirección si algún día un archivo oficial los incluye.
 - **Constancia individual:** tiene CAPTCHA, así que no se automatiza.
 - **Web services `ws_sr_constancia_inscripcion` y `ws_sr_padron_a5`:**
   - piden certificado digital y clave fiscal de nivel 3 de una persona;
@@ -185,7 +198,7 @@ Cada candidato del sitio enlaza la consulta oficial de constancias, con la aclar
 
 ## Privacidad
 
-No se guardan nombres de personas, teléfonos, emails ni usuarios de OSM. De los comercios se guardan el nombre comercial y la dirección del local. Los fixtures de tests se graban sin teléfonos ni emails.
+No se guardan nombres de personas, teléfonos, emails ni usuarios de OSM. Del padrón de ARCA se descartan las personas físicas al leerlo: nunca se guardan ni se publican sus CUITs o nombres. De los comercios se guardan el nombre comercial y la dirección del local. Los fixtures de tests se graban sin teléfonos ni emails.
 
 ## Licencias y atribuciones
 

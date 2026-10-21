@@ -8,10 +8,13 @@ import logging
 import random
 import re
 import sys
+import time
 from collections import Counter
 
 from . import config as cfg
-from . import ejecutar, geo, historial, publicar
+from . import ejecutar, enriquecer_cuit, geo, historial, publicar
+from .padron import descargar as padron_descargar
+from .padron.parsear import Indice
 from .http import Cliente
 
 
@@ -83,9 +86,16 @@ def cmd_run(config, args) -> int:
     senales, salud = ejecutar.recolectar(config, pedidas, args.limite, args.dry_run)
     resumen_senales(senales, salud)
 
+    indice, cuits_nuevos = paso_padron(config, salud, ahora.date(), args.dry_run)
+
     entradas = historial.actualizar(config, historial.cargar(config), senales, hoy)
     activas = historial.senales_activas(entradas, hoy, config["publicacion"]["historial_dias"])
     candidatos = publicar.unificar(activas, config, hoy)
+    if indice is not None:
+        asignados = enriquecer_cuit.enriquecer(candidatos, indice, config, cuits_nuevos, geo.cargar_localidades(config))
+        salud[-1]["senales"] = asignados
+        print(f"Padrón ARCA: {asignados} candidatos con CUIT de persona jurídica "
+              f"({sum(c.get('coincidencia') == 'ambigua' for c in candidatos)} ambiguos sin asignar)")
     vigentes = [c for c in candidatos if c["vigente"]]
     print(f"\nUnificación: {len(activas)} señales en historial → {len(candidatos)} candidatos "
           f"({len(vigentes)} vigentes; {Counter(c['confianza'] for c in vigentes)})")
@@ -97,6 +107,69 @@ def cmd_run(config, args) -> int:
         rutas = publicar.publicar(config, candidatos, salud, ahora)
         print("Publicado: " + ", ".join(str(r.relative_to(cfg.RAIZ)) for r in rutas))
     return 0 if any(e["ok"] for e in salud) else 1
+
+
+def paso_padron(config, salud: list[dict], hoy, dry_run: bool):
+    """Actualiza (si toca) y carga el padrón. Si falla, lo registra en la salud y la corrida sigue."""
+    estado = {"fuente": "padron", "tipo": "enriquecimiento", "url": config["padron"]["url"],
+              "licencia": "Datos públicos de ARCA; solo personas jurídicas", "ok": True, "error": None,
+              "senales": 0, "avisos": [], "detalle": {}, "segundos": 0}
+    if not config["padron"].get("activa", True):
+        return None, None
+    salud.append(estado)
+    t0 = time.monotonic()
+    error = None
+    if not dry_run:
+        try:
+            res = padron_descargar.actualizar(config, Cliente(config), hoy)
+            estado["detalle"] = {"descarga": res["accion"], "periodo": (res.get("estado") or {}).get("periodo")}
+        except Exception as e:  # noqa: BLE001 — se conserva el padrón anterior y la corrida sigue
+            error = f"{type(e).__name__}: {e}"
+    actual, anterior = padron_descargar.cargar_actual_y_anterior(config)
+    estado["segundos"] = round(time.monotonic() - t0, 1)
+    if error:
+        estado.update(ok=False, error=error + (" (se usa el padrón anterior)" if actual else ""))
+    if actual is None:
+        if not error:
+            estado.update(ok=False, error="no hay padrón local (correr `radar padron`)")
+        return None, None
+    estado["detalle"]["personas_juridicas"] = len(actual)
+    nuevos = {f["cuit"] for f in enriquecer_cuit.altas(actual, anterior)} if anterior else set()
+    return Indice(actual, config), nuevos
+
+
+def cmd_padron(config, args) -> int:
+    """Fuerza la descarga del padrón de ARCA (ignora frecuencia_dias)."""
+    res = padron_descargar.actualizar(config, Cliente(config), config.ahora().date(), forzar=True)
+    e = res["estado"]
+    miles = lambda n: f"{n:,}".replace(",", ".")  # noqa: E731
+    print(f"Padrón: {res['accion']} · período {e['periodo']} · {miles(e['filas_total'])} filas leídas, "
+          f"{miles(e['filas_juridicas'])} personas jurídicas guardadas (las físicas se descartan)")
+    return 0
+
+
+def cmd_altas_cuit(config, args) -> int:
+    """CSV privado con los CUIT de personas jurídicas nuevos entre los dos últimos padrones."""
+    import csv
+    actual, anterior = padron_descargar.cargar_actual_y_anterior(config)
+    if actual is None or anterior is None:
+        print("Hacen falta dos padrones (mes actual y anterior) en data/padron_local/. Hay "
+              f"{len(padron_descargar.derivados(config))}.")
+        return 1
+    nuevas = enriquecer_cuit.altas(actual, anterior)
+    periodo = padron_descargar.derivados(config)[-1].name[:7]
+    ruta = config.ruta("altas_cuit") / f"{periodo}.csv"
+    with open(ruta, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["cuit", "tipo_persona", "razon_social", "rubro", "domicilio", "fecha_inicio_actividades",
+                    "condicion_iva", "empleador"])
+        for r in nuevas:
+            rubro = r.get("actividad_principal") or r.get("actividad_monotributo") or ""
+            domicilio = " ".join(x for x in (r.get("domicilio_calle"), r.get("domicilio_altura")) if x)
+            w.writerow([r["cuit"], "juridica", r.get("razon_social", ""), rubro, domicilio,
+                        r.get("fecha_inicio_actividades", ""), r.get("iva", ""), r.get("empleador", "")])
+    print(f"{len(nuevas)} altas de personas jurídicas → {ruta} (privado, no se commitea)")
+    return 0
 
 
 def cmd_report(config, args) -> int:
@@ -239,6 +312,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--puerto", type=int, default=8000)
     p.set_defaults(func=cmd_serve)
     sub.add_parser("report", help="totales y muestra aleatoria").set_defaults(func=cmd_report)
+    sub.add_parser("padron", help="fuerza la descarga del padrón de ARCA").set_defaults(func=cmd_padron)
+    sub.add_parser("altas-cuit", help="CSV privado con CUIT nuevos del mes").set_defaults(func=cmd_altas_cuit)
 
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.WARNING,

@@ -4,3 +4,5 @@ __pycache__/
 .pytest_cache/
 data/cache/
 .DS_Store
+data/padron_local/
+data/altas_cuit/

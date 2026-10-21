@@ -8,6 +8,7 @@ from collections import Counter
 from datetime import date, timedelta
 
 from . import dedupe, scoring
+from .enriquecer_cuit import sin_personas_fisicas
 from .historial import clave
 from .rubros import OTROS
 
@@ -98,7 +99,7 @@ def unificar(activas: list[tuple], config, hoy: str) -> list[dict]:
 def publicar(config, candidatos: list[dict], salud: list[dict], ahora) -> tuple:
     destino = config.ruta("site_data")
     hoy = ahora.date().isoformat()
-    vigentes = [c for c in candidatos if c["vigente"]]
+    vigentes = [sin_personas_fisicas(c, config) for c in candidatos if c["vigente"]]
     (destino / "candidatos.json").write_text(
         json.dumps({"generado": ahora.isoformat(timespec="seconds"), "candidatos": vigentes},
                    ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

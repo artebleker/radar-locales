@@ -63,6 +63,8 @@ rutas:
   cache: data/cache
   site_data: site/data
   fixtures: tests/fixtures
+  padron_local: data/padron_local     # ignorado en git; persiste entre corridas con actions/cache
+  altas_cuit: data/altas_cuit         # privado: ignorado en git, nunca se publica
 
 # Rubros: etiquetas OSM → rubro. Lo no mapeado (cualquier otro shop=*) va a «Otros».
 # palabras: para noticias y directorios (se buscan en título o categoría, normalizadas sin tildes).
@@ -312,9 +314,45 @@ deduplicacion:
   umbral_nombre: 88           # rapidfuzz token_set_ratio sobre nombres normalizados
   distancia_m: 150
   # Se quitan al comparar nombres (en cualquier posición): «Supermercados Día» ≈ «Día».
-  palabras_genericas: [srl, "s r l", sa, "s a", sas, sucursal, local, tienda, supermercados, supermercado]
+  palabras_genericas: [srl, "s r l", sa, "s a", sas, "s a s", sau, "s a u", "sociedad anonima", "sociedad de responsabilidad limitada", sucursal, local, tienda, supermercados, supermercado]
 
 publicacion:
   ventanas_dias: [7, 14, 30, 90]
   ventana_defecto: 30
   historial_dias: 180
+
+# Padrón público de ARCA (archivo de condición tributaria). Verificado 2026-10-21 con una descarga real:
+# zip de 86 MB con un .txt de ancho fijo (51 caracteres por línea, 6,2 millones de filas, latin-1).
+# Diseño oficial: https://www.arca.gob.ar/genericos/cInscripcion/archivoCompleto.asp
+# El archivo NO trae domicilio, código postal, fecha de inicio ni actividad detallada: esas columnas quedan en null
+# y el cruce por dirección se activa solo si algún día un archivo las trae. Hoy el cruce es por nombre.
+# Privacidad: al leer se descartan las personas físicas; en disco solo queda un derivado con personas jurídicas.
+padron:
+  activa: true
+  url: "https://www.afip.gob.ar/genericos/cInscripcion/archivos/apellidoNombreDenominacion.zip"
+  formato: zip_txt            # zip_txt | txt (ancho fijo) | csv | zip_csv (columnas por nombre de encabezado)
+  codificacion: latin-1
+  largo_linea: 51
+  columnas:                   # ancho fijo: [inicio, fin) desde 0. null = el archivo no trae ese dato
+    cuit: [0, 11]
+    razon_social: [11, 41]
+    ganancias: [41, 43]
+    iva: [43, 45]
+    monotributo: [45, 47]
+    integrante_sociedad: [47, 48]
+    empleador: [48, 49]
+    actividad_monotributo: [49, 51]
+    domicilio_calle: null
+    domicilio_altura: null
+    codigo_postal: null
+    localidad: null
+    fecha_inicio_actividades: null
+    actividad_principal: null
+  prefijos_juridica: ["30", "33", "34"]
+  prefijos_fisica: ["20", "23", "24", "27"]
+  frecuencia_dias: 30
+  umbral_nombre: 88           # token_set_ratio: primer filtro de nombres similares
+  umbral_orden: 95            # token_sort_ratio: segundo filtro, si el candidato no está contenido en la razón social
+  min_largo_nombre: 5         # nombres más cortos («Leo», «Baba») coinciden con sociedades de todo el país
+  min_largo_una_palabra: 7    # nombres de una sola palabra («Junior», «Grido») son demasiado genéricos
+  timeout_s: 600

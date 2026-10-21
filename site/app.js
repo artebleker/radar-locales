@@ -5,7 +5,8 @@
 const ETIQUETAS = {
   estado: { por_abrir: "Por abrir", abrio: "Abrió", detectado: "Detectado" },
   confianza: { alta: "Alta", media: "Media", baja: "Baja" },
-  fuente: { osm: "OpenStreetMap", medios_rss: "Medios locales", directorios: "Shoppings", sucursales: "Cadenas" },
+  fuente: { osm: "OpenStreetMap", medios_rss: "Medios locales", directorios: "Shoppings", sucursales: "Cadenas", padron: "Padrón ARCA" },
+  coincidencia: { direccion_y_nombre: "por dirección y nombre", direccion_exacta: "por dirección", nombre_similar: "por nombre" },
   tipo: {
     creacion_osm: "Nuevo en OSM", alta_osm: "Apareció en OSM", por_abrir_osm: "Por abrir (OSM)",
     cambio_osm: "Cambio en OSM", baja_osm: "Desapareció de OSM", nota_prensa: "Nota de prensa",
@@ -83,7 +84,8 @@ function filtrar() {
     if (NIVEL[c.confianza] < NIVEL[f.confianza || "baja"]) return false;
     if (f.fuente && !c.fuentes.includes(f.fuente)) return false;
     if (q) {
-      const texto = sinTildes([c.nombre, c.rubro, c.partido, c.localidad, c.direccion, ...c.senales.map((s) => s.titulo)].join(" "));
+      const texto = sinTildes([c.nombre, c.rubro, c.partido, c.localidad, c.direccion, c.cuit, c.razon_social_cuit,
+        ...c.senales.map((s) => s.titulo)].join(" "));
       if (!q.split(/\s+/).every((p) => texto.includes(p))) return false;
     }
     return true;
@@ -128,9 +130,22 @@ function celdaSenales(c) {
       c.senales.map((s) => el("li", {}, s.detalle || "")),
       el("li", {}, "Puntaje " + c.puntaje + ": " + c.motivos_puntaje.join(", ")),
       el("li", {}, "Visto por primera vez el " + fechaCorta(c.primera_deteccion) + ", última vez el " + fechaCorta(c.ultima_deteccion)),
+      c.cuit ? el("li", {}, "Padrón ARCA: " + (c.razon_social_cuit || "") + " (CUIT " + formatoCuit(c.cuit) + ", " +
+        (ETIQUETAS.coincidencia[c.coincidencia] || c.coincidencia) + "). Una inscripción no prueba que el local esté abierto.") : null,
+      c.coincidencia === "ambigua" ? el("li", {}, "Padrón ARCA: " + c.cuits_posibles + " sociedades posibles; no se asignó CUIT.") : null,
       estado.meta.arca ? el("li", {}, el("a", { href: estado.meta.arca.url_constancia, target: "_blank", rel: "noopener noreferrer" },
         "Consultar constancia en ARCA"), " — " + estado.meta.arca.nota) : null));
   return el("td", { "data-titulo": "Señales" }, lista, detalle);
+}
+
+function formatoCuit(cuit) { return cuit.slice(0, 2) + "-" + cuit.slice(2, 10) + "-" + cuit.slice(10); }
+
+function bloqueCuit(c) {
+  if (!c.cuit) return null;
+  return el("span", { class: "secundario cuit", title: "CUIT de persona jurídica tomado del padrón público de ARCA. " +
+      "Si la coincidencia es solo por nombre, puede ser el de la empresa dueña de la marca y no el del local." },
+    "CUIT " + formatoCuit(c.cuit) + " · " + (ETIQUETAS.coincidencia[c.coincidencia] || c.coincidencia) +
+    ", confianza " + c.confianza_cuit + (c.cuit_alta_reciente ? " · alta reciente en ARCA" : ""));
 }
 
 function fila(c) {
@@ -141,6 +156,7 @@ function fila(c) {
   return el("tr", { id: "c-" + c.id },
     el("td", { "data-titulo": "Nombre" }, nombre,
       c.direccion ? el("span", { class: "secundario" }, c.direccion) : null,
+      bloqueCuit(c),
       c.lat != null
         ? el("button", { type: "button", class: "ver-mapa", onclick: () => enfocar(c.id) }, "Ver en el mapa")
         : el("span", { class: "sin-mapa", title: "La fuente no informa coordenadas" }, "Sin ubicación en el mapa")),
@@ -247,7 +263,7 @@ function descargar(nombre, tipo, contenido) {
 }
 function exportarCSV() {
   const cols = ["id", "nombre", "rubro", "partido", "localidad", "direccion", "lat", "lon", "estado", "fecha_estimada",
-    "precision_fecha", "confianza", "puntaje", "fuentes", "links"];
+    "precision_fecha", "confianza", "puntaje", "fuentes", "cuit", "razon_social_cuit", "coincidencia", "confianza_cuit", "links"];
   const esc = (v) => { const s = v == null ? "" : String(v); return /[",\n;]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
   const lineas = [cols.join(",")].concat(estado.filtrados.map((c) => cols.map((k) =>
     esc(k === "fuentes" ? c.fuentes.join(" + ") : k === "links" ? c.senales.map((s) => s.url).join(" | ") : c[k])).join(",")));
@@ -293,7 +309,8 @@ async function iniciar() {
   document.getElementById("f-ventana").value = String(m.ventana_defecto);
   opciones(document.getElementById("f-partido"), m.partidos);
   opciones(document.getElementById("f-rubro"), m.rubros);
-  opciones(document.getElementById("f-fuente"), [...new Set(m.salud.map((s) => s.fuente))], (f) => ETIQUETAS.fuente[f] || f);
+  opciones(document.getElementById("f-fuente"), [...new Set(m.salud.filter((s) => s.tipo !== "enriquecimiento").map((s) => s.fuente))],
+    (f) => ETIQUETAS.fuente[f] || f);
   if (m.arca) {
     document.getElementById("arca").replaceChildren("Verificación tributaria: la integración automática con ARCA no es viable (",
       el("a", { href: m.repo + "/blob/main/docs/ARCA.md" }, "por qué"), "); cada candidato enlaza la ",

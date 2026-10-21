@@ -109,13 +109,15 @@ class Cliente:
         return self.dir_cache / h
 
     def pedir(self, url: str, metodo: str = "GET", datos=None, ttl: float | None = None,
-              timeout: float | None = None) -> requests.Response | "RespuestaCache":
-        """Devuelve la respuesta (de red o de caché). Lanza excepción si falla tras reintentos."""
+              timeout: float | None = None, cachear: bool = True) -> requests.Response | "RespuestaCache":
+        """Devuelve la respuesta (de red o de caché). Lanza excepción si falla tras reintentos.
+        cachear=False: ni lee ni escribe la caché (respuestas grandes o con datos personales)."""
         if not self.permitido(url):
             raise BloqueadoPorRobots(f"robots.txt no permite {url}")
         ttl = self.ttl if ttl is None else ttl
         clave = self._clave(metodo, url, datos)
-        if self.usar_cache and clave.exists() and time.time() - clave.stat().st_mtime < ttl:
+        usar_cache = self.usar_cache and cachear
+        if usar_cache and clave.exists() and time.time() - clave.stat().st_mtime < ttl:
             return RespuestaCache(clave.read_bytes(), url)
 
         host = urlsplit(url).netloc
@@ -134,7 +136,7 @@ class Cliente:
                 ultimo_error = requests.HTTPError(f"HTTP {r.status_code} en {url}", response=r)
                 continue
             r.raise_for_status()
-            if self.usar_cache:
+            if usar_cache:
                 clave.write_bytes(r.content)
             return r
         raise ultimo_error
