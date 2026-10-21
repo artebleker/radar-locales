@@ -178,7 +178,7 @@ Se revisó el 2026-10-20 en netlify.com/pricing y en la documentación de planes
   - solo consultan por CUIT;
   - devuelven el domicilio fiscal, no el del local.
 
-Cada candidato del sitio enlaza la consulta oficial de constancias, con la aclaración de que una inscripción no prueba que el local esté abierto. No se guardan CUITs ni se piden credenciales.
+Cada candidato del sitio enlaza la consulta oficial de constancias, con la aclaración de que una inscripción no prueba que el local esté abierto. No se guardan CUITs ni nombres de personas físicas, ni se piden credenciales.
 
 ## Ideas para después (no implementadas)
 
