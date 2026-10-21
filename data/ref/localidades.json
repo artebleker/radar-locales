@@ -1,0 +1,2794 @@
+{
+ "21 de septiembre": {
+  "nombre": "21 de Septiembre",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/3741813293:neighbourhood"
+  ]
+ },
+ "9 de julio": {
+  "nombre": "9 de Julio",
+  "partidos": [
+   "Campana",
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/2710201123:neighbourhood",
+   "osm:way/416934783:neighbourhood"
+  ]
+ },
+ "acassuso": {
+  "nombre": "Acassuso",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/198437475:town"
+  ]
+ },
+ "albizola": {
+  "nombre": "Albizola",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2710199161:neighbourhood"
+  ]
+ },
+ "alto los cardales": {
+  "nombre": "Alto Los Cardales",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2720450918:suburb"
+  ]
+ },
+ "altos del golf": {
+  "nombre": "Altos del Golf",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/13969596463:neighbourhood"
+  ]
+ },
+ "amancay": {
+  "nombre": "Amancay",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/2707308788:neighbourhood"
+  ]
+ },
+ "ascension de jesus": {
+  "nombre": "Ascensión de Jesús",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/1234753884:neighbourhood"
+  ]
+ },
+ "baires": {
+  "nombre": "Baires",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/5784740746:neighbourhood",
+   "osm:node/7530130380:neighbourhood"
+  ]
+ },
+ "ballester noreste": {
+  "nombre": "Villa Ballester Noreste",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa ballester noreste"
+  ]
+ },
+ "ballester noroeste": {
+  "nombre": "Villa Ballester Noroeste",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa ballester noroeste"
+  ]
+ },
+ "bancalari": {
+  "nombre": "Bancalari",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/198440137:suburb"
+  ]
+ },
+ "barilari": {
+  "nombre": "Barilari",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:way/1293306177:neighbourhood"
+  ]
+ },
+ "barrio 20 de junio": {
+  "nombre": "Barrio 20 de Junio",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/1351863427:neighbourhood"
+  ]
+ },
+ "barrio aleman": {
+  "nombre": "Barrio Alemán",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/4979873857:neighbourhood"
+  ]
+ },
+ "barrio angelita": {
+  "nombre": "Barrio Angelita",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/506578899:neighbourhood"
+  ]
+ },
+ "barrio arca tanque": {
+  "nombre": "Barrio Arca/Tanque",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/3825882058:neighbourhood"
+  ]
+ },
+ "barrio borges": {
+  "nombre": "Barrio Borges",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:relation/15083063:neighbourhood"
+  ]
+ },
+ "barrio boulevares": {
+  "nombre": "Barrio Boulevares",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/310246321:neighbourhood"
+  ]
+ },
+ "barrio colcas": {
+  "nombre": "Barrio Colcas",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:way/671136268:neighbourhood"
+  ]
+ },
+ "barrio dalmine": {
+  "nombre": "Barrio Dálmine",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2599178040:neighbourhood"
+  ]
+ },
+ "barrio el lucero": {
+  "nombre": "Barrio El Lucero",
+  "partidos": [
+   "Tigre",
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/2577101062:neighbourhood",
+   "osm:relation/3588717:neighbourhood"
+  ]
+ },
+ "barrio el prado": {
+  "nombre": "Barrio El Prado",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/11251641900:neighbourhood"
+  ]
+ },
+ "barrio el recodo": {
+  "nombre": "Barrio El Recodo",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:relation/3588718:neighbourhood"
+  ]
+ },
+ "barrio elortondo": {
+  "nombre": "Barrio Elortondo",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/516880612:neighbourhood"
+  ]
+ },
+ "barrio evita": {
+  "nombre": "Barrio Evita",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/5317231721:neighbourhood"
+  ]
+ },
+ "barrio fate": {
+  "nombre": "Barrio Fate",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/5040069262:neighbourhood"
+  ]
+ },
+ "barrio fonavi": {
+  "nombre": "Barrio FONAVI",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:way/313843547:neighbourhood"
+  ]
+ },
+ "barrio infico": {
+  "nombre": "Barrio Infico",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/2779846819:neighbourhood"
+  ]
+ },
+ "barrio ingles": {
+  "nombre": "Barrio Inglés",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2599178039:neighbourhood"
+  ]
+ },
+ "barrio irsa": {
+  "nombre": "Barrio Irsa Sur",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "alias:barrio irsa sur"
+  ]
+ },
+ "barrio irsa sur": {
+  "nombre": "Barrio Irsa Sur",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/7272026192:neighbourhood"
+  ]
+ },
+ "barrio juan pablo segundo": {
+  "nombre": "Barrio Juan Pablo Segundo",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/2577101063:neighbourhood"
+  ]
+ },
+ "barrio la beatriz": {
+  "nombre": "Barrio La Beatriz",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/2880160442:neighbourhood"
+  ]
+ },
+ "barrio la delfina": {
+  "nombre": "Barrio La Delfina",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/2909213111:neighbourhood"
+  ]
+ },
+ "barrio la montura": {
+  "nombre": "Barrio La Montura",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/267417528:neighbourhood"
+  ]
+ },
+ "barrio lambertucci": {
+  "nombre": "Barrio Lambertucci",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/3212658968:neighbourhood"
+  ]
+ },
+ "barrio las acacias": {
+  "nombre": "Barrio Las Acacias",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/7888165591:neighbourhood"
+  ]
+ },
+ "barrio las flores": {
+  "nombre": "Barrio Las Flores",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/3825897566:neighbourhood"
+  ]
+ },
+ "barrio leonardo murialdo": {
+  "nombre": "Barrio Leonardo Murialdo",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:way/28924467:neighbourhood"
+  ]
+ },
+ "barrio liceo": {
+  "nombre": "Barrio Liceo",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/13520223035:neighbourhood"
+  ]
+ },
+ "barrio los perales": {
+  "nombre": "Barrio Los Perales",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/3862410907:neighbourhood"
+  ]
+ },
+ "barrio nestor kirchner": {
+  "nombre": "Barrio Néstor Kirchner",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:way/302357851:neighbourhood"
+  ]
+ },
+ "barrio obrero": {
+  "nombre": "Barrio Obrero",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/3825882059:neighbourhood"
+  ]
+ },
+ "barrio parque aguirre": {
+  "nombre": "Barrio Parque Aguirre",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/4936134771:suburb"
+  ]
+ },
+ "barrio parque derqui": {
+  "nombre": "Barrio Parque Derqui",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/1561275636:neighbourhood"
+  ]
+ },
+ "barrio parque el cazador": {
+  "nombre": "Barrio Parque El Cazador",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/2282739605:suburb"
+  ]
+ },
+ "barrio parque figueroa alcorta": {
+  "nombre": "Villa Barrio Parque Figueroa Alcorta",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa barrio parque figueroa alcorta"
+  ]
+ },
+ "barrio popular la cava": {
+  "nombre": "Barrio Popular La Cava",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/5026921343:neighbourhood"
+  ]
+ },
+ "barrio san felipe": {
+  "nombre": "Barrio San Felipe",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:way/407291634:neighbourhood"
+  ]
+ },
+ "barrio san isidro": {
+  "nombre": "Barrio San Isidro",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/579460047:neighbourhood"
+  ]
+ },
+ "barrio san isidro catedral": {
+  "nombre": "Barrio San Isidro Catedral",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/504071236:neighbourhood"
+  ]
+ },
+ "barrio san isidro labrador": {
+  "nombre": "Barrio San Isidro Labrador",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/514572892:neighbourhood"
+  ]
+ },
+ "barrio san jorge": {
+  "nombre": "Barrio San Jorge",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:way/961609429:neighbourhood"
+  ]
+ },
+ "barrio san luis": {
+  "nombre": "Barrio San Luis",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/3213114686:neighbourhood"
+  ]
+ },
+ "barrio santa elisa": {
+  "nombre": "Barrio Santa Elisa",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/772965553:neighbourhood"
+  ]
+ },
+ "barrio santa emilia": {
+  "nombre": "Barrio Santa Emilia",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:relation/9877281:neighbourhood"
+  ]
+ },
+ "barrio santa lucia": {
+  "nombre": "Barrio Santa Lucía",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/586649113:neighbourhood"
+  ]
+ },
+ "barrio senderos 1": {
+  "nombre": "Barrio Senderos 1",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/310246323:neighbourhood"
+  ]
+ },
+ "barrio vial": {
+  "nombre": "Barrio Vial",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:way/308485393:neighbourhood"
+  ]
+ },
+ "beccar": {
+  "nombre": "Béccar",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/198440627:town"
+  ]
+ },
+ "beccar central": {
+  "nombre": "Beccar Central",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/1278522074:neighbourhood"
+  ]
+ },
+ "belen de escobar": {
+  "nombre": "Belén de Escobar",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/198440636:town"
+  ]
+ },
+ "bella vista": {
+  "nombre": "Bella Vista",
+  "partidos": [
+   "San Miguel"
+  ],
+  "fuentes": [
+   "osm:node/198440734:town"
+  ]
+ },
+ "benavidez": {
+  "nombre": "Benavídez",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/8235599850:town"
+  ]
+ },
+ "bernardo de monteagudo": {
+  "nombre": "Villa Bernardo de Monteagudo",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa bernardo de monteagudo"
+  ]
+ },
+ "boulogne sur mer": {
+  "nombre": "Boulogne Sur Mer",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/198441088:town"
+  ]
+ },
+ "cabot": {
+  "nombre": "Cabot",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/2707262942:suburb"
+  ]
+ },
+ "campana": {
+  "nombre": "Campana",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/198441525:town",
+   "config:partido"
+  ]
+ },
+ "campo de mayo": {
+  "nombre": "Campo de Mayo",
+  "partidos": [
+   "San Miguel"
+  ],
+  "fuentes": [
+   "osm:node/2269032510:village"
+  ]
+ },
+ "carapachay": {
+  "nombre": "Carapachay",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/2274559023:suburb"
+  ]
+ },
+ "casas del": {
+  "nombre": "Casas del Este",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "alias:casas del este"
+  ]
+ },
+ "casas del este": {
+  "nombre": "Casas del Este",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/569417386:neighbourhood"
+  ]
+ },
+ "caseros": {
+  "nombre": "Caseros",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711883:city"
+  ]
+ },
+ "champagnat": {
+  "nombre": "Champagnat",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/13436335955:town",
+   "osm:way/529534896:neighbourhood"
+  ]
+ },
+ "churruca": {
+  "nombre": "Churruca",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711885:village"
+  ]
+ },
+ "ciudad del libertador general san martin": {
+  "nombre": "Ciudad del Libertador General San Martín",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/198451614:town"
+  ]
+ },
+ "ciudad jardin el libertador": {
+  "nombre": "Villa Ciudad Jardín El Libertador",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa ciudad jardin el libertador"
+  ]
+ },
+ "ciudad jardin lomas del palomar": {
+  "nombre": "Ciudad Jardín Lomas del Palomar",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711886:town"
+  ]
+ },
+ "ciudadela": {
+  "nombre": "Ciudadela",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/198444298:town"
+  ]
+ },
+ "colonia japonesa de zelaya": {
+  "nombre": "Colonia Japonesa de Zelaya",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/7888399462:neighbourhood"
+  ]
+ },
+ "coronel jose maria zapiola": {
+  "nombre": "Villa Coronel José María Zapiola",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa coronel jose maria zapiola"
+  ]
+ },
+ "dallera": {
+  "nombre": "Dallera",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2710200977:neighbourhood",
+   "osm:node/5320563560:neighbourhood"
+  ]
+ },
+ "de mayo": {
+  "nombre": "Villa de Mayo",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "alias:villa de mayo"
+  ]
+ },
+ "del viso": {
+  "nombre": "Del Viso",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198446872:town"
+  ]
+ },
+ "delfino": {
+  "nombre": "Delfino",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/7530077172:neighbourhood"
+  ]
+ },
+ "dique lujan": {
+  "nombre": "Dique Luján",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/198446983:village"
+  ]
+ },
+ "don francisco": {
+  "nombre": "Don Francisco",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2710200976:neighbourhood"
+  ]
+ },
+ "don torcuato": {
+  "nombre": "Don Torcuato",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/2279472008:town"
+  ]
+ },
+ "el ahorcado": {
+  "nombre": "El Ahorcado",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:way/1428349601:neighbourhood"
+  ]
+ },
+ "el arco": {
+  "nombre": "El Arco",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/5865875097:neighbourhood"
+  ]
+ },
+ "el ceibo": {
+  "nombre": "El Ceibo",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/5026921342:neighbourhood"
+  ]
+ },
+ "el libertador": {
+  "nombre": "El Libertador",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711887:town"
+  ]
+ },
+ "el mercado": {
+  "nombre": "Villa El Mercado",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "alias:villa el mercado"
+  ]
+ },
+ "el ombu": {
+  "nombre": "El Ombú",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/11202840773:neighbourhood"
+  ]
+ },
+ "el recuerdo": {
+  "nombre": "El Recuerdo",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/529534906:neighbourhood"
+  ]
+ },
+ "el talar": {
+  "nombre": "El Talar",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/198449270:town"
+  ]
+ },
+ "el triangulo": {
+  "nombre": "El Triángulo",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/2007336381:village"
+  ]
+ },
+ "escobar": {
+  "nombre": "Escobar",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "config:partido"
+  ]
+ },
+ "estancias del pilar": {
+  "nombre": "Estancias del Pilar",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/1237295403:suburb"
+  ]
+ },
+ "evita": {
+  "nombre": "Evita",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/13520223029:neighbourhood"
+  ]
+ },
+ "falcon": {
+  "nombre": "Falcon",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/5778129614:neighbourhood"
+  ]
+ },
+ "fatima": {
+  "nombre": "Fátima",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198450254:village"
+  ]
+ },
+ "ferroviario santa rosa": {
+  "nombre": "Ferroviario Santa Rosa",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/11202840770:neighbourhood"
+  ]
+ },
+ "florida": {
+  "nombre": "Florida",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/198450511:suburb"
+  ]
+ },
+ "florida oeste": {
+  "nombre": "Florida Oeste",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/1461784682:suburb"
+  ]
+ },
+ "fonavi": {
+  "nombre": "Fonavi",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/5739844011:neighbourhood"
+  ]
+ },
+ "frino": {
+  "nombre": "Frino",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/7534874027:neighbourhood"
+  ]
+ },
+ "garin": {
+  "nombre": "Garín",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/198451029:town"
+  ]
+ },
+ "garin oeste": {
+  "nombre": "Garín Oeste",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/11717442932:suburb"
+  ]
+ },
+ "general antonio jose de sucre": {
+  "nombre": "Villa General Antonio José de Sucre",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa general antonio jose de sucre"
+  ]
+ },
+ "general eugenio necochea": {
+  "nombre": "Villa General Eugenio Necochea",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa general eugenio necochea"
+  ]
+ },
+ "general jose tomas guido": {
+  "nombre": "Villa General José Tomás Guido",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa general jose tomas guido"
+  ]
+ },
+ "general juan gregorio de las heras": {
+  "nombre": "Villa General Juan Gregorio de Las Heras",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa general juan gregorio de las heras"
+  ]
+ },
+ "general mariano balcarce": {
+  "nombre": "Villa General Mariano Balcarce",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "alias:villa general mariano balcarce"
+  ]
+ },
+ "general pacheco": {
+  "nombre": "General Pacheco",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/1914513186:town"
+  ]
+ },
+ "godoy cruz": {
+  "nombre": "Villa Godoy Cruz",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa godoy cruz"
+  ]
+ },
+ "granaderos de san martin": {
+  "nombre": "Villa Granaderos de San Martín",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa granaderos de san martin"
+  ]
+ },
+ "grand bourg": {
+  "nombre": "Grand Bourg",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/198451927:town"
+  ]
+ },
+ "gregoria matorras": {
+  "nombre": "Villa Gregoria Matorras",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa gregoria matorras"
+  ]
+ },
+ "haras santa maria": {
+  "nombre": "Haras Santa María",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:relation/4265301:suburb"
+  ]
+ },
+ "heroes de malvinas": {
+  "nombre": "Héroes de Malvinas",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/12646078758:neighbourhood"
+  ]
+ },
+ "ingeniero adolfo sourdeaux": {
+  "nombre": "Ingeniero Adolfo Sourdeaux",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/1462030749:town"
+  ]
+ },
+ "ingeniero maschwitz": {
+  "nombre": "Ingeniero Maschwitz",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/198452686:town"
+  ]
+ },
+ "jose c paz": {
+  "nombre": "José C. Paz",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/198453659:city",
+   "config:partido"
+  ]
+ },
+ "jose ingenieros": {
+  "nombre": "José Ingenieros",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2176639109:village"
+  ]
+ },
+ "jose leon suarez": {
+  "nombre": "Villa José León Suárez",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa jose leon suarez"
+  ]
+ },
+ "juan martin de pueyrredon": {
+  "nombre": "Villa Juan Martín de Pueyrredón",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa juan martin de pueyrredon"
+  ]
+ },
+ "juan vucetich": {
+  "nombre": "Juan Vucetich",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/198453851:suburb"
+  ]
+ },
+ "la argentina": {
+  "nombre": "La Argentina",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/529534903:neighbourhood"
+  ]
+ },
+ "la banda luis beltran rio negro": {
+  "nombre": "La Banda. Luis Beltran, Rio Negro",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:way/1207299158:village"
+  ]
+ },
+ "la bota": {
+  "nombre": "La Bota",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/11718029075:suburb"
+  ]
+ },
+ "la catanga": {
+  "nombre": "La Catanga",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:way/1179568927:neighbourhood"
+  ]
+ },
+ "la costilla": {
+  "nombre": "La Costilla",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:way/1428349590:neighbourhood"
+  ]
+ },
+ "la esperanza": {
+  "nombre": "La Esperanza",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/7528041470:neighbourhood"
+  ]
+ },
+ "la horqueta": {
+  "nombre": "La Horqueta",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/2275858779:suburb"
+  ]
+ },
+ "la loma": {
+  "nombre": "La Loma",
+  "partidos": [
+   "Escobar",
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/2707259920:neighbourhood",
+   "osm:node/5778129580:neighbourhood"
+  ]
+ },
+ "la lonja": {
+  "nombre": "La Lonja",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/2282753788:town"
+  ]
+ },
+ "la lucila": {
+  "nombre": "La Lucila",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/198456518:suburb"
+  ]
+ },
+ "la madrugada": {
+  "nombre": "La Madrugada",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/11717442933:neighbourhood"
+  ]
+ },
+ "la nata": {
+  "nombre": "Villa La Ñata",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "alias:villa la nata"
+  ]
+ },
+ "la paz": {
+  "nombre": "Villa La Paz",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "alias:villa la paz"
+  ]
+ },
+ "la pionera": {
+  "nombre": "La Pionera",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/529534899:neighbourhood"
+  ]
+ },
+ "las brisas country club": {
+  "nombre": "Las Brisas Country Club",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:relation/4461272:neighbourhood"
+  ]
+ },
+ "las canitas": {
+  "nombre": "Las Cañitas",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/11333118247:neighbourhood"
+  ]
+ },
+ "las casuarinas": {
+  "nombre": "Las Casuarinas",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/13099225928:neighbourhood"
+  ]
+ },
+ "las casuarinas del pilar": {
+  "nombre": "Las Casuarinas del Pilar",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/320608058:neighbourhood"
+  ]
+ },
+ "leon": {
+  "nombre": "León",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/7824741822:neighbourhood"
+  ]
+ },
+ "liniers norte": {
+  "nombre": "Villa Liniers Norte",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "alias:villa liniers norte"
+  ]
+ },
+ "loma de roca": {
+  "nombre": "Loma de Roca",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/3825905388:neighbourhood"
+  ]
+ },
+ "loma hermosa": {
+  "nombre": "Loma Hermosa",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711888:town"
+  ]
+ },
+ "loma verde": {
+  "nombre": "Loma Verde",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/2282739607:village"
+  ]
+ },
+ "lomas de san isidro": {
+  "nombre": "Lomas de San Isidro",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/3825905389:suburb"
+  ]
+ },
+ "lomas del rio lujan": {
+  "nombre": "Lomas del Río Luján",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/198416941:village"
+  ]
+ },
+ "los jazmines": {
+  "nombre": "Los Jazmines",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:relation/4462332:neighbourhood"
+  ]
+ },
+ "los milagros": {
+  "nombre": "Los Milagros",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/13777123415:neighbourhood"
+  ]
+ },
+ "los nandues": {
+  "nombre": "Los Ñandúes",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/11718005346:neighbourhood"
+  ]
+ },
+ "los nogales": {
+  "nombre": "Los Nogales",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2710200978:neighbourhood"
+  ]
+ },
+ "los pioneros": {
+  "nombre": "Los Pioneros",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/4407508737:neighbourhood"
+  ]
+ },
+ "los polvorines": {
+  "nombre": "Los Polvorines",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/198399924:town"
+  ]
+ },
+ "los tulipanes": {
+  "nombre": "Los Tulipanes",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/5821357872:neighbourhood"
+  ]
+ },
+ "lubo": {
+  "nombre": "Lubo",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2599178044:neighbourhood"
+  ]
+ },
+ "luis lagomarsino": {
+  "nombre": "Luis Lagomarsino",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/2152027008:town"
+  ]
+ },
+ "malvinas argentinas": {
+  "nombre": "Malvinas Argentinas",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/2281654816:suburb",
+   "config:partido"
+  ]
+ },
+ "manuel alberti": {
+  "nombre": "Manuel Alberti",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/307461059:village"
+  ]
+ },
+ "manzanares": {
+  "nombre": "Manzanares",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198401936:village"
+  ]
+ },
+ "manzone": {
+  "nombre": "Manzone",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/13436317207:town"
+  ]
+ },
+ "maquinista savio": {
+  "nombre": "Maquinista Savio",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/198459427:town"
+  ]
+ },
+ "maria irene de los remedios de escalada": {
+  "nombre": "Villa María Irene de los Remedios de Escalada",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa maria irene de los remedios de escalada"
+  ]
+ },
+ "marques alejandro maria de aguado": {
+  "nombre": "Villa Marqués Alejandro María de Aguado",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa marques alejandro maria de aguado"
+  ]
+ },
+ "martin coronado": {
+  "nombre": "Martín Coronado",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711889:town"
+  ]
+ },
+ "martinez": {
+  "nombre": "Martínez",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/198402672:town"
+  ]
+ },
+ "martinez oeste": {
+  "nombre": "Martínez Oeste",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/4937721488:suburb"
+  ]
+ },
+ "matheu": {
+  "nombre": "Matheu",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/198402929:town"
+  ]
+ },
+ "mitre barrio santa maria": {
+  "nombre": "Villa Mitre, barrio Santa María",
+  "partidos": [
+   "San Miguel"
+  ],
+  "fuentes": [
+   "alias:villa mitre barrio santa maria"
+  ]
+ },
+ "montecarlo": {
+  "nombre": "Montecarlo",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/307893191:neighbourhood"
+  ]
+ },
+ "monterrey": {
+  "nombre": "Monterrey",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/14042454878:suburb"
+  ]
+ },
+ "muniz": {
+  "nombre": "Muñiz",
+  "partidos": [
+   "San Miguel"
+  ],
+  "fuentes": [
+   "osm:node/198405399:town"
+  ]
+ },
+ "munro": {
+  "nombre": "Munro",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/198405431:suburb"
+  ]
+ },
+ "nordelta": {
+  "nombre": "Nordelta",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/1914513178:town"
+  ]
+ },
+ "northville condominio": {
+  "nombre": "Northville (Condominio)",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/310246324:neighbourhood"
+  ]
+ },
+ "nueva esperanza": {
+  "nombre": "Nueva Esperanza",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/11202840771:neighbourhood"
+  ]
+ },
+ "nuevo beccar central": {
+  "nombre": "Nuevo Beccar Central",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/1278522077:neighbourhood"
+  ]
+ },
+ "olivos": {
+  "nombre": "Olivos",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/198407566:suburb"
+  ]
+ },
+ "once de septiembre": {
+  "nombre": "Once de Septiembre",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711890:village"
+  ]
+ },
+ "ovejero": {
+  "nombre": "Ovejero",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/5713806014:neighbourhood"
+  ]
+ },
+ "pablo nogues": {
+  "nombre": "Pablo Nogués",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/2007333590:town"
+  ]
+ },
+ "pablo podesta": {
+  "nombre": "Pablo Podestá",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711891:town"
+  ]
+ },
+ "parque achaval": {
+  "nombre": "Villa Parque Achával",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "alias:villa parque achaval"
+  ]
+ },
+ "parque alegre": {
+  "nombre": "Parque Alegre",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:way/1428335348:neighbourhood"
+  ]
+ },
+ "parque alta vista": {
+  "nombre": "Parque Alta Vista",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/11718005344:suburb"
+  ]
+ },
+ "parque cisneros": {
+  "nombre": "Parque Cisneros",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/3825882057:neighbourhood"
+  ]
+ },
+ "parque lambare": {
+  "nombre": "Parque Lambaré",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/7538364506:neighbourhood"
+  ]
+ },
+ "parque las acacias": {
+  "nombre": "Parque Las Acacias",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/11718029073:suburb"
+  ]
+ },
+ "parque los naranjos": {
+  "nombre": "Parque Los Naranjos",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/11718005364:suburb"
+  ]
+ },
+ "parque san lorenzo": {
+  "nombre": "Villa Parque San Lorenzo",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa parque san lorenzo"
+  ]
+ },
+ "pilar": {
+  "nombre": "Pilar",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198410665:town",
+   "config:partido"
+  ]
+ },
+ "pilar del este zelaya": {
+  "nombre": "Pilar del Este Zelaya",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/8234528548:neighbourhood"
+  ]
+ },
+ "pilar sur": {
+  "nombre": "Pilar Sur",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/13436319069:town"
+  ]
+ },
+ "pilara": {
+  "nombre": "Pilará",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/1236968370:suburb"
+  ]
+ },
+ "pinazo": {
+  "nombre": "Pinazo",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/5778129598:neighbourhood"
+  ]
+ },
+ "pinero": {
+  "nombre": "Piñero",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/198410846:suburb"
+  ]
+ },
+ "plazoleta 9 de julio": {
+  "nombre": "Plazoleta 9 de Julio",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/13520223027:neighbourhood"
+  ]
+ },
+ "presidente derqui": {
+  "nombre": "Presidente Derqui",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198412419:town"
+  ]
+ },
+ "puerta 8": {
+  "nombre": "Villa Puerta 8",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "alias:villa puerta 8"
+  ]
+ },
+ "punta chica": {
+  "nombre": "Punta Chica",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/198414712:suburb"
+  ]
+ },
+ "quinta del nino": {
+  "nombre": "Quinta del Niño",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/5026921361:neighbourhood"
+  ]
+ },
+ "remedios de escalada de san martin": {
+  "nombre": "Remedios de Escalada de San Martín",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711892:town"
+  ]
+ },
+ "ricardo rojas": {
+  "nombre": "Ricardo Rojas",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/1914513187:town"
+  ]
+ },
+ "rincon de milberg": {
+  "nombre": "Rincón de Milberg",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/1914513183:town"
+  ]
+ },
+ "saenz pena": {
+  "nombre": "Sáenz Peña",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/198418126:town"
+  ]
+ },
+ "san andres": {
+  "nombre": "Villa San Andrés",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa san andres"
+  ]
+ },
+ "san atilio": {
+  "nombre": "San Atilio",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/9967151964:suburb"
+  ]
+ },
+ "san cayetano": {
+  "nombre": "San Cayetano",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2710202073:neighbourhood"
+  ]
+ },
+ "san felipe": {
+  "nombre": "San Felipe",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2599178041:neighbourhood"
+  ]
+ },
+ "san fernando": {
+  "nombre": "San Fernando",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/198420042:town",
+   "config:partido"
+  ]
+ },
+ "san francisco": {
+  "nombre": "San Francisco",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/13436348879:suburb"
+  ]
+ },
+ "san isidro": {
+  "nombre": "San Isidro",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/198420711:town",
+   "config:partido"
+  ]
+ },
+ "san isidro chico": {
+  "nombre": "San Isidro Chico",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:way/503112626:neighbourhood"
+  ]
+ },
+ "san javier": {
+  "nombre": "San Javier",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/2707262947:suburb"
+  ]
+ },
+ "san jorge": {
+  "nombre": "San Jorge",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:way/1293306176:neighbourhood"
+  ]
+ },
+ "san marcelo": {
+  "nombre": "San Marcelo",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:way/1293306175:neighbourhood"
+  ]
+ },
+ "san martin": {
+  "nombre": "San Martín",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "config:partido"
+  ]
+ },
+ "san miguel": {
+  "nombre": "San Miguel",
+  "partidos": [
+   "San Miguel"
+  ],
+  "fuentes": [
+   "osm:node/298931650:city",
+   "config:partido"
+  ]
+ },
+ "san ramiro": {
+  "nombre": "San Ramiro",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:relation/8713712:neighbourhood"
+  ]
+ },
+ "san sebastian": {
+  "nombre": "San Sebastián",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/8234528547:suburb"
+  ]
+ },
+ "santa elena": {
+  "nombre": "Santa Elena",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:relation/9877282:neighbourhood"
+  ]
+ },
+ "santa guadalupe": {
+  "nombre": "Santa Guadalupe",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:relation/4462335:neighbourhood"
+  ]
+ },
+ "santa lucia": {
+  "nombre": "Santa Lucía",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/9363452513:neighbourhood"
+  ]
+ },
+ "santa maria": {
+  "nombre": "Santa María",
+  "partidos": [
+   "San Miguel"
+  ],
+  "fuentes": [
+   "osm:node/1999027898:city"
+  ]
+ },
+ "santa rita": {
+  "nombre": "Santa Rita",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/3825905390:suburb"
+  ]
+ },
+ "santos lugares": {
+  "nombre": "Santos Lugares",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/198425369:town"
+  ]
+ },
+ "siderca": {
+  "nombre": "Siderca",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2599170931:neighbourhood"
+  ]
+ },
+ "sol y verde": {
+  "nombre": "Sol y Verde",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/12993155566:suburb"
+  ]
+ },
+ "solar de las acacias": {
+  "nombre": "Solar de las Acacias",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/11718005345:neighbourhood"
+  ]
+ },
+ "sourdeaux": {
+  "nombre": "Sourdeaux",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:way/1293306173:neighbourhood"
+  ]
+ },
+ "suizo": {
+  "nombre": "Suizo",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/7533931309:neighbourhood"
+  ]
+ },
+ "tierras altas": {
+  "nombre": "Tierras Altas",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/2007337538:town"
+  ]
+ },
+ "tigre": {
+  "nombre": "Tigre",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/198429487:town",
+   "config:partido"
+  ]
+ },
+ "tomas santa coloma": {
+  "nombre": "Tomás Santa Coloma",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:way/1321861021:neighbourhood"
+  ]
+ },
+ "tortuguitas": {
+  "nombre": "Tortuguitas",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/9326757097:city"
+  ]
+ },
+ "tres de febrero": {
+  "nombre": "Tres de Febrero",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "config:partido"
+  ]
+ },
+ "troncos del talar": {
+  "nombre": "Troncos del Talar",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/1914513185:town"
+  ]
+ },
+ "venice tigre": {
+  "nombre": "Venice Tigre",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:way/903891190:neighbourhood"
+  ]
+ },
+ "vicente lopez": {
+  "nombre": "Vicente López",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/3761054485:suburb",
+   "config:partido"
+  ]
+ },
+ "victoria": {
+  "nombre": "Victoria",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/198432918:town"
+  ]
+ },
+ "villa adalguiza": {
+  "nombre": "Villa Adalguiza",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/2702636507:neighbourhood"
+  ]
+ },
+ "villa adelina": {
+  "nombre": "Villa Adelina",
+  "partidos": [
+   "San Isidro",
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/3340944613:town",
+   "osm:node/12128741583:suburb"
+  ]
+ },
+ "villa angelica": {
+  "nombre": "Villa Angélica",
+  "partidos": [
+   "Escobar"
+  ],
+  "fuentes": [
+   "osm:node/5821357870:neighbourhood"
+  ]
+ },
+ "villa astolfi": {
+  "nombre": "Villa Astolfi",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198401946:suburb"
+  ]
+ },
+ "villa ayacucho": {
+  "nombre": "Villa Ayacucho",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375584:village"
+  ]
+ },
+ "villa ballester": {
+  "nombre": "Villa Ballester Noreste",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "alias:villa ballester noreste"
+  ]
+ },
+ "villa ballester noreste": {
+  "nombre": "Villa Ballester Noreste",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/3351139413:town"
+  ]
+ },
+ "villa ballester noroeste": {
+  "nombre": "Villa Ballester Noroeste",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/12980823792:town"
+  ]
+ },
+ "villa barrio parque figueroa alcorta": {
+  "nombre": "Villa Barrio Parque Figueroa Alcorta",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375582:village"
+  ]
+ },
+ "villa bernardo de monteagudo": {
+  "nombre": "Villa Bernardo de Monteagudo",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375583:village"
+  ]
+ },
+ "villa billinghurst": {
+  "nombre": "Villa Billinghurst",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/198440898:town"
+  ]
+ },
+ "villa borges": {
+  "nombre": "Villa Borges",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/3825905387:neighbourhood"
+  ]
+ },
+ "villa bosch": {
+  "nombre": "Villa Bosch",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711893:town"
+  ]
+ },
+ "villa chacabuco": {
+  "nombre": "Villa Chacabuco",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375581:village"
+  ]
+ },
+ "villa ciudad jardin el libertador": {
+  "nombre": "Villa Ciudad Jardín El Libertador",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375590:town"
+  ]
+ },
+ "villa coronel jose maria zapiola": {
+  "nombre": "Villa Coronel José María Zapiola",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375589:suburb"
+  ]
+ },
+ "villa de mayo": {
+  "nombre": "Villa de Mayo",
+  "partidos": [
+   "Malvinas Argentinas"
+  ],
+  "fuentes": [
+   "osm:node/1160518208:town"
+  ]
+ },
+ "villa el mercado": {
+  "nombre": "Villa El Mercado",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:way/28538302:neighbourhood"
+  ]
+ },
+ "villa gandara": {
+  "nombre": "Villa Gándara",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/5026921333:neighbourhood"
+  ]
+ },
+ "villa garrote": {
+  "nombre": "Villa Garrote",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:way/242668498:neighbourhood"
+  ]
+ },
+ "villa general antonio jose de sucre": {
+  "nombre": "Villa General Antonio José de Sucre",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375573:village"
+  ]
+ },
+ "villa general eugenio necochea": {
+  "nombre": "Villa General Eugenio Necochea",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375571:suburb"
+  ]
+ },
+ "villa general jose tomas guido": {
+  "nombre": "Villa General José Tomás Guido",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375574:village"
+  ]
+ },
+ "villa general juan gregorio de las heras": {
+  "nombre": "Villa General Juan Gregorio de Las Heras",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375575:village"
+  ]
+ },
+ "villa general mariano balcarce": {
+  "nombre": "Villa General Mariano Balcarce",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/11694488341:neighbourhood"
+  ]
+ },
+ "villa godoy cruz": {
+  "nombre": "Villa Godoy Cruz",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375572:village"
+  ]
+ },
+ "villa granaderos de san martin": {
+  "nombre": "Villa Granaderos de San Martín",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375578:village"
+  ]
+ },
+ "villa gregoria matorras": {
+  "nombre": "Villa Gregoria Matorras",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375570:village"
+  ]
+ },
+ "villa independencia": {
+  "nombre": "Villa Independencia",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375610:village"
+  ]
+ },
+ "villa irene": {
+  "nombre": "Villa Irene",
+  "partidos": [
+   "José C. Paz"
+  ],
+  "fuentes": [
+   "osm:node/7847557096:neighbourhood"
+  ]
+ },
+ "villa jose leon suarez": {
+  "nombre": "Villa José León Suárez",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/3353314746:town"
+  ]
+ },
+ "villa juan martin de pueyrredon": {
+  "nombre": "Villa Juan Martín de Pueyrredón",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375586:village"
+  ]
+ },
+ "villa la nata": {
+  "nombre": "Villa La Ñata",
+  "partidos": [
+   "Tigre"
+  ],
+  "fuentes": [
+   "osm:node/2724206336:neighbourhood"
+  ]
+ },
+ "villa la paz": {
+  "nombre": "Villa La Paz",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:way/28538298:neighbourhood"
+  ]
+ },
+ "villa libertad": {
+  "nombre": "Villa Libertad",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375585:suburb"
+  ]
+ },
+ "villa liniers": {
+  "nombre": "Villa Liniers Norte",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "alias:villa liniers norte"
+  ]
+ },
+ "villa liniers norte": {
+  "nombre": "Villa Liniers Norte",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/11664911441:neighbourhood"
+  ]
+ },
+ "villa lynch": {
+  "nombre": "Villa Lynch",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/3353313166:village"
+  ]
+ },
+ "villa maipu": {
+  "nombre": "Villa Maipú",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/1461784687:town"
+  ]
+ },
+ "villa maria irene de los remedios de escalada": {
+  "nombre": "Villa María Irene de los Remedios de Escalada",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375588:village"
+  ]
+ },
+ "villa marques alejandro maria de aguado": {
+  "nombre": "Villa Marqués Alejandro María de Aguado",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375576:village"
+  ]
+ },
+ "villa martelli": {
+  "nombre": "Villa Martelli",
+  "partidos": [
+   "Vicente López"
+  ],
+  "fuentes": [
+   "osm:node/1461784691:suburb"
+  ]
+ },
+ "villa matienzo": {
+  "nombre": "Villa Matienzo",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:way/28538245:neighbourhood"
+  ]
+ },
+ "villa mitre barrio santa maria": {
+  "nombre": "Villa Mitre, barrio Santa María",
+  "partidos": [
+   "San Miguel"
+  ],
+  "fuentes": [
+   "osm:way/422184193:neighbourhood"
+  ]
+ },
+ "villa nueva": {
+  "nombre": "Villa Nueva",
+  "partidos": [
+   "Campana"
+  ],
+  "fuentes": [
+   "osm:node/2599178043:neighbourhood"
+  ]
+ },
+ "villa parque achaval": {
+  "nombre": "Villa Parque Achával",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/11664911442:neighbourhood"
+  ]
+ },
+ "villa parque san lorenzo": {
+  "nombre": "Villa Parque San Lorenzo",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375579:village"
+  ]
+ },
+ "villa pineral": {
+  "nombre": "Villa Pineral",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/5317231722:neighbourhood"
+  ]
+ },
+ "villa progreso": {
+  "nombre": "Villa Progreso",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/198435693:neighbourhood"
+  ]
+ },
+ "villa puerta 8": {
+  "nombre": "Villa Puerta 8",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:way/535374106:neighbourhood"
+  ]
+ },
+ "villa raffo": {
+  "nombre": "Villa Raffo",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/2086711894:village"
+  ]
+ },
+ "villa reconquista": {
+  "nombre": "Villa Reconquista",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:node/5317221117:neighbourhood"
+  ]
+ },
+ "villa risso": {
+  "nombre": "Villa Risso",
+  "partidos": [
+   "Tres de Febrero"
+  ],
+  "fuentes": [
+   "osm:way/609059894:neighbourhood"
+  ]
+ },
+ "villa rosa": {
+  "nombre": "Villa Rosa",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198435907:town"
+  ]
+ },
+ "villa ruedita": {
+  "nombre": "Villa Ruedita",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/11202840772:neighbourhood"
+  ]
+ },
+ "villa san andres": {
+  "nombre": "Villa San Andrés",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/3353309694:town"
+  ]
+ },
+ "villa uruguay": {
+  "nombre": "Villa Uruguay",
+  "partidos": [
+   "San Isidro"
+  ],
+  "fuentes": [
+   "osm:node/5026921384:neighbourhood"
+  ]
+ },
+ "villa yapeyu": {
+  "nombre": "Villa Yapeyú",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375580:village"
+  ]
+ },
+ "villa zagala": {
+  "nombre": "Villa Zagala",
+  "partidos": [
+   "San Martín"
+  ],
+  "fuentes": [
+   "osm:node/6165375577:neighbourhood"
+  ]
+ },
+ "virreyes": {
+  "nombre": "Virreyes",
+  "partidos": [
+   "San Fernando"
+  ],
+  "fuentes": [
+   "osm:node/198436725:town"
+  ]
+ },
+ "willliam morris": {
+  "nombre": "Willliam Morris",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/5778129629:neighbourhood"
+  ]
+ },
+ "zelaya": {
+  "nombre": "Zelaya",
+  "partidos": [
+   "Pilar"
+  ],
+  "fuentes": [
+   "osm:node/198437357:town"
+  ]
+ }
+}

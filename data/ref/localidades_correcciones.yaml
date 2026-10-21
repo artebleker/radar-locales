@@ -1,0 +1,4 @@
+# Correcciones manuales al diccionario localidad → partido (se aplican sobre localidades.json).
+# agregar: {"Nombre": "Partido"}   quitar: ["Nombre"]
+agregar: {}
+quitar: []

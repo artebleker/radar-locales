@@ -1,0 +1,65 @@
+# Configuración del Radar de aperturas comerciales — Zona Norte GBA.
+# Todo lo ajustable vive acá; el código no tiene valores fijos de zona, rubros ni pesos.
+
+proyecto:
+  nombre: radar-locales
+  repo_url: https://github.com/artebleker/radar-locales
+  user_agent: "radar-locales/0.1 (+https://github.com/artebleker/radar-locales)"
+  zona_horaria: America/Argentina/Buenos_Aires
+
+http:
+  timeout_s: 60
+  timeout_dns_s: 15          # requests no limita la resolución DNS; se acota aparte
+  pausa_por_host_s: 3        # pausa mínima entre pedidos a un mismo host
+  espera_reintento_s: 30     # ante 429/406/5xx (política de Overpass: >= 30 s)
+  reintentos: 2
+  cache_ttl_h: 20            # una corrida diaria: la caché evita repetir pedidos el mismo día
+  # Hosts cuyo robots.txt bloquea a crawlers pero que publican una API con política de uso
+  # explícita para clientes programáticos. Se usan respetando esa política, no como crawler.
+  robots_excepciones:
+    overpass-api.de: "API pública con política de uso documentada (wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances); robots.txt apunta a indexadores."
+
+overpass:
+  # Se prueban en orden; ante falla se espera http.espera_reintento_s y se pasa al siguiente.
+  # Revisado 2026-10-20 en la wiki y con pedidos reales:
+  # overpass-api.de: uso regular < 100 consultas y < 10 MB por día; respondió (lento, ~27 s).
+  # private.coffee: «Feel free to use our service in any project, there is no rate limit in place»;
+  #   desde la máquina de desarrollo el DNS del sistema se colgó, queda como respaldo.
+  # maps.mail.ru: devolvió 504 en la prueba; último respaldo.
+  endpoints:
+    - https://overpass-api.de/api/interpreter
+    - https://overpass.private.coffee/api/interpreter
+    - https://maps.mail.ru/osm/tools/overpass/api/interpreter
+  timeout_query_s: 180
+
+geo:
+  provincia_iso: AR-B
+  # Verificado con Overpass el 2026-10-20: los partidos bonaerenses son admin_level=5
+  # y se llaman «Partido de X» (Pilar: «Partido del Pilar»). Los niveles 8/9 son ciudades y barrios.
+  admin_level_partido: 5
+  tipos_place: [city, town, suburb, neighbourhood, village]
+  simplificar_grados: 0.0001   # ~10 m; achica los límites guardados en el repo
+
+# relacion = ID de relación OSM, verificado contra el tag name (osm_nombre) en cada bootstrap.
+partidos:
+  - {nombre: Vicente López,        osm_nombre: Partido de Vicente López,        relacion: 2752665, activo: true}
+  - {nombre: San Isidro,           osm_nombre: Partido de San Isidro,           relacion: 1769044, activo: true}
+  - {nombre: San Fernando,         osm_nombre: Partido de San Fernando,         relacion: 2443418, activo: true}
+  - {nombre: Tigre,                osm_nombre: Partido de Tigre,                relacion: 2411762, activo: true}
+  - {nombre: San Martín,           osm_nombre: Partido de General San Martín,   relacion: 1719022, activo: true}
+  - {nombre: Escobar,              osm_nombre: Partido de Escobar,              relacion: 2443300, activo: true}
+  - {nombre: Pilar,                osm_nombre: Partido del Pilar,               relacion: 2431954, activo: true}
+  - {nombre: Malvinas Argentinas,  osm_nombre: Partido de Malvinas Argentinas,  relacion: 2430452, activo: true}
+  # Opcionales: verificados, apagados. Para sumarlos, poner activo: true.
+  - {nombre: San Miguel,           osm_nombre: Partido de San Miguel,           relacion: 2430369, activo: false}
+  - {nombre: José C. Paz,          osm_nombre: Partido de José C. Paz,          relacion: 2430431, activo: false}
+  - {nombre: Tres de Febrero,      osm_nombre: Partido de Tres de Febrero,      relacion: 1767378, activo: false}
+  - {nombre: Campana,              osm_nombre: Partido de Campana,              relacion: 2451540, activo: false}
+
+rutas:
+  ref: data/ref
+  snapshots: data/snapshots
+  historial: data/historial
+  cache: data/cache
+  site_data: site/data
+  fixtures: tests/fixtures
