@@ -246,3 +246,31 @@ directorios:
   # Probados y descartados (2026-10-20): Nordelta Centro Comercial y Al Río (no se encontró sitio oficial),
   #   Terrazas de Mayo (dominio no resuelve), Norcenter (WordPress sin directorio accesible: /wp-json/wp/v2/types 404),
   #   Shopping Torres del Sol (página de 1 KB sin directorio), La Aldea (no se encontró sitio).
+
+# Buscadores de sucursales de cadenas. Verificados 2026-10-20: endpoints públicos (sin login) que robots.txt
+# no prohíbe. Las consultas por cercanía se hacen desde el centro de cada partido activo, hasta cubrir su radio.
+#   tipo vtex_pickup: API pública de puntos de retiro de tiendas VTEX (/api/checkout/pub/pickup-points).
+#   tipo next_data: listado embebido en __NEXT_DATA__ de la página (ruta = claves hasta la lista).
+#   tipo wpsl: plugin WP Store Locator (admin-ajax.php?action=store_search).
+#   tipo havanna: endpoint AJAX propio del sitio (_ajax/getLocalesByTipo).
+sucursales:
+  activa: true
+  minimo_relativo: 0.8
+  max_paginas_vtex: 6
+  cadenas:
+    - {id: fravega, nombre: Frávega, rubro: Electro y tecnología, tipo: next_data, url: "https://www.fravega.com/sucursales",
+       ruta: [props, pageProps, branches],
+       campos: {id: id, nombre: name, lat: address.coordinates.latitude, lon: address.coordinates.longitude, direccion: address.street, localidad: address.location}}
+    - {id: dia, nombre: Supermercados Día, rubro: Alimentos y supermercados, tipo: vtex_pickup, host: diaonline.supermercadosdia.com.ar}
+    - {id: carrefour, nombre: Carrefour, rubro: Alimentos y supermercados, tipo: vtex_pickup, host: www.carrefour.com.ar}
+    - {id: easy, nombre: Easy, rubro: Hogar y construcción, tipo: vtex_pickup, host: www.easy.com.ar}
+    - {id: blaisten, nombre: Blaisten, rubro: Hogar y construcción, tipo: vtex_pickup, host: www.blaisten.com.ar}
+    - {id: simplicity, nombre: Simplicity, rubro: Belleza y salud, tipo: vtex_pickup, host: www.simplicity.com.ar}
+    - {id: bonafide, nombre: Bonafide, rubro: Gastronomía, tipo: wpsl, url: "https://bonafide.com.ar/wp-admin/admin-ajax.php"}
+    - {id: havanna, nombre: Havanna, rubro: Gastronomía, tipo: havanna, url: "https://havanna.com.ar/_ajax/getLocalesByTipo", tipos: [cafe, haireado]}
+  # Probadas y descartadas (2026-10-20):
+  #   McDonald's: 403 al pedir /restaurantes (bloqueo; no se evade).  Farmacity: robots.txt prohíbe /api/checkout/*.
+  #   Megatone, Cetrogar: robots.txt prohíbe el endpoint.  Pigmento, Naldo: los puntos de retiro son lockers de terceros.
+  #   Vea, Jumbo, Disco: el endpoint devuelve 0 puntos.  Coto: no devuelve JSON.  Changomás: no conecta.
+  #   Café Martínez, Grido, Mostaza, KFC, Burger King, Starbucks, Lucciano's, Rapanui: listado cargado por JS
+  #   sin endpoint público identificable en el HTML.  Dexter, Grimoldi: sin API VTEX.  Freddo: no responde.

@@ -6,6 +6,7 @@ import argparse
 import json
 import logging
 import random
+import re
 import sys
 from collections import Counter
 
@@ -85,6 +86,16 @@ def cmd_run(config, args) -> int:
     return 0 if any(e["ok"] for e in salud) else 1
 
 
+def _sin_contactos(obj):
+    """Quita teléfonos y emails antes de grabar fixtures (pueden ser de franquiciados particulares)."""
+    if isinstance(obj, dict):
+        return {k: _sin_contactos(v) for k, v in obj.items()
+                if not re.search(r"phone|tel[eé]fono|^tel$|e?mail|contact", k, re.IGNORECASE)}
+    if isinstance(obj, list):
+        return [_sin_contactos(x) for x in obj]
+    return obj
+
+
 def cmd_record(config, args) -> int:
     """Graba una muestra real y acotada de la respuesta de la fuente para las pruebas offline."""
     destino = config.ruta("fixtures") / args.fuente
@@ -131,6 +142,28 @@ def cmd_record(config, args) -> int:
             ruta = destino / f"{sitio['id']}.html"
             ruta.write_text(f"<!-- {url} -->\n" + str(sopa), encoding="utf-8")
             print(f"{sitio['nombre']}: {ruta.stat().st_size // 1024} KB → {ruta.relative_to(cfg.RAIZ)}")
+        return 0
+    if args.fuente == "sucursales":
+        from .fuentes import sucursales
+        limites = geo.Limites(config)
+        for cadena in config["sucursales"]["cadenas"]:
+            capturas = []
+            original = cliente.pedir
+            cliente.pedir = lambda *a, **k: capturas.append(original(*a, **k)) or capturas[-1]
+            try:
+                sucursales.ADAPTADORES[cadena["tipo"]](config, cliente, cadena, limites)
+            finally:
+                cliente.pedir = original
+            texto = capturas[0].text
+            if cadena["tipo"] == "next_data":  # solo el JSON embebido, no la página entera
+                texto = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', texto, re.S).group(1)
+                texto = ('<script id="__NEXT_DATA__" type="application/json">'
+                         + json.dumps(_sin_contactos(json.loads(texto)), ensure_ascii=False) + "</script>")
+            else:
+                texto = json.dumps(_sin_contactos(json.loads(texto)), ensure_ascii=False)
+            ruta = destino / f"{cadena['id']}.{'html' if cadena['tipo'] == 'next_data' else 'json'}"
+            ruta.write_text(texto, encoding="utf-8")
+            print(f"{cadena['nombre']}: {len(texto) // 1024} KB → {ruta.relative_to(cfg.RAIZ)}")
         return 0
     print(f"record no implementado para {args.fuente}")
     return 1

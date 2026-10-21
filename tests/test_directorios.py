@@ -83,7 +83,7 @@ def test_snapshot_y_respuesta_incompleta(tmp_path, monkeypatch):
     tiendas = parsear("remeros")
     d.escribir_snapshot(conf, "remeros", tiendas, "2026-10-19")
     meta, previo = d.leer_snapshot(conf, "remeros")
-    assert meta["tiendas"] == len(tiendas) and set(previo) == set(tiendas)
+    assert meta["elementos"] == len(tiendas) and set(previo) == set(tiendas)
 
     mitad = dict(list(tiendas.items())[: len(tiendas) // 3])
     monkeypatch.setattr(d, "descargar_sitio", lambda *a: mitad)

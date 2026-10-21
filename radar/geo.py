@@ -102,10 +102,29 @@ class Limites:
                 return nombre
         return None
 
+    def centros(self) -> dict[str, tuple[float, float, float]]:
+        """{partido: (lat, lon, radio_km)}: centro y distancia al punto más lejano del límite."""
+        out = {}
+        for nombre, g in self.geoms.items():
+            c = g.centroid
+            puntos = [p for poly in getattr(g, "geoms", [g]) for p in poly.exterior.coords]
+            radio = max(distancia_km(c.y, c.x, lat, lon) for lon, lat in puntos)
+            out[nombre] = (c.y, c.x, radio)
+        return out
+
     def bbox(self) -> tuple[float, float, float, float]:
         """(sur, oeste, norte, este) de todos los partidos activos, en el orden de Overpass."""
         o, s, e, n = unary_union(list(self.geoms.values())).bounds
         return s, o, n, e
+
+
+def distancia_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    """Distancia haversine en km."""
+    import math
+    la1, la2 = math.radians(lat1), math.radians(lat2)
+    dla, dlo = la2 - la1, math.radians(lon2 - lon1)
+    a = math.sin(dla / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin(dlo / 2) ** 2
+    return 6371 * 2 * math.asin(math.sqrt(a))
 
 
 # --- localidades -------------------------------------------------------------

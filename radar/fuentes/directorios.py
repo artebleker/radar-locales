@@ -7,13 +7,13 @@ Snapshot por sitio en texto plano: data/snapshots/directorios/<id>.tsv.
 
 from __future__ import annotations
 
-import json
 import logging
 import re
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
+from .. import listados
 from ..geo import Limites
 from ..modelos import Senal
 from ..rubros import clasificar_texto
@@ -103,29 +103,15 @@ def descargar_sitio(config, cliente, sitio: dict) -> dict:
 
 
 # --- snapshot ----------------------------------------------------------------
-def _ruta_snapshot(config, sitio_id: str):
-    d = config.ruta("snapshots") / "directorios"
-    d.mkdir(parents=True, exist_ok=True)
-    return d / f"{sitio_id}.tsv"
-
-
 def leer_snapshot(config, sitio_id: str):
-    ruta = _ruta_snapshot(config, sitio_id)
-    if not ruta.exists():
-        return None, None
-    lineas = ruta.read_text(encoding="utf-8").splitlines()
-    previo = {}
-    for linea in lineas[1:]:
-        tid, nombre, rubro = linea.split("\t")
-        previo[tid] = {"nombre": nombre, "rubro": rubro or None}
-    return json.loads(lineas[0].lstrip("# ")), previo
+    meta, previo = listados.leer(config, "directorios", sitio_id)
+    if previo is not None:
+        previo = {k: {"nombre": v["nombre"], "rubro": v["extra"]} for k, v in previo.items()}
+    return meta, previo
 
 
 def escribir_snapshot(config, sitio_id: str, tiendas: dict, fecha: str):
-    limpiar = lambda s: re.sub(r"[\t\r\n]+", " ", s or "")  # noqa: E731
-    lineas = ["# " + json.dumps({"fecha": fecha, "tiendas": len(tiendas)})]
-    lineas += [f"{tid}\t{limpiar(t['nombre'])}\t{t['rubro'] or ''}" for tid, t in sorted(tiendas.items())]
-    _ruta_snapshot(config, sitio_id).write_text("\n".join(lineas) + "\n", encoding="utf-8")
+    listados.escribir(config, "directorios", sitio_id, {k: (t["nombre"], t["rubro"]) for k, t in tiendas.items()}, fecha)
 
 
 # --- señales -----------------------------------------------------------------
@@ -166,10 +152,7 @@ def recolectar(config, cache) -> list[Senal]:
         try:
             tiendas = descargar_sitio(config, cache, sitio)
             meta, previo = leer_snapshot(config, sitio["id"])
-            if previo and len(tiendas) < conf["minimo_relativo"] * len(previo):
-                raise RuntimeError(f"{len(tiendas)} tiendas contra {len(previo)} del snapshot; respuesta incompleta")
-            if not tiendas:
-                raise RuntimeError("el directorio no devolvió tiendas (¿cambió el HTML?)")
+            listados.verificar_completo(len(tiendas), previo, conf["minimo_relativo"])
             senales += generar_senales(sitio, tiendas, meta, previo, partido, hoy, config)
             if not ejec.get("dry_run"):
                 escribir_snapshot(config, sitio["id"], tiendas, hoy)
