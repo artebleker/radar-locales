@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T23:11:43-03:00",
+ "actualizado": "2026-10-20T23:32:14-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -51,7 +51,7 @@
    "senales": 27,
    "avisos": [],
    "detalle": {},
-   "segundos": 58.7
+   "segundos": 43.0
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 7,
    "avisos": [],
    "detalle": {},
-   "segundos": 137.2
+   "segundos": 136.7
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 253.3
+   "segundos": 249.5
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 272.7
+   "segundos": 271.7
   }
  ],
  "arca": {

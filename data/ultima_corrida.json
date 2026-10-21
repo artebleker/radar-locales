@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-20T23:23:45-03:00",
+ "fecha": "2026-10-20T23:43:55-03:00",
  "salud": [
   {
    "fuente": "osm",
@@ -11,7 +11,7 @@
    "senales": 27,
    "avisos": [],
    "detalle": {},
-   "segundos": 58.7
+   "segundos": 43.0
   },
   {
    "fuente": "medios_rss",
@@ -23,7 +23,7 @@
    "senales": 7,
    "avisos": [],
    "detalle": {},
-   "segundos": 137.2
+   "segundos": 136.7
   },
   {
    "fuente": "directorios",
@@ -44,7 +44,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 253.3
+   "segundos": 249.5
   },
   {
    "fuente": "sucursales",
@@ -66,7 +66,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 272.7
+   "segundos": 271.7
   }
  ],
  "senales": [
