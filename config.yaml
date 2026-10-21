@@ -63,3 +63,39 @@ rutas:
   cache: data/cache
   site_data: site/data
   fixtures: tests/fixtures
+
+# Rubros: etiquetas OSM → rubro. Lo no mapeado (cualquier otro shop=*) va a «Otros».
+# palabras: para noticias y directorios (se buscan en título o categoría, normalizadas sin tildes).
+rubros:
+  Gastronomía:
+    osm: {amenity: [restaurant, cafe, fast_food, bar, pub, ice_cream], shop: [bakery, pastry, confectionery, coffee]}
+    palabras: [restaurante, restaurant, resto, cafe, cafeteria, bar, cerveceria, heladeria, helado, pizzeria, parrilla, hamburgueseria, hamburguesa, panaderia, pasteleria, sushi, bodegon, brunch, gastronomic, gastronomia, comida, rotiseria, pasta]
+  Indumentaria y calzado:
+    osm: {shop: [clothes, shoes, boutique, fashion_accessories, jewelry, bag, sports]}
+    palabras: [indumentaria, ropa, moda, zapatilla, zapatillas, calzado, zapateria, joyeria, deportes, deportiva, outlet, boutique, marroquineria, lenceria, jean]
+  Electro y tecnología:
+    osm: {shop: [electronics, appliance, computer, mobile_phone, hifi, video_games]}
+    palabras: [electro, electrodomesticos, tecnologia, celulares, celular, computacion, gaming, electronica]
+  Alimentos y supermercados:
+    osm: {shop: [supermarket, convenience, greengrocer, butcher, deli, wholesale, beverages, alcohol]}
+    palabras: [supermercado, super, mayorista, almacen, autoservicio, verduleria, carniceria, fiambreria, dietetica, vinoteca, minimercado, hipermercado]
+  Belleza y salud:
+    osm: {shop: [hairdresser, beauty, cosmetics, chemist, optician, perfumery], amenity: [pharmacy]}
+    palabras: [farmacia, peluqueria, barberia, estetica, belleza, cosmetica, perfumeria, optica, spa, manicuria]
+  Hogar y construcción:
+    osm: {shop: [hardware, doityourself, furniture, houseware, paint, interior_decoration, garden_centre]}
+    palabras: [ferreteria, corralon, muebles, muebleria, deco, decoracion, pintureria, hogar, bazar, vivero, sanitarios, construccion]
+  Otros:
+    osm: {leisure: [fitness_centre], amenity: [veterinary]}
+    palabras: [gimnasio, gym, veterinaria, libreria, jugueteria, kiosco, lavadero, petshop, mascotas]
+
+osm:
+  activa: true
+  ventana_creacion_dias: 30          # creacion_osm: version 1 con timestamp dentro de la ventana
+  detectar_desaparicion: false       # señal opcional de posible cierre
+  # Prefijos de ciclo de vida (wiki Lifecycle_prefix, revisada 2026-10-20) que indican «por abrir».
+  prefijos_por_abrir: [construction, planned, proposed]
+  # shop=* con estos valores no son comercios abiertos; se guardan en el snapshot para detectar
+  # que un local vacío pasó a tener rubro, pero no generan altas.
+  shop_no_comercio: [vacant, "no"]
+  ttl_cache_h: 20

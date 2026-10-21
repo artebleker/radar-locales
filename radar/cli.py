@@ -3,11 +3,14 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
+import random
 import sys
+from collections import Counter
 
 from . import config as cfg
-from . import geo
+from . import ejecutar, geo
 from .http import Cliente
 
 
@@ -34,7 +37,77 @@ def cmd_bootstrap(config, args) -> int:
         print(f"{p['nombre']:<22}{p['relacion']:>14}{conteo.get(p['nombre'], 0):>13}  {'sí' if p['activo'] else 'no'}")
     if ambiguos:
         print(f"\nNombres en más de un partido ({len(ambiguos)}): {', '.join(sorted(ambiguos))}")
+
+    from .fuentes import osm
+    if osm.leer_snapshot(config)[1] is None:
+        print("\nArmando el primer snapshot de OSM (creaciones de los últimos "
+              f"{config['osm']['ventana_creacion_dias']} días)…")
+        senales, salud = ejecutar.recolectar(config, ["osm"])
+        ejecutar.guardar_corrida(config, senales, salud)
+        resumen_senales(senales, salud, ejemplos=0)
     return 0
+
+
+def resumen_senales(senales: list, salud: list[dict], ejemplos: int = 10):
+    print("\nSalud de fuentes:")
+    for e in salud:
+        estado = f"{e['senales']} señales" if e["ok"] else f"FALLÓ — {e['error']}"
+        print(f"  {e['fuente']:<18}{estado}  ({e['segundos']} s)")
+    if not senales:
+        return
+    print("\nPor tipo:", ", ".join(f"{k} {v}" for k, v in Counter(s.tipo_senal for s in senales).most_common()))
+    rubros = sorted({s.rubro for s in senales})
+    tabla = Counter((s.partido, s.rubro) for s in senales)
+    ancho = 12
+    print(f"\n{'Partido':<22}" + "".join(f"{r[:ancho - 1]:>{ancho}}" for r in rubros) + f"{'Total':>8}")
+    for p in sorted({s.partido for s in senales}, key=lambda x: x or ""):
+        fila = [tabla[(p, r)] for r in rubros]
+        print(f"{p or '(sin partido)':<22}" + "".join(f"{n:>{ancho}}" for n in fila) + f"{sum(fila):>8}")
+    print(f"{'Total':<22}" + "".join(f"{sum(tabla[(p, r)] for p in {s.partido for s in senales}):>{ancho}}"
+                                      for r in rubros) + f"{len(senales):>8}")
+    print(f"\n{ejemplos} ejemplos al azar:")
+    for s in random.Random(0).sample(senales, min(ejemplos, len(senales))):
+        print(f"  [{s.tipo_senal}] {s.nombre or '(sin nombre)'} — {s.rubro} — {s.partido}"
+              f"{' — ' + s.direccion if s.direccion else ''}\n      {s.detalle}\n      {s.url}")
+
+
+def cmd_run(config, args) -> int:
+    pedidas = args.fuentes.split(",") if args.fuentes else None
+    senales, salud = ejecutar.recolectar(config, pedidas, args.limite, args.dry_run)
+    if not args.dry_run:
+        ruta = ejecutar.guardar_corrida(config, senales, salud)
+        print(f"Señales guardadas en {ruta.relative_to(cfg.RAIZ)}")
+    resumen_senales(senales, salud)
+    return 0 if any(e["ok"] for e in salud) else 1
+
+
+def cmd_record(config, args) -> int:
+    """Graba una muestra real y acotada de la respuesta de la fuente para las pruebas offline."""
+    destino = config.ruta("fixtures") / args.fuente
+    destino.mkdir(parents=True, exist_ok=True)
+    cliente = Cliente(config)
+    if args.fuente == "osm":
+        from .fuentes import osm
+        datos = osm.descargar(config, cliente, geo.Limites(config))
+        elems = datos["elements"]
+        # Muestra estratificada: algunos de cada etiqueta principal, más todos los v1 y los "por abrir".
+        por_tag: dict[str, list] = {}
+        for e in elems:
+            p = osm.principal(e.get("tags") or {}, config)
+            if p:
+                por_tag.setdefault(p, []).append(e)
+        muestra = [e for grupo in por_tag.values() for e in grupo[:3]]
+        muestra += [e for e in elems if e.get("version") == 1 and e not in muestra][:50]
+        for e in muestra:  # no se graban datos de usuarios de OSM
+            e.pop("user", None)
+            e.pop("uid", None)
+        datos["elements"] = muestra
+        ruta = destino / "overpass_muestra.json"
+        ruta.write_text(json.dumps(datos, ensure_ascii=False, indent=0), encoding="utf-8")
+        print(f"{len(muestra)} de {len(elems)} elementos → {ruta.relative_to(cfg.RAIZ)}")
+        return 0
+    print(f"record no implementado para {args.fuente}")
+    return 1
 
 
 def pendiente(fase: str):
@@ -55,10 +128,10 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--fuentes", help="lista separada por comas (por defecto, todas las activas)")
     p.add_argument("--limite", type=int, help="máximo de señales por fuente (smoke test)")
     p.add_argument("--dry-run", action="store_true", help="no escribe snapshots ni site/data")
-    p.set_defaults(func=pendiente("3-6"))
+    p.set_defaults(func=cmd_run)
     p = sub.add_parser("record", help="graba respuestas reales en tests/fixtures/")
     p.add_argument("--fuente", required=True)
-    p.set_defaults(func=pendiente("3"))
+    p.set_defaults(func=cmd_record)
     p = sub.add_parser("serve", help="sirve site/ en http://localhost:8000")
     p.add_argument("--puerto", type=int, default=8000)
     p.set_defaults(func=pendiente("7"))

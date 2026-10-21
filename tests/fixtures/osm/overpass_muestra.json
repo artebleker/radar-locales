@@ -1,0 +1,8932 @@
+{
+"version": 0.6,
+"generator": "Overpass API 0.7.62.11 87bfad18",
+"osm3s": {
+"timestamp_osm_base": "2026-10-21T00:50:51Z",
+"timestamp_areas_base": "2026-10-20T22:52:45Z",
+"copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+},
+"elements": [
+{
+"type": "node",
+"id": 7236722188,
+"lat": -34.4447961,
+"lon": -59.0094387,
+"timestamp": "2026-03-03T20:37:03Z",
+"version": 2,
+"changeset": 179322111,
+"tags": {
+"amenity": "bar"
+}
+},
+{
+"type": "node",
+"id": 2628140258,
+"lat": -34.4594183,
+"lon": -58.9115804,
+"timestamp": "2014-07-29T20:40:17Z",
+"version": 2,
+"changeset": 24431147,
+"tags": {
+"amenity": "bar",
+"name": "La Nueva Alambra"
+}
+},
+{
+"type": "node",
+"id": 2588711985,
+"lat": -34.4545656,
+"lon": -58.9114962,
+"timestamp": "2013-12-21T06:53:08Z",
+"version": 1,
+"changeset": 19561805,
+"tags": {
+"amenity": "bar",
+"name": "CabrÓn"
+}
+},
+{
+"type": "node",
+"id": 4316013192,
+"lat": -34.4514909,
+"lon": -59.0064422,
+"timestamp": "2019-11-03T01:21:08Z",
+"version": 3,
+"changeset": 76541222,
+"tags": {
+"addr:housenumber": "1",
+"addr:postcode": "1629",
+"addr:street": "Teniente Manzotti",
+"internet_access": "wlan",
+"name": "Pachu Jordán",
+"opening_hours": "Th-Su 08:30-22:00",
+"shop": "confectionery"
+}
+},
+{
+"type": "node",
+"id": 6333425242,
+"lat": -34.592101,
+"lon": -58.5253818,
+"timestamp": "2019-03-12T15:28:33Z",
+"version": 1,
+"changeset": 68066631,
+"tags": {
+"shop": "confectionery"
+}
+},
+{
+"type": "node",
+"id": 11777310869,
+"lat": -34.5631706,
+"lon": -58.55719,
+"timestamp": "2024-04-01T02:46:51Z",
+"version": 1,
+"changeset": 149413895,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "3773",
+"addr:postcode": "B1650",
+"addr:street": "95 - San Lorenzo",
+"addr:unit": "7103",
+"name": "Baby Pop",
+"shop": "confectionery"
+}
+},
+{
+"type": "node",
+"id": 4316061193,
+"lat": -34.4515354,
+"lon": -59.0065318,
+"timestamp": "2017-09-01T05:34:31Z",
+"version": 2,
+"changeset": 51633272,
+"tags": {
+"addr:housenumber": "215",
+"addr:street": "Teniente Manzotti",
+"amenity": "restaurant",
+"name": "1888"
+}
+},
+{
+"type": "node",
+"id": 13190338540,
+"lat": -34.4333015,
+"lon": -58.9756169,
+"timestamp": "2025-10-03T09:26:53Z",
+"version": 1,
+"changeset": 172781153,
+"tags": {
+"addr:city": "Pilar",
+"addr:postcode": "B1633",
+"addr:street": "Ruta 8, km 60,5",
+"amenity": "restaurant",
+"cuisine": "italian",
+"name": "Leonfonte",
+"opening_hours": "Mo-Su 20:00-23:00",
+"website": "https://www.hilton.com/en/hotels/buepihh-hilton-pilar/dining/leonforte/"
+}
+},
+{
+"type": "node",
+"id": 4525611301,
+"lat": -34.4487165,
+"lon": -58.9493735,
+"timestamp": "2017-09-10T17:54:33Z",
+"version": 2,
+"changeset": 51915280,
+"tags": {
+"amenity": "restaurant",
+"name": "Tierra Adentro"
+}
+},
+{
+"type": "node",
+"id": 13190338539,
+"lat": -34.4327172,
+"lon": -58.9743606,
+"timestamp": "2025-10-03T09:26:53Z",
+"version": 1,
+"changeset": 172781153,
+"tags": {
+"amenity": "pub",
+"name": "The Old English Pub"
+}
+},
+{
+"type": "node",
+"id": 9941114118,
+"lat": -34.4997919,
+"lon": -58.6416574,
+"timestamp": "2022-08-08T21:29:34Z",
+"version": 1,
+"changeset": 124658565,
+"tags": {
+"amenity": "pub",
+"microbrewery": "yes",
+"name": "BarbaRoja Don Torcuato",
+"survey:date": "2022-08-08"
+}
+},
+{
+"type": "node",
+"id": 10888912994,
+"lat": -34.5473929,
+"lon": -58.5547916,
+"timestamp": "2023-05-12T05:03:43Z",
+"version": 1,
+"changeset": 136000946,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:postcode": "B1653BFI",
+"addr:street": "61 - Lacroze",
+"amenity": "pub",
+"microbrewery": "yes",
+"name": "Berlina"
+}
+},
+{
+"type": "node",
+"id": 11811666515,
+"lat": -34.4513139,
+"lon": -58.9307088,
+"timestamp": "2024-04-12T12:09:47Z",
+"version": 1,
+"changeset": 149907814,
+"tags": {
+"addr:housenumber": "10703",
+"addr:street": "12 de Octubre",
+"name": "Electro Perbe",
+"shop": "yes"
+}
+},
+{
+"type": "node",
+"id": 4646019728,
+"lat": -34.5086377,
+"lon": -58.7278623,
+"timestamp": "2017-01-31T20:05:29Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"name": "El Cruce",
+"shop": "yes",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645800284,
+"lat": -34.5076461,
+"lon": -58.7247893,
+"timestamp": "2017-01-31T20:05:28Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"name": "Art. de Limpieza y Realería",
+"shop": "yes",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 13837783001,
+"lat": -34.450773,
+"lon": -58.9310423,
+"timestamp": "2026-05-16T23:09:10Z",
+"version": 1,
+"changeset": 182762169,
+"tags": {
+"amenity": "fast_food",
+"cuisine": "argentinian;friture;sandwich",
+"name": "Casa de comida \"Lo de Iván\"",
+"opening_hours": "Mo-Su 05:30-18:30"
+}
+},
+{
+"type": "node",
+"id": 2263910896,
+"lat": -34.4818047,
+"lon": -58.7777196,
+"timestamp": "2013-04-12T02:46:21Z",
+"version": 1,
+"changeset": 15696443,
+"tags": {
+"amenity": "fast_food",
+"name": "Rotiseria Lo de Olga"
+}
+},
+{
+"type": "node",
+"id": 5506070225,
+"lat": -34.506775,
+"lon": -58.7248265,
+"timestamp": "2018-03-26T15:45:12Z",
+"version": 1,
+"changeset": 57539982,
+"tags": {
+"amenity": "fast_food",
+"name": "Empanada Tucumana"
+}
+},
+{
+"type": "node",
+"id": 8268263610,
+"lat": -34.4005007,
+"lon": -59.0175234,
+"timestamp": "2020-12-28T22:17:24Z",
+"version": 1,
+"changeset": 96561304,
+"tags": {
+"shop": "greengrocer"
+}
+},
+{
+"type": "node",
+"id": 4646019707,
+"lat": -34.5074298,
+"lon": -58.7250784,
+"timestamp": "2017-01-31T20:05:29Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"name": "Dario",
+"shop": "greengrocer",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 7041882680,
+"lat": -34.4694864,
+"lon": -58.7565169,
+"timestamp": "2019-12-15T22:54:56Z",
+"version": 3,
+"changeset": 78441701,
+"tags": {
+"addr:city": "Tortuguitas",
+"addr:postcode": "1667",
+"addr:street": "Directorio",
+"name": "La Nena",
+"shop": "greengrocer"
+}
+},
+{
+"type": "node",
+"id": 5498904624,
+"lat": -34.4935601,
+"lon": -58.8396817,
+"timestamp": "2021-08-31T19:37:25Z",
+"version": 3,
+"changeset": 110530048,
+"tags": {
+"internet_access": "wlan",
+"name": "Almacén y Comidas",
+"shop": "convenience"
+}
+},
+{
+"type": "node",
+"id": 5498905222,
+"lat": -34.4939682,
+"lon": -58.8398398,
+"timestamp": "2018-03-23T21:48:07Z",
+"version": 2,
+"changeset": 57470747,
+"tags": {
+"name": "Kiosco",
+"shop": "convenience"
+}
+},
+{
+"type": "node",
+"id": 5498906322,
+"lat": -34.4936367,
+"lon": -58.8396858,
+"timestamp": "2018-03-23T21:48:07Z",
+"version": 2,
+"changeset": 57470747,
+"tags": {
+"name": "kiosco",
+"shop": "convenience"
+}
+},
+{
+"type": "node",
+"id": 5498904626,
+"lat": -34.4936719,
+"lon": -58.8395688,
+"timestamp": "2018-03-23T21:48:07Z",
+"version": 2,
+"changeset": 57470747,
+"tags": {
+"name": "Mis Bebés",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 4649734257,
+"lat": -34.4900683,
+"lon": -58.7266656,
+"timestamp": "2017-01-31T23:14:54Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Pilarica",
+"shop": "clothes",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649842760,
+"lat": -34.4883659,
+"lon": -58.7261951,
+"timestamp": "2017-01-31T23:14:55Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Kahluak",
+"shop": "clothes",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 8243172785,
+"lat": -34.4864788,
+"lon": -58.8336007,
+"timestamp": "2020-12-19T17:21:11Z",
+"version": 1,
+"changeset": 96116210,
+"tags": {
+"addr:city": "Derqui",
+"addr:street": "Doctor Aráoz Alfaro",
+"alt_name": "Carnicería Maciel",
+"name": "Maciel",
+"shop": "butcher"
+}
+},
+{
+"type": "node",
+"id": 4654044202,
+"lat": -34.4818743,
+"lon": -58.7766812,
+"timestamp": "2024-10-23T22:31:54Z",
+"version": 3,
+"changeset": 158273509,
+"tags": {
+"shop": "butcher",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645804047,
+"lat": -34.5067258,
+"lon": -58.7234092,
+"timestamp": "2017-01-31T20:05:29Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"name": "Carnes Venta Directa",
+"shop": "butcher",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 2263910903,
+"lat": -34.4818654,
+"lon": -58.7776517,
+"timestamp": "2019-12-08T14:43:46Z",
+"version": 4,
+"changeset": 78111021,
+"tags": {
+"amenity": "pharmacy",
+"dispensing": "no",
+"drive_through": "no",
+"healthcare": "pharmacy"
+}
+},
+{
+"type": "node",
+"id": 4645804046,
+"lat": -34.5067106,
+"lon": -58.7233795,
+"timestamp": "2020-01-09T14:05:02Z",
+"version": 3,
+"changeset": 79380264,
+"tags": {
+"amenity": "pharmacy",
+"healthcare": "pharmacy",
+"name": "Scientifica Malvinas SCS",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649734249,
+"lat": -34.4903312,
+"lon": -58.7267484,
+"timestamp": "2020-01-06T13:26:56Z",
+"version": 3,
+"changeset": 79250122,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"amenity": "pharmacy",
+"healthcare": "pharmacy",
+"name": "Farmacia Raspo",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 2263910907,
+"lat": -34.482367,
+"lon": -58.7771252,
+"timestamp": "2016-03-20T01:30:32Z",
+"version": 3,
+"changeset": 37948604,
+"tags": {
+"shop": "bakery"
+}
+},
+{
+"type": "node",
+"id": 4645804013,
+"lat": -34.5069157,
+"lon": -58.7230927,
+"timestamp": "2017-01-31T20:05:30Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"name": "La Argentina",
+"shop": "bakery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649925484,
+"lat": -34.5003352,
+"lon": -58.7266973,
+"timestamp": "2017-01-31T23:14:56Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Paso de los Patos",
+"name": "La Esperanza",
+"shop": "bakery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4314987089,
+"lat": -34.5175678,
+"lon": -58.7214039,
+"timestamp": "2016-07-21T21:07:09Z",
+"version": 1,
+"changeset": 40935090,
+"tags": {
+"shop": "paint"
+}
+},
+{
+"type": "node",
+"id": 4645302575,
+"lat": -34.5088632,
+"lon": -58.7275977,
+"timestamp": "2021-08-30T04:15:45Z",
+"version": 3,
+"changeset": 110434275,
+"tags": {
+"name": "Pinturería Chequen",
+"shop": "paint",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 10093559536,
+"lat": -34.4498283,
+"lon": -58.8709857,
+"timestamp": "2022-10-11T22:03:53Z",
+"version": 1,
+"changeset": 127383180,
+"tags": {
+"name": "Colorin",
+"shop": "paint"
+}
+},
+{
+"type": "node",
+"id": 4645302576,
+"lat": -34.5088381,
+"lon": -58.7275495,
+"timestamp": "2017-01-30T20:04:21Z",
+"version": 2,
+"changeset": 45662998,
+"tags": {
+"name": "Jamón del Medio",
+"shop": "deli",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4652965079,
+"lat": -34.4936652,
+"lon": -58.7206316,
+"timestamp": "2017-02-01T16:59:04Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "Avenida El Callao",
+"name": "Ayelen",
+"shop": "deli",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649279808,
+"lat": -34.4860885,
+"lon": -58.7244621,
+"timestamp": "2017-01-31T20:39:41Z",
+"version": 2,
+"changeset": 45697213,
+"tags": {
+"addr:street": "Juan Francisco Seguí",
+"name": "Grand Bourg",
+"shop": "deli",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645311605,
+"lat": -34.5082799,
+"lon": -58.726298,
+"timestamp": "2017-01-30T20:04:21Z",
+"version": 2,
+"changeset": 45662998,
+"tags": {
+"name": "Lotería de la Provincia",
+"shop": "lottery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653627130,
+"lat": -34.4831248,
+"lon": -58.7512269,
+"timestamp": "2024-10-23T22:31:54Z",
+"version": 3,
+"changeset": 158273509,
+"tags": {
+"addr:street": "José Hernández",
+"name": "de la Provincia",
+"shop": "lottery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645804034,
+"lat": -34.5062619,
+"lon": -58.7223411,
+"timestamp": "2017-01-31T20:05:30Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"name": "Lotería de la Provincia",
+"shop": "lottery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645800279,
+"lat": -34.5077216,
+"lon": -58.7249816,
+"timestamp": "2017-01-31T20:05:29Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"amenity": "ice_cream",
+"name": "Beto Helados",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649789087,
+"lat": -34.4889411,
+"lon": -58.7245773,
+"timestamp": "2017-01-31T23:14:54Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "El Callao",
+"amenity": "ice_cream",
+"name": "Sei Tu",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649315965,
+"lat": -34.4848471,
+"lon": -58.7272631,
+"timestamp": "2017-01-31T20:39:42Z",
+"version": 2,
+"changeset": 45697213,
+"tags": {
+"addr:street": "Juan Francisco Seguí",
+"amenity": "ice_cream",
+"name": "Ice Frutis",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645804012,
+"lat": -34.5069271,
+"lon": -58.7231184,
+"timestamp": "2019-12-27T17:56:23Z",
+"version": 3,
+"changeset": 78936911,
+"tags": {
+"shop": "hardware",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650125740,
+"lat": -34.4931022,
+"lon": -58.7277308,
+"timestamp": "2017-01-31T23:14:59Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Casa Avenida",
+"shop": "hardware",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4652965087,
+"lat": -34.493321,
+"lon": -58.7208817,
+"timestamp": "2017-02-01T16:59:04Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "Avenida El Callao",
+"name": "Danser",
+"shop": "hardware",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645804014,
+"lat": -34.5069027,
+"lon": -58.723069,
+"timestamp": "2017-01-31T20:05:31Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"fixme": "name",
+"shop": "pet",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650125768,
+"lat": -34.4948916,
+"lon": -58.7282094,
+"timestamp": "2017-01-31T23:14:59Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Pro Plan",
+"shop": "pet",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4736404221,
+"lat": -34.4707587,
+"lon": -58.7593047,
+"timestamp": "2019-12-15T22:32:57Z",
+"version": 5,
+"changeset": 78441428,
+"tags": {
+"addr:postcode": "1667",
+"addr:street": "Luis María Drago",
+"name": "Veterinaria Tortuguitas",
+"opening_hours": "Mo-Sa 09:00-18:00",
+"shop": "pet"
+}
+},
+{
+"type": "node",
+"id": 4645804015,
+"lat": -34.5068921,
+"lon": -58.7230492,
+"timestamp": "2021-08-30T17:06:10Z",
+"version": 3,
+"changeset": 110471916,
+"tags": {
+"name": "Unisex Peluquería",
+"shop": "hairdresser",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645804036,
+"lat": -34.506316,
+"lon": -58.7224234,
+"timestamp": "2019-12-27T17:56:23Z",
+"version": 3,
+"changeset": 78936911,
+"tags": {
+"shop": "hairdresser",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645804037,
+"lat": -34.5063396,
+"lon": -58.7224947,
+"timestamp": "2021-08-30T17:06:10Z",
+"version": 3,
+"changeset": 110471916,
+"tags": {
+"name": "Peluquería Canina Bañaditos",
+"shop": "hairdresser",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645804051,
+"lat": -34.5067971,
+"lon": -58.7235354,
+"timestamp": "2017-01-31T20:05:30Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"leisure": "fitness_centre",
+"name": "New Power",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 6051971136,
+"lat": -34.490527,
+"lon": -58.7371433,
+"timestamp": "2021-08-01T16:29:13Z",
+"version": 2,
+"changeset": 108980358,
+"tags": {
+"leisure": "fitness_centre"
+}
+},
+{
+"type": "node",
+"id": 5991323245,
+"lat": -34.4495358,
+"lon": -58.9166551,
+"timestamp": "2018-10-16T18:51:49Z",
+"version": 1,
+"changeset": 63586665,
+"tags": {
+"leisure": "fitness_centre",
+"level": "1",
+"name": "Sport Club Mujer"
+}
+},
+{
+"type": "node",
+"id": 4646019709,
+"lat": -34.50747,
+"lon": -58.7251874,
+"timestamp": "2017-01-31T20:05:31Z",
+"version": 2,
+"changeset": 45696289,
+"tags": {
+"fixme": "name",
+"shop": "kiosk",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990658221,
+"lat": -34.4495479,
+"lon": -58.9171438,
+"timestamp": "2018-10-16T16:14:10Z",
+"version": 1,
+"changeset": 63581761,
+"tags": {
+"name": "50+ Drugstore",
+"shop": "kiosk"
+}
+},
+{
+"type": "node",
+"id": 9147359564,
+"lat": -34.4547151,
+"lon": -58.7928967,
+"timestamp": "2021-10-05T05:14:37Z",
+"version": 1,
+"changeset": 112103024,
+"tags": {
+"shop": "kiosk"
+}
+},
+{
+"type": "node",
+"id": 4865340163,
+"lat": -34.5061835,
+"lon": -58.7223607,
+"timestamp": "2017-05-19T23:19:31Z",
+"version": 1,
+"changeset": 48833958,
+"tags": {
+"addr:postcode": "1665",
+"addr:street": "Paso de los Patos",
+"name": "Remises Capricornio",
+"name:en": "Español",
+"name:es": "Remises Capricornio",
+"opening_hours": "24/7",
+"shop": "travel_agency"
+}
+},
+{
+"type": "node",
+"id": 6625253847,
+"lat": -34.4473791,
+"lon": -58.8667078,
+"timestamp": "2019-07-18T23:15:25Z",
+"version": 2,
+"changeset": 72408761,
+"tags": {
+"addr:housenumber": "754",
+"addr:postcode": "B1629",
+"addr:street": "Las Magnolias",
+"branch": "Garbarino Viajes Pilar",
+"brand": "Garbarino",
+"contact:website": "https://ar.garbarinoviajes.com/",
+"name": "Garbarino",
+"shop": "travel_agency"
+}
+},
+{
+"type": "node",
+"id": 7050696214,
+"lat": -34.4700728,
+"lon": -58.758688,
+"timestamp": "2019-12-12T01:56:50Z",
+"version": 1,
+"changeset": 78286651,
+"tags": {
+"name": "Remises La nueva",
+"shop": "travel_agency"
+}
+},
+{
+"type": "node",
+"id": 4649901222,
+"lat": -34.4967262,
+"lon": -58.7284472,
+"timestamp": "2017-01-31T23:14:56Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Lubricentro C&C",
+"shop": "car_repair",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650125786,
+"lat": -34.4971027,
+"lon": -58.7287877,
+"timestamp": "2017-01-31T23:15:00Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Gama Service",
+"shop": "car_repair",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653530190,
+"lat": -34.471763,
+"lon": -58.7607942,
+"timestamp": "2017-02-01T21:09:26Z",
+"version": 2,
+"changeset": 45727624,
+"tags": {
+"addr:street": "Luis María Drago",
+"name": "Mecanica en General",
+"shop": "car_repair",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649901227,
+"lat": -34.4972621,
+"lon": -58.7285917,
+"timestamp": "2017-01-31T23:14:56Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Pro Cell",
+"shop": "mobile_phone",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649527347,
+"lat": -34.4852433,
+"lon": -58.7259162,
+"timestamp": "2022-07-20T02:59:24Z",
+"version": 3,
+"changeset": 123829645,
+"tags": {
+"addr:street": "Juan Francisco Seguí",
+"name": "Grand Bourg",
+"shop": "mobile_phone",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649842730,
+"lat": -34.4878242,
+"lon": -58.7254972,
+"timestamp": "2017-01-31T23:14:54Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "El Callao",
+"name": "Celulares Callao",
+"shop": "mobile_phone",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649901232,
+"lat": -34.4973463,
+"lon": -58.728627,
+"timestamp": "2017-01-31T23:14:56Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Beauty Time",
+"shop": "beauty",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650125762,
+"lat": -34.4946378,
+"lon": -58.7281264,
+"timestamp": "2017-01-31T23:14:59Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "De Pelos",
+"shop": "beauty",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5991323249,
+"lat": -34.4495137,
+"lon": -58.9158666,
+"timestamp": "2018-10-16T18:51:49Z",
+"version": 1,
+"changeset": 63586665,
+"tags": {
+"level": "1",
+"name": "Depi4ever",
+"shop": "beauty"
+}
+},
+{
+"type": "node",
+"id": 4650125769,
+"lat": -34.4949289,
+"lon": -58.728211,
+"timestamp": "2017-01-31T23:15:00Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"amenity": "veterinary",
+"fixme": "name",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649279807,
+"lat": -34.4861107,
+"lon": -58.7244045,
+"timestamp": "2017-01-31T20:39:41Z",
+"version": 2,
+"changeset": 45697213,
+"tags": {
+"addr:street": "Juan Francisco Seguí",
+"amenity": "veterinary",
+"name": "La Mascota",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990842764,
+"lat": -34.4502183,
+"lon": -58.9161055,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 2,
+"changeset": 63583607,
+"tags": {
+"amenity": "veterinary",
+"name": "Sigma Veterinaria"
+}
+},
+{
+"type": "node",
+"id": 4649765479,
+"lat": -34.4909761,
+"lon": -58.7271555,
+"timestamp": "2017-02-01T16:59:01Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Muebles de Pino",
+"shop": "furniture",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649734231,
+"lat": -34.4868626,
+"lon": -58.7278234,
+"timestamp": "2017-01-31T23:14:53Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Josè San Martin",
+"name": "Muebles Usados Grand Bourg",
+"shop": "furniture",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5150365822,
+"lat": -34.4387889,
+"lon": -58.7992976,
+"timestamp": "2019-01-20T18:14:18Z",
+"version": 2,
+"changeset": 66481923,
+"tags": {
+"name": "Il Giardino",
+"shop": "furniture"
+}
+},
+{
+"type": "node",
+"id": 4649884472,
+"lat": -34.4919449,
+"lon": -58.7271678,
+"timestamp": "2017-02-01T16:59:01Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Compunet",
+"shop": "computer",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649993497,
+"lat": -34.4886747,
+"lon": -58.7259931,
+"timestamp": "2017-01-31T23:14:57Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Hipólito Bouchard",
+"name": "Nasa Computacion",
+"shop": "computer",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650304985,
+"lat": -34.4856273,
+"lon": -58.7272051,
+"timestamp": "2017-02-01T16:59:03Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "El Callao",
+"name": "Computación",
+"shop": "computer",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649884482,
+"lat": -34.4923007,
+"lon": -58.7272648,
+"timestamp": "2017-01-31T23:14:56Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Pañalera",
+"shop": "baby_goods",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649842750,
+"lat": -34.4874421,
+"lon": -58.7259184,
+"timestamp": "2017-01-31T23:14:55Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Yiyi",
+"shop": "baby_goods",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653012951,
+"lat": -34.4871117,
+"lon": -58.7257488,
+"timestamp": "2017-02-01T16:59:04Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "El Callao",
+"name": "Pañalera Matute",
+"shop": "baby_goods",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649884490,
+"lat": -34.4928003,
+"lon": -58.7274128,
+"timestamp": "2017-01-31T23:14:56Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "GCG",
+"shop": "tyres",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5058279997,
+"lat": -34.4417298,
+"lon": -58.7836321,
+"timestamp": "2017-08-25T13:47:52Z",
+"version": 1,
+"changeset": 51435185,
+"tags": {
+"shop": "tyres"
+}
+},
+{
+"type": "node",
+"id": 1052902711,
+"lat": -34.3309966,
+"lon": -58.8308642,
+"timestamp": "2014-01-07T21:48:36Z",
+"version": 5,
+"changeset": 19872210,
+"tags": {
+"name": "Gomería El Cencerro",
+"opening_hours": "24/7",
+"shop": "tyres"
+}
+},
+{
+"type": "node",
+"id": 4649993538,
+"lat": -34.4902837,
+"lon": -58.7269593,
+"timestamp": "2017-01-31T23:14:58Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "SG Imprenta",
+"shop": "printing",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4580483897,
+"lat": -34.5011331,
+"lon": -58.6947545,
+"timestamp": "2017-02-03T16:40:44Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "General Savio",
+"name": "Imprenta Los Porvenires",
+"shop": "printing",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4630791169,
+"lat": -34.4978627,
+"lon": -58.6386434,
+"timestamp": "2025-10-31T03:40:56Z",
+"version": 3,
+"changeset": 174002304,
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"name": "Control Print",
+"shop": "printing"
+}
+},
+{
+"type": "node",
+"id": 4649734253,
+"lat": -34.4901365,
+"lon": -58.7266956,
+"timestamp": "2017-01-31T23:14:53Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Millanel",
+"shop": "cosmetics",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990734183,
+"lat": -34.4494468,
+"lon": -58.9162318,
+"timestamp": "2018-10-16T16:27:54Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "VZ Bath and Body",
+"shop": "cosmetics"
+}
+},
+{
+"type": "node",
+"id": 7055515023,
+"lat": -34.4697367,
+"lon": -58.7567225,
+"timestamp": "2019-12-15T22:54:56Z",
+"version": 4,
+"changeset": 78441701,
+"tags": {
+"addr:city": "Tortuguitas",
+"addr:postcode": "1667",
+"addr:street": "Benito Lynch",
+"name": "Ponte Bonita",
+"shop": "cosmetics"
+}
+},
+{
+"type": "node",
+"id": 4649794907,
+"lat": -34.4883485,
+"lon": -58.7250584,
+"timestamp": "2017-01-31T23:14:54Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "El Callao",
+"name": "Moto Zero",
+"shop": "car_parts",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650001626,
+"lat": -34.4893156,
+"lon": -58.7243157,
+"timestamp": "2017-01-31T23:14:58Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida El Callao",
+"name": "Corben Autopartes",
+"shop": "car_parts",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650001627,
+"lat": -34.4893256,
+"lon": -58.7243565,
+"timestamp": "2017-01-31T23:14:58Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Padre Stoppler",
+"name": "Repuestos Ruso",
+"shop": "car_parts",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649842756,
+"lat": -34.4884299,
+"lon": -58.7262109,
+"timestamp": "2017-01-31T23:14:55Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Sederia Susana",
+"shop": "fabric",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 13676886289,
+"lat": -34.5933434,
+"lon": -58.5449458,
+"timestamp": "2026-03-25T05:20:34Z",
+"version": 1,
+"changeset": 180386658,
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:housenumber": "5442",
+"addr:street": "38 - Hipólito Yrigoyen",
+"level": "0",
+"name": "Multi-lanas Lourdes",
+"shop": "fabric"
+}
+},
+{
+"type": "node",
+"id": 4633038945,
+"lat": -34.5013971,
+"lon": -58.6423923,
+"timestamp": "2017-01-25T21:02:52Z",
+"version": 2,
+"changeset": 45490404,
+"tags": {
+"addr:street": "Almirante Brown",
+"name": "Estilo Pano",
+"shop": "fabric",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649993496,
+"lat": -34.4887158,
+"lon": -58.7259931,
+"timestamp": "2017-01-31T23:14:57Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Centro de Copiado",
+"shop": "copyshop",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4652983217,
+"lat": -34.490046,
+"lon": -58.7234333,
+"timestamp": "2017-02-01T16:59:04Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "Avenida El Callao",
+"name": "La Gráfica",
+"shop": "copyshop",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650304958,
+"lat": -34.4868725,
+"lon": -58.7261967,
+"timestamp": "2017-02-01T16:59:02Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "El Callao",
+"name": "Centro de Copiado",
+"shop": "copyshop",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650297016,
+"lat": -34.48969,
+"lon": -58.7240369,
+"timestamp": "2021-01-26T22:18:11Z",
+"version": 3,
+"changeset": 98186207,
+"tags": {
+"addr:street": "Avenida El Callao",
+"brand": "GNC",
+"brand:wikidata": "Q4808595",
+"brand:wikipedia": "en:GNC (store)",
+"name": "GNC",
+"shop": "nutrition_supplements",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990696225,
+"lat": -34.4494532,
+"lon": -58.9169913,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "Fit Nutrition",
+"shop": "nutrition_supplements"
+}
+},
+{
+"type": "node",
+"id": 4653116164,
+"lat": -34.4693146,
+"lon": -58.7565598,
+"timestamp": "2019-12-15T19:12:08Z",
+"version": 4,
+"changeset": 78437992,
+"tags": {
+"name": "Dietéticas Naturales",
+"shop": "nutrition_supplements",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4652983208,
+"lat": -34.4906079,
+"lon": -58.7229754,
+"timestamp": "2019-12-19T18:27:45Z",
+"version": 3,
+"changeset": 78651335,
+"tags": {
+"addr:street": "Avenida El Callao",
+"shop": "tattoo",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990842774,
+"lat": -34.4497063,
+"lon": -58.915745,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Xara Centro de Servicios",
+"shop": "tattoo"
+}
+},
+{
+"type": "node",
+"id": 7054446334,
+"lat": -34.470505,
+"lon": -58.7579355,
+"timestamp": "2021-07-05T13:35:05Z",
+"version": 2,
+"changeset": 107443028,
+"tags": {
+"name": "Shibalba Tatto",
+"shop": "tattoo"
+}
+},
+{
+"type": "node",
+"id": 4649969671,
+"lat": -34.4877165,
+"lon": -58.7274878,
+"timestamp": "2017-01-31T23:14:57Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Uspallata",
+"name": "Jose Cpaz",
+"shop": "bed",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649969674,
+"lat": -34.4877825,
+"lon": -58.7274319,
+"timestamp": "2017-01-31T23:14:57Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Francisco Beiró",
+"name": "Colchoneria Grand Bourg",
+"shop": "bed",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649527353,
+"lat": -34.4851909,
+"lon": -58.7260275,
+"timestamp": "2022-07-20T02:59:24Z",
+"version": 3,
+"changeset": 123829645,
+"tags": {
+"addr:street": "Juan Francisco Seguí",
+"name": "Bed Factory",
+"shop": "bed",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650304982,
+"lat": -34.4856976,
+"lon": -58.7271535,
+"timestamp": "2017-02-01T16:59:03Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "El Callao",
+"name": "Daffi",
+"shop": "shoes",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653012987,
+"lat": -34.4856187,
+"lon": -58.7269106,
+"timestamp": "2017-02-01T16:59:05Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "El Callao",
+"name": "Daffi",
+"shop": "shoes",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649315956,
+"lat": -34.4851653,
+"lon": -58.7265946,
+"timestamp": "2017-01-31T20:39:41Z",
+"version": 2,
+"changeset": 45697213,
+"tags": {
+"addr:street": "Juan Francisco Seguí",
+"name": "Don Victorio",
+"shop": "shoes",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649315947,
+"lat": -34.4852854,
+"lon": -58.7262571,
+"timestamp": "2022-07-20T02:59:24Z",
+"version": 3,
+"changeset": 123829645,
+"tags": {
+"addr:street": "Juan Francisco Seguí",
+"name": "Carman",
+"shop": "jewelry",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649842742,
+"lat": -34.4875162,
+"lon": -58.7257193,
+"timestamp": "2017-01-31T23:14:55Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "El Callao",
+"name": "Relojeria",
+"shop": "jewelry",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4649842775,
+"lat": -34.4878532,
+"lon": -58.7260365,
+"timestamp": "2017-01-31T23:14:56Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Careman",
+"shop": "jewelry",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650036293,
+"lat": -34.4871179,
+"lon": -58.7261803,
+"timestamp": "2017-01-31T23:14:58Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Francisco Beiró",
+"name": "Incifa",
+"shop": "money_lender",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 10711462584,
+"lat": -34.5762009,
+"lon": -58.5354495,
+"timestamp": "2023-03-05T05:49:58Z",
+"version": 1,
+"changeset": 133313392,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3530",
+"addr:postcode": "B1650CBH",
+"addr:street": "52 - Belgrano",
+"brand": "Efectivo Sí",
+"brand:website": "https://www.efectivosi.com.ar/",
+"level": "0",
+"name": "Efectivo Sí",
+"shop": "money_lender"
+}
+},
+{
+"type": "node",
+"id": 10711462588,
+"lat": -34.5762742,
+"lon": -58.5355397,
+"timestamp": "2023-03-05T05:49:58Z",
+"version": 1,
+"changeset": 133313392,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3540",
+"addr:postcode": "B1650CBH",
+"addr:street": "52 - Belgrano",
+"brand": "Credifacil",
+"brand:website": "https://www.credifacil.com.ar/",
+"level": "0",
+"name": "Credifacil",
+"shop": "money_lender"
+}
+},
+{
+"type": "node",
+"id": 4650036300,
+"lat": -34.4873556,
+"lon": -58.7261139,
+"timestamp": "2017-01-31T23:14:58Z",
+"version": 2,
+"changeset": 45700856,
+"tags": {
+"addr:street": "Avenida Eva Duarte de Perón",
+"name": "Penelope",
+"shop": "perfumery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650304957,
+"lat": -34.486897,
+"lon": -58.726159,
+"timestamp": "2017-02-01T16:59:02Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "El Callao",
+"name": "Julieta",
+"shop": "perfumery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653907294,
+"lat": -34.4699171,
+"lon": -58.7573216,
+"timestamp": "2026-03-26T03:38:59Z",
+"version": 5,
+"changeset": 180434714,
+"tags": {
+"addr:street": "Luis María Drago",
+"name": "Masuan",
+"shop": "perfumery"
+}
+},
+{
+"type": "node",
+"id": 4650304952,
+"lat": -34.4869903,
+"lon": -58.7261034,
+"timestamp": "2017-02-01T16:59:02Z",
+"version": 2,
+"changeset": 45721413,
+"tags": {
+"addr:street": "El Callao",
+"name": "Optica Nino",
+"shop": "optician",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990961947,
+"lat": -34.4499439,
+"lon": -58.9161393,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"name": "Óptica Visual Pilar",
+"shop": "optician"
+}
+},
+{
+"type": "node",
+"id": 4653116140,
+"lat": -34.4697219,
+"lon": -58.7573712,
+"timestamp": "2026-03-18T10:44:11Z",
+"version": 4,
+"changeset": 180052263,
+"tags": {
+"name": "Optica Fotografía",
+"shop": "optician",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5241058994,
+"lat": -34.4632054,
+"lon": -58.910708,
+"timestamp": "2021-08-22T04:24:54Z",
+"version": 3,
+"changeset": 110047321,
+"tags": {
+"addr:street": "Avenida Tomás Márquez",
+"brand": "Dia",
+"brand:wikidata": "Q925132",
+"brand:wikipedia": "es:Supermercados DIA",
+"name": "Dia",
+"shop": "supermarket"
+}
+},
+{
+"type": "node",
+"id": 2588709911,
+"lat": -34.4653406,
+"lon": -58.9086795,
+"timestamp": "2013-12-21T06:41:33Z",
+"version": 1,
+"changeset": 19561742,
+"tags": {
+"name": "La Economía",
+"shop": "supermarket"
+}
+},
+{
+"type": "node",
+"id": 2576555465,
+"lat": -34.454603,
+"lon": -58.9123681,
+"timestamp": "2014-02-04T15:21:46Z",
+"version": 2,
+"changeset": 20373880,
+"tags": {
+"addr:city": "Pilar",
+"addr:street": "Avenida Estanislao López",
+"name": "Pilar Point",
+"shop": "supermarket"
+}
+},
+{
+"type": "node",
+"id": 2576560743,
+"lat": -34.458609,
+"lon": -58.9130939,
+"timestamp": "2013-12-12T03:53:44Z",
+"version": 1,
+"changeset": 19405848,
+"tags": {
+"addr:city": "Pilar",
+"addr:street": "Simón Bolivar",
+"amenity": "cafe",
+"cuisine": "regional",
+"internet_access": "yes",
+"name": "Café Lion`s"
+}
+},
+{
+"type": "node",
+"id": 4966507673,
+"lat": -34.4587384,
+"lon": -58.9118913,
+"timestamp": "2017-07-12T17:25:13Z",
+"version": 1,
+"changeset": 50236216,
+"tags": {
+"amenity": "cafe",
+"cuisine": "ice_cream",
+"name": "Barocca",
+"outdoor_seating": "yes"
+}
+},
+{
+"type": "node",
+"id": 2588707681,
+"lat": -34.4558439,
+"lon": -58.9090075,
+"timestamp": "2013-12-21T06:33:12Z",
+"version": 1,
+"changeset": 19561692,
+"tags": {
+"amenity": "cafe",
+"name": "Coffee Break"
+}
+},
+{
+"type": "node",
+"id": 2628195327,
+"lat": -34.4605111,
+"lon": -58.9120039,
+"timestamp": "2014-07-29T20:40:18Z",
+"version": 2,
+"changeset": 24431147,
+"tags": {
+"shop": "department_store"
+}
+},
+{
+"type": "node",
+"id": 4736291427,
+"lat": -34.4358649,
+"lon": -58.8076971,
+"timestamp": "2025-04-13T18:37:42Z",
+"version": 3,
+"changeset": 164908312,
+"tags": {
+"name": "Paseo Pilar",
+"name:es": "Paseo Pilar",
+"opening_hours": "Mo-Su,PH 10:00-21:00",
+"shop": "department_store",
+"toilets": "yes"
+}
+},
+{
+"type": "node",
+"id": 13788708764,
+"lat": -34.5294776,
+"lon": -58.7018223,
+"timestamp": "2026-05-03T04:19:20Z",
+"version": 1,
+"changeset": 182141770,
+"tags": {
+"name": "Shopping Terrazas de Mayo",
+"shop": "department_store"
+}
+},
+{
+"type": "node",
+"id": 4966507672,
+"lat": -34.4602943,
+"lon": -58.9118363,
+"timestamp": "2017-07-12T17:25:12Z",
+"version": 1,
+"changeset": 50236216,
+"tags": {
+"name": "Don Mitre",
+"shop": "cheese"
+}
+},
+{
+"type": "node",
+"id": 13965686369,
+"lat": -34.5169579,
+"lon": -58.673036,
+"timestamp": "2026-06-25T18:00:57Z",
+"version": 1,
+"changeset": 184599213,
+"tags": {
+"name": "Fiambrería Lo de Hugo",
+"shop": "cheese"
+}
+},
+{
+"type": "node",
+"id": 13233509428,
+"lat": -34.5130879,
+"lon": -58.6682971,
+"timestamp": "2025-10-14T20:16:05Z",
+"version": 1,
+"changeset": 173292703,
+"tags": {
+"addr:city": "Villa de Mayo",
+"addr:housenumber": "3499",
+"addr:postcode": "1614",
+"addr:street": "Luján",
+"name": "Fiambrería El Tati",
+"shop": "cheese"
+}
+},
+{
+"type": "node",
+"id": 4966507674,
+"lat": -34.4582032,
+"lon": -58.9116794,
+"timestamp": "2017-07-12T17:25:13Z",
+"version": 1,
+"changeset": 50236216,
+"tags": {
+"name": "BiciShop",
+"service:bicycle:retail": "yes",
+"shop": "bicycle"
+}
+},
+{
+"type": "node",
+"id": 7050759048,
+"lat": -34.471016,
+"lon": -58.7563152,
+"timestamp": "2019-12-19T14:53:09Z",
+"version": 4,
+"changeset": 78643480,
+"tags": {
+"name": "Cabure",
+"shop": "bicycle"
+}
+},
+{
+"type": "node",
+"id": 12303034644,
+"lat": -34.4699069,
+"lon": -58.7572543,
+"timestamp": "2026-06-18T07:23:49Z",
+"version": 4,
+"changeset": 184257505,
+"tags": {
+"name": "Bicicleteria Laser",
+"phone": "+54 11 2751 9648",
+"shop": "bicycle"
+}
+},
+{
+"type": "node",
+"id": 4966507676,
+"lat": -34.4573894,
+"lon": -58.9134067,
+"timestamp": "2021-08-30T19:00:19Z",
+"version": 2,
+"changeset": 110476434,
+"tags": {
+"name": "Librería Oasis",
+"shop": "books"
+}
+},
+{
+"type": "node",
+"id": 5990842772,
+"lat": -34.4497825,
+"lon": -58.9157557,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Galerna Libros",
+"shop": "books"
+}
+},
+{
+"type": "node",
+"id": 5427642820,
+"lat": -34.4469057,
+"lon": -58.8676214,
+"timestamp": "2023-11-21T15:30:50Z",
+"version": 3,
+"changeset": 144292416,
+"tags": {
+"addr:city": "Pilar",
+"addr:country": "AR",
+"addr:floor": "1",
+"addr:housenumber": "754",
+"addr:postcode": "1629",
+"addr:province": "Buenos Aires",
+"addr:street": "Las Magnolias",
+"addr:unit": "1178",
+"contact:facebook": "https://www.facebook.com/KelEdicionesS.A/",
+"contact:instagram": "https://www.instagram.com/kelediciones/",
+"contact:twitter": "https://www.twitter.com/KelEdiciones/",
+"email": "mail@kel-ediciones.com",
+"name": "KEL Ediciones",
+"opening_hours": "Mo-Sa 10:00-21:30;Su,PH 10:00-21:00",
+"phone": "+54 230 438-4020",
+"shop": "books",
+"website": "https://www.kelediciones.com/"
+}
+},
+{
+"type": "node",
+"id": 5990696224,
+"lat": -34.4495078,
+"lon": -58.917036,
+"timestamp": "2019-10-18T00:18:57Z",
+"version": 2,
+"changeset": 75865371,
+"tags": {
+"brand": "Kodak Express",
+"brand:wikidata": "Q6425126",
+"brand:wikipedia": "en:Kodak Express",
+"name": "Kodak Express",
+"shop": "photo"
+}
+},
+{
+"type": "node",
+"id": 9674827988,
+"lat": -34.3662347,
+"lon": -58.8030544,
+"timestamp": "2022-04-18T15:55:06Z",
+"version": 1,
+"changeset": 119866317,
+"tags": {
+"shop": "photo"
+}
+},
+{
+"type": "node",
+"id": 4580451595,
+"lat": -34.4991884,
+"lon": -58.6946817,
+"timestamp": "2017-02-03T16:40:42Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "Avenida Presidente Juan Domingo Perón",
+"name": "Foto Argentina",
+"shop": "photo",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990696230,
+"lat": -34.4492499,
+"lon": -58.9168696,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "Reina Batata",
+"shop": "variety_store"
+}
+},
+{
+"type": "node",
+"id": 7050644895,
+"lat": -34.4710263,
+"lon": -58.758812,
+"timestamp": "2019-12-15T22:24:40Z",
+"version": 2,
+"changeset": 78441317,
+"tags": {
+"addr:city": "Tortuguitas",
+"addr:postcode": "1667",
+"addr:street": "Diagonal Juan Francisco Seguí",
+"name": "Chino",
+"shop": "variety_store"
+}
+},
+{
+"type": "node",
+"id": 7050697057,
+"lat": -34.4687827,
+"lon": -58.7565908,
+"timestamp": "2019-12-14T03:11:29Z",
+"version": 2,
+"changeset": 78398324,
+"tags": {
+"name": "Articulos de Limpieza",
+"shop": "variety_store"
+}
+},
+{
+"type": "node",
+"id": 5990696233,
+"lat": -34.4491369,
+"lon": -58.9165661,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "Arredo",
+"shop": "houseware"
+}
+},
+{
+"type": "node",
+"id": 5990842767,
+"lat": -34.4501598,
+"lon": -58.915862,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 2,
+"changeset": 63583607,
+"tags": {
+"name": "Piero",
+"shop": "houseware"
+}
+},
+{
+"type": "node",
+"id": 5990992535,
+"lat": -34.4502398,
+"lon": -58.9162302,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 1,
+"changeset": 63583607,
+"tags": {
+"name": "La Cardeuse",
+"shop": "houseware"
+}
+},
+{
+"type": "node",
+"id": 5990734182,
+"lat": -34.4494837,
+"lon": -58.9158975,
+"timestamp": "2019-10-18T00:18:57Z",
+"version": 3,
+"changeset": 75865371,
+"tags": {
+"brand": "Samsung",
+"brand:wikidata": "Q20718",
+"brand:wikipedia": "en:Samsung Electronics",
+"name": "Samsung",
+"shop": "electronics"
+}
+},
+{
+"type": "node",
+"id": 5991323250,
+"lat": -34.4498521,
+"lon": -58.9156681,
+"timestamp": "2018-10-16T18:51:50Z",
+"version": 1,
+"changeset": 63586665,
+"tags": {
+"level": "1",
+"name": "Rodo",
+"shop": "electronics"
+}
+},
+{
+"type": "node",
+"id": 2909299351,
+"lat": -34.4472279,
+"lon": -58.8668014,
+"timestamp": "2019-10-18T00:18:57Z",
+"version": 5,
+"changeset": 75865371,
+"tags": {
+"addr:city": "Pilar",
+"addr:housenumber": "754",
+"addr:postcode": "B1629",
+"addr:street": "Las Magnolias",
+"branch": "Garbarino Las Palmas del Pilar",
+"brand": "Garbarino",
+"brand:wikidata": "Q5875270",
+"brand:wikipedia": "es:Garbarino",
+"contact:website": "https://www.garbarino.com/",
+"name": "Garbarino",
+"opening_hours": "Mo-Su 10:00-21:00; Fr,Sa 10:00-22:00",
+"shop": "electronics"
+}
+},
+{
+"type": "node",
+"id": 5990734184,
+"lat": -34.4494913,
+"lon": -58.9161856,
+"timestamp": "2018-10-16T16:27:54Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "Quest",
+"shop": "gift"
+}
+},
+{
+"type": "node",
+"id": 2614470306,
+"lat": -34.4422534,
+"lon": -58.8721895,
+"timestamp": "2014-01-08T08:03:40Z",
+"version": 1,
+"changeset": 19877362,
+"tags": {
+"shop": "gift"
+}
+},
+{
+"type": "node",
+"id": 3245027254,
+"lat": -34.364488,
+"lon": -58.800244,
+"timestamp": "2022-12-12T21:45:04Z",
+"version": 3,
+"changeset": 130013849,
+"tags": {
+"name": "Recuerdos del Bioparque",
+"shop": "gift"
+}
+},
+{
+"type": "node",
+"id": 5990842765,
+"lat": -34.4502107,
+"lon": -58.9160469,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 2,
+"changeset": 63583607,
+"tags": {
+"name": "Magentta",
+"shop": "stationery"
+}
+},
+{
+"type": "node",
+"id": 5241058992,
+"lat": -34.4553553,
+"lon": -58.908743,
+"timestamp": "2017-11-21T13:18:47Z",
+"version": 1,
+"changeset": 53975692,
+"tags": {
+"shop": "stationery"
+}
+},
+{
+"type": "node",
+"id": 4653938992,
+"lat": -34.4709401,
+"lon": -58.7596813,
+"timestamp": "2017-02-01T21:09:28Z",
+"version": 2,
+"changeset": 45727624,
+"tags": {
+"addr:street": "Luis María Drago",
+"name": "Mas Pack",
+"shop": "stationery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5990842770,
+"lat": -34.4498206,
+"lon": -58.9155817,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Mamma Nicoletta",
+"shop": "pasta"
+}
+},
+{
+"type": "node",
+"id": 5446674202,
+"lat": -34.4362581,
+"lon": -58.807214,
+"timestamp": "2025-04-13T18:38:54Z",
+"version": 4,
+"changeset": 164908297,
+"tags": {
+"addr:city": "Del Viso",
+"addr:country": "AR",
+"addr:housenumber": "44",
+"addr:postcode": "1669",
+"addr:province": "Buenos Aires",
+"addr:street": "Acceso Norte Ramal Pilar",
+"check_date:opening_hours": "2025-04-13",
+"contact:facebook": "https://www.facebook.com/LaJuvenilPastas/",
+"contact:instagram": "https://www.instagram.com/lajuvenilpastas/",
+"contact:twitter": "https://twitter.com/LaJuvenilPastas/",
+"delivery": "yes",
+"email": "info@lajuvenilpastas.com.ar",
+"name": "La Juvenil",
+"opening_hours": "Mo-Su 10:00-21:00",
+"phone": "+54 2320 65-7757",
+"shop": "pasta",
+"website": "https://www.lajuvenilpastas.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4633152431,
+"lat": -34.5004489,
+"lon": -58.6429099,
+"timestamp": "2020-08-05T03:50:40Z",
+"version": 3,
+"changeset": 88955555,
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"name": "El Raviolito",
+"shop": "pasta"
+}
+},
+{
+"type": "node",
+"id": 5990842771,
+"lat": -34.4497597,
+"lon": -58.9157157,
+"timestamp": "2019-10-18T00:18:57Z",
+"version": 3,
+"changeset": 75865371,
+"tags": {
+"brand": "5àsec",
+"brand:wikidata": "Q2817899",
+"brand:wikipedia": "fr:5àsec",
+"name": "5àsec",
+"shop": "dry_cleaning"
+}
+},
+{
+"type": "node",
+"id": 7041806535,
+"lat": -34.4817164,
+"lon": -58.7777596,
+"timestamp": "2019-12-08T14:43:46Z",
+"version": 1,
+"changeset": 78111021,
+"tags": {
+"name": "Marlimp",
+"shop": "dry_cleaning"
+}
+},
+{
+"type": "node",
+"id": 4633305701,
+"lat": -34.4954777,
+"lon": -58.6342549,
+"timestamp": "2025-10-31T03:30:50Z",
+"version": 3,
+"changeset": 174002090,
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"name": "Luxor",
+"shop": "dry_cleaning"
+}
+},
+{
+"type": "node",
+"id": 5990842775,
+"lat": -34.4496771,
+"lon": -58.9158235,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "City Kids",
+"shop": "toys"
+}
+},
+{
+"type": "node",
+"id": 11639705713,
+"lat": -34.4527935,
+"lon": -58.7284683,
+"timestamp": "2024-02-19T03:37:30Z",
+"version": 1,
+"changeset": 147631934,
+"tags": {
+"addr:place": "Tortugas Open Mall",
+"level": "1",
+"name": "Kinderland",
+"shop": "toys",
+"website": "https://www.kinderland.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 13676886280,
+"lat": -34.5933853,
+"lon": -58.5453282,
+"timestamp": "2026-03-25T05:20:34Z",
+"version": 1,
+"changeset": 180386658,
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:housenumber": "5473",
+"addr:street": "38 - Hipólito Yrigoyen",
+"level": "0",
+"name": "Lareu",
+"shop": "toys"
+}
+},
+{
+"type": "node",
+"id": 5990842777,
+"lat": -34.4496263,
+"lon": -58.915862,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Amphora",
+"shop": "bag"
+}
+},
+{
+"type": "node",
+"id": 5990992530,
+"lat": -34.4494573,
+"lon": -58.9166292,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 1,
+"changeset": 63583607,
+"tags": {
+"name": "XL Extra Large",
+"shop": "bag"
+}
+},
+{
+"type": "node",
+"id": 10711462601,
+"lat": -34.576112,
+"lon": -58.535343,
+"timestamp": "2023-03-05T05:49:58Z",
+"version": 1,
+"changeset": 133313392,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3508",
+"addr:postcode": "B1650CBH",
+"addr:street": "52 - Belgrano",
+"level": "0",
+"name": "Yael",
+"shop": "bag"
+}
+},
+{
+"type": "node",
+"id": 5990961946,
+"lat": -34.4498981,
+"lon": -58.9161316,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"name": "BM Instrumentos Musicales",
+"shop": "musical_instrument"
+}
+},
+{
+"type": "node",
+"id": 4633038947,
+"lat": -34.5014195,
+"lon": -58.6423427,
+"timestamp": "2017-01-25T21:02:52Z",
+"version": 2,
+"changeset": 45490404,
+"tags": {
+"addr:street": "Almirante Brown",
+"name": "Strato",
+"shop": "musical_instrument",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4614597263,
+"lat": -34.5280298,
+"lon": -58.5191513,
+"timestamp": "2017-01-18T17:30:22Z",
+"version": 2,
+"changeset": 45276011,
+"tags": {
+"addr:street": "Avenida Vélez Sarsfield",
+"shop": "musical_instrument",
+"source": "Reconocimiento cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 5990992527,
+"lat": -34.4495551,
+"lon": -58.9165152,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 1,
+"changeset": 63583607,
+"tags": {
+"name": "Blossom",
+"shop": "interior_decoration"
+}
+},
+{
+"type": "node",
+"id": 5990992534,
+"lat": -34.4501077,
+"lon": -58.9162287,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 1,
+"changeset": 63583607,
+"tags": {
+"name": "Pilar Decoraciones",
+"shop": "interior_decoration"
+}
+},
+{
+"type": "node",
+"id": 4632373046,
+"lat": -34.4985902,
+"lon": -58.6394712,
+"timestamp": "2017-01-25T18:21:54Z",
+"version": 2,
+"changeset": 45485246,
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"name": "Pura Chachara",
+"shop": "interior_decoration",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 5241058991,
+"lat": -34.4552283,
+"lon": -58.9098768,
+"timestamp": "2017-11-21T13:18:47Z",
+"version": 1,
+"changeset": 53975692,
+"tags": {
+"shop": "garden_centre"
+}
+},
+{
+"type": "node",
+"id": 2263910902,
+"lat": -34.4766453,
+"lon": -58.7836254,
+"timestamp": "2013-04-12T02:46:21Z",
+"version": 1,
+"changeset": 15696443,
+"tags": {
+"name": "Vivero Yei Pora",
+"shop": "garden_centre"
+}
+},
+{
+"type": "node",
+"id": 12559227666,
+"lat": -34.5662239,
+"lon": -58.5512144,
+"timestamp": "2025-02-05T16:19:22Z",
+"version": 1,
+"changeset": 162172252,
+"tags": {
+"level": "0",
+"name": "Roses & Dreams",
+"shop": "garden_centre"
+}
+},
+{
+"type": "node",
+"id": 11270708601,
+"lat": -34.4491021,
+"lon": -58.8980441,
+"timestamp": "2023-10-18T01:32:30Z",
+"version": 1,
+"changeset": 142735754,
+"tags": {
+"addr:city": "Pilar",
+"addr:full": "Ruta Nacional 8 - Acceso Norte Ramal Pilar - Km. 53,000",
+"addr:postcode": "1629",
+"addr:street": "12 de Octubre",
+"brand": "Chevrolet",
+"brand:wikidata": "Q29570",
+"name": "Victor H. Tolosa",
+"official_name": "Victor H. Tolosa S.A.",
+"phone": "+54 230 4432230",
+"shop": "car",
+"website": "https://victorhtolosa.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 3485153283,
+"lat": -34.4456356,
+"lon": -58.8871033,
+"timestamp": "2015-06-28T21:17:39Z",
+"version": 6,
+"changeset": 32272017,
+"tags": {
+"brand": "Jeep;Dodge;Chrysler;Mopar",
+"name": "Northville S.A.",
+"shop": "car"
+}
+},
+{
+"type": "node",
+"id": 2686872571,
+"lat": -34.4449317,
+"lon": -58.8828462,
+"timestamp": "2015-06-28T21:17:24Z",
+"version": 8,
+"changeset": 32272017,
+"tags": {
+"brand": "Volkswagen",
+"description": "Hauswagen Concesionario Oficial Volkswagen (Central)",
+"name": "Hauswagen",
+"shop": "car"
+}
+},
+{
+"type": "node",
+"id": 3485142736,
+"lat": -34.4439111,
+"lon": -58.8770815,
+"timestamp": "2015-04-28T21:21:08Z",
+"version": 7,
+"changeset": 30597879,
+"tags": {
+"name": "Concesionario Ducati Pilar",
+"shop": "motorcycle"
+}
+},
+{
+"type": "node",
+"id": 12596155122,
+"lat": -34.5876306,
+"lon": -58.5252371,
+"timestamp": "2025-02-17T16:49:26Z",
+"version": 1,
+"changeset": 162622345,
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:housenumber": "758",
+"addr:postcode": "B1650",
+"addr:street": "Avenida 85 - Libertador General San Martín",
+"brand": "Kymco",
+"check_date": "2024-02-03",
+"name": "Urquiza Motos",
+"payment:cabal": "yes",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"payment:maestro": "yes",
+"payment:mastercard": "yes",
+"payment:visa": "yes",
+"payment:visa_debit": "yes",
+"shop": "motorcycle",
+"website": "https://urquizamotos.com.ar/",
+"wheelchair": "no"
+}
+},
+{
+"type": "node",
+"id": 4580501011,
+"lat": -34.5015246,
+"lon": -58.6912395,
+"timestamp": "2017-02-03T16:40:44Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "Avenida Presidente Juan Domingo Perón",
+"name": "Moto Planet",
+"shop": "motorcycle",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 2614470358,
+"lat": -34.4472627,
+"lon": -58.8675055,
+"timestamp": "2015-12-22T12:35:05Z",
+"version": 2,
+"changeset": 36104521,
+"tags": {
+"name": "Tienda de Musica",
+"shop": "music"
+}
+},
+{
+"type": "node",
+"id": 4426580316,
+"lat": -34.3512154,
+"lon": -58.7930643,
+"timestamp": "2016-10-01T15:40:42Z",
+"version": 1,
+"changeset": 42565402,
+"tags": {
+"name": "Target Music",
+"shop": "music"
+}
+},
+{
+"type": "node",
+"id": 4580461201,
+"lat": -34.4989368,
+"lon": -58.6952478,
+"timestamp": "2017-02-03T16:40:42Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "Avenida Presidente Juan Domingo Perón",
+"name": "Tus Sonidos Disquería",
+"shop": "music",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 2614470359,
+"lat": -34.4476583,
+"lon": -58.8677006,
+"timestamp": "2016-03-20T04:57:46Z",
+"version": 3,
+"changeset": 37949741,
+"tags": {
+"shop": "laundry"
+}
+},
+{
+"type": "node",
+"id": 4649090362,
+"lat": -34.4875111,
+"lon": -58.6627179,
+"timestamp": "2017-01-31T18:45:22Z",
+"version": 2,
+"changeset": 45693551,
+"tags": {
+"addr:street": "Avenida del Libertador General San Martín",
+"name": "Lavadero",
+"shop": "laundry",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4616524907,
+"lat": -34.5395158,
+"lon": -58.564913,
+"timestamp": "2022-05-10T16:55:28Z",
+"version": 3,
+"changeset": 120803005,
+"tags": {
+"addr:street": "148 Moreno",
+"name": "Ropalim",
+"self_service": "yes",
+"shop": "laundry",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4565558010,
+"lat": -34.4442001,
+"lon": -58.8696394,
+"timestamp": "2023-10-29T01:37:17Z",
+"version": 4,
+"changeset": 143290952,
+"tags": {
+"name": "Blainstein",
+"opening_hours": "Mo-Sa 10:00-19:00",
+"shop": "bathroom_furnishing",
+"survey:date": "2022-07-20",
+"website": "https://www.blaisten.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4620903232,
+"lat": -34.5899252,
+"lon": -58.5303951,
+"timestamp": "2023-04-15T03:47:13Z",
+"version": 3,
+"changeset": 134926405,
+"tags": {
+"addr:street": "22 - Rodríguez Peña",
+"name": "Euro Baños",
+"shop": "bathroom_furnishing"
+}
+},
+{
+"type": "node",
+"id": 4625995825,
+"lat": -34.5904446,
+"lon": -58.5307792,
+"timestamp": "2024-01-04T19:13:04Z",
+"version": 4,
+"changeset": 145894304,
+"tags": {
+"addr:street": "Diagonal 101 - Sadi Carnot",
+"name": "Boer Hermanos",
+"shop": "bathroom_furnishing",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 5217290695,
+"lat": -34.4476621,
+"lon": -58.8669777,
+"timestamp": "2021-02-22T02:12:45Z",
+"version": 3,
+"changeset": 99705879,
+"tags": {
+"addr:city": "Pilar",
+"addr:country": "AR",
+"addr:housenumber": "698",
+"addr:postcode": "1629",
+"addr:province": "Buenos Aires",
+"addr:street": "Las Magnolias",
+"contact:facebook": "https://www.facebook.com/TonelPrivado/",
+"contact:instagram": "https://www.instagram.com/tonelprivado/",
+"contact:twitter": "https://twitter.com/tonelprivado/",
+"delivery": "yes",
+"email": "info@tonelprivado.com",
+"name": "Tonel Privado",
+"opening_hours": "Mo-Su 10:00-22:00",
+"phone": "+54 2304 64-4490",
+"ref": "1162",
+"shop": "wine",
+"website": "https://www.tonelprivado.com/"
+}
+},
+{
+"type": "node",
+"id": 4649455746,
+"lat": -34.5239103,
+"lon": -58.7132081,
+"timestamp": "2017-01-31T22:17:59Z",
+"version": 2,
+"changeset": 45699457,
+"tags": {
+"name": "Parrales y Viñedos",
+"shop": "wine",
+"source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
+}
+},
+{
+"type": "node",
+"id": 4621456541,
+"lat": -34.5730735,
+"lon": -58.5446337,
+"timestamp": "2025-01-25T14:06:53Z",
+"version": 6,
+"changeset": 161747617,
+"tags": {
+"addr:city": "San Andrés",
+"addr:country": "AR",
+"addr:housenumber": "3865",
+"addr:postcode": "B1651",
+"addr:province": "Buenos Aires",
+"addr:street": "Avenida 64 - Presidente Juan Domingo Perón",
+"contact:website": "http://perdrielweb.com.ar/",
+"level": "0",
+"name": "Vinoteca Perdriel",
+"shop": "wine",
+"source": "Reconocimiento cartográfico de campo 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 12844754401,
+"lat": -34.450104,
+"lon": -58.8644296,
+"timestamp": "2025-05-17T19:01:00Z",
+"version": 1,
+"changeset": 166405322,
+"tags": {
+"name": "Vedek",
+"shop": "trade"
+}
+},
+{
+"type": "node",
+"id": 4653606396,
+"lat": -34.4725279,
+"lon": -58.7621644,
+"timestamp": "2017-02-01T21:09:26Z",
+"version": 2,
+"changeset": 45727624,
+"tags": {
+"addr:street": "Luis María Drago",
+"name": "Los Dos Primos",
+"shop": "trade",
+"source": "Reconocimiento terrestre por Kaart 2016",
+"trade": "building_supplies"
+}
+},
+{
+"type": "node",
+"id": 4653981911,
+"lat": -34.4728804,
+"lon": -58.7627504,
+"timestamp": "2017-02-01T21:09:29Z",
+"version": 2,
+"changeset": 45727624,
+"tags": {
+"addr:street": "Ventura Coll",
+"name": "Los dos Primos",
+"shop": "trade",
+"source": "Reconocimiento terrestre por Kaart 2016",
+"trade": "building_supplies"
+}
+},
+{
+"type": "node",
+"id": 4653520869,
+"lat": -34.4712756,
+"lon": -58.7598538,
+"timestamp": "2017-02-01T21:09:26Z",
+"version": 2,
+"changeset": 45727624,
+"tags": {
+"addr:street": "Luis María Drago",
+"name": "Sadrea Ricci",
+"shop": "erotic",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 14045066504,
+"lat": -34.415727,
+"lon": -58.6013668,
+"timestamp": "2026-09-23T11:54:25Z",
+"version": 2,
+"changeset": 189445332,
+"tags": {
+"check_date": "2026-09-23",
+"level": "0",
+"name": "Sexshop Argentino",
+"shop": "erotic"
+}
+},
+{
+"type": "node",
+"id": 6861970945,
+"lat": -34.5361296,
+"lon": -58.4766757,
+"timestamp": "2019-10-09T02:41:54Z",
+"version": 1,
+"changeset": 75435550,
+"tags": {
+"name": "Toys4us",
+"shop": "erotic"
+}
+},
+{
+"type": "node",
+"id": 4653116127,
+"lat": -34.4697928,
+"lon": -58.7574739,
+"timestamp": "2026-03-18T10:44:11Z",
+"version": 5,
+"changeset": 180052263,
+"tags": {
+"name": "Materiales Electricos",
+"shop": "electrical",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 11673360718,
+"lat": -34.594068,
+"lon": -58.537212,
+"timestamp": "2024-02-28T19:46:24Z",
+"version": 1,
+"changeset": 148026248,
+"tags": {
+"addr:street": "22 - Rodríguez Peña",
+"name": "Mapa",
+"shop": "electrical",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4646026564,
+"lat": -34.4904141,
+"lon": -58.6984826,
+"timestamp": "2017-01-31T16:13:44Z",
+"version": 2,
+"changeset": 45689642,
+"tags": {
+"addr:street": "Avenida del Sesquicentenario",
+"name": "Electro Plus",
+"shop": "electrical",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653452195,
+"lat": -34.4686815,
+"lon": -58.7569365,
+"timestamp": "2024-10-28T10:09:49Z",
+"version": 4,
+"changeset": 158448255,
+"tags": {
+"addr:street": "Misiones",
+"name": "Peco",
+"shop": "locksmith",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653797205,
+"lat": -34.4683414,
+"lon": -58.7548488,
+"timestamp": "2017-02-01T21:09:27Z",
+"version": 2,
+"changeset": 45727624,
+"tags": {
+"addr:street": "Luis María Drago",
+"name": "Cerrajeria Edu",
+"shop": "locksmith",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4635850092,
+"lat": -34.511518,
+"lon": -58.679076,
+"timestamp": "2017-01-26T21:21:29Z",
+"version": 2,
+"changeset": 45529855,
+"tags": {
+"addr:street": "Avenida Presidente Juan Domingo Perón",
+"name": "Cerrajeria",
+"shop": "locksmith",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4653489902,
+"lat": -34.4710083,
+"lon": -58.7593749,
+"timestamp": "2017-02-01T21:09:26Z",
+"version": 2,
+"changeset": 45727624,
+"tags": {
+"addr:street": "Luis María Drago",
+"name": "Floreria",
+"shop": "florist",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4621179269,
+"lat": -34.5887974,
+"lon": -58.5650114,
+"timestamp": "2017-01-24T22:17:15Z",
+"version": 2,
+"changeset": 45452312,
+"tags": {
+"addr:street": "800 - Triunvirato (TF) / 141 - Avenida Triunvirato (GSM)",
+"name": "Floreria Claudio",
+"shop": "florist",
+"source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
+}
+},
+{
+"type": "node",
+"id": 4632342614,
+"lat": -34.5004356,
+"lon": -58.6428794,
+"timestamp": "2017-01-25T18:21:53Z",
+"version": 2,
+"changeset": 45485246,
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"name": "Flores Claudia",
+"shop": "florist",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 6247697366,
+"lat": -34.4700356,
+"lon": -58.7579482,
+"timestamp": "2019-01-30T18:32:25Z",
+"version": 1,
+"changeset": 66779665,
+"tags": {
+"name": "Mato Grosso",
+"shop": "health_food"
+}
+},
+{
+"type": "node",
+"id": 10666264233,
+"lat": -34.5790008,
+"lon": -58.5369663,
+"timestamp": "2023-02-16T05:24:22Z",
+"version": 1,
+"changeset": 132610852,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3835",
+"addr:postcode": "B1650CEO",
+"addr:street": "48 - Moreno",
+"level": "0",
+"name": "Mi Angel",
+"shop": "health_food"
+}
+},
+{
+"type": "node",
+"id": 14275641578,
+"lat": -34.5794263,
+"lon": -58.5374911,
+"timestamp": "2026-10-12T03:27:49Z",
+"version": 6,
+"changeset": 190377660,
+"tags": {
+"addr:city": "Ciudad del Libertador General San Martín",
+"addr:housenumber": "3901",
+"addr:postcode": "B1650",
+"addr:street": "48 - Moreno",
+"contact:instagram": "https://www.instagram.com/tierranuevanatural/",
+"diet:gluten_free": "yes",
+"diet:keto": "yes",
+"diet:vegan": "yes",
+"diet:vegetarian": "yes/",
+"email": "mercadotierranueva@gmail.com",
+"level": "0",
+"name": "Tierra Nueva",
+"nobrand": "yes",
+"organic": "yes",
+"payment:cards": "yes",
+"payment:cash": "yes",
+"payment:qr_code": "yes",
+"phone": "+54 11 5774 7647",
+"shop": "health_food",
+"website": "https://tierranueva.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 6247697370,
+"lat": -34.469856,
+"lon": -58.7576072,
+"timestamp": "2026-03-18T10:44:11Z",
+"version": 2,
+"changeset": 180052263,
+"tags": {
+"name": "Raul",
+"shop": "watches"
+}
+},
+{
+"type": "node",
+"id": 13643850555,
+"lat": -34.5056868,
+"lon": -58.5153453,
+"timestamp": "2026-03-12T21:44:24Z",
+"version": 1,
+"changeset": 179777944,
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "3179",
+"addr:postcode": "B1636",
+"addr:street": "Paraná",
+"name": "Guspat",
+"shop": "watches",
+"wheelchair": "limited"
+}
+},
+{
+"type": "way",
+"id": 625331519,
+"timestamp": "2018-09-19T15:56:24Z",
+"version": 2,
+"changeset": 62735252,
+"center": {
+"lat": -34.422326,
+"lon": -58.7369689
+},
+"nodes": [
+5904531308,
+5904531311,
+5904531312,
+5904531313,
+5904531309,
+5904531308
+],
+"tags": {
+"addr:city": "Garin",
+"addr:postcode": "1619",
+"addr:street": "Boulevard Presidente Perón",
+"building": "yes",
+"name": "video Time",
+"opening_hours": "Mo-Sa 08:00-20:00",
+"shop": "watches"
+}
+},
+{
+"type": "node",
+"id": 6247790801,
+"lat": -34.4705729,
+"lon": -58.7589358,
+"timestamp": "2019-12-12T01:29:15Z",
+"version": 2,
+"changeset": 78285635,
+"tags": {
+"name": "Abraham",
+"shop": "sewing"
+}
+},
+{
+"type": "node",
+"id": 7058294089,
+"lat": -34.4694331,
+"lon": -58.7567878,
+"timestamp": "2019-12-15T19:12:08Z",
+"version": 2,
+"changeset": 78437992,
+"tags": {
+"name": "Lenceria",
+"shop": "sewing"
+}
+},
+{
+"type": "node",
+"id": 4580397804,
+"lat": -34.5014349,
+"lon": -58.693496,
+"timestamp": "2017-02-03T16:40:40Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"name": "Mercería Solcito",
+"shop": "sewing",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 7050759053,
+"lat": -34.4705127,
+"lon": -58.757448,
+"timestamp": "2019-12-12T02:10:52Z",
+"version": 1,
+"changeset": 78287274,
+"tags": {
+"name": "Imprenta Vale y Vani",
+"shop": "printer_ink"
+}
+},
+{
+"type": "node",
+"id": 10172644049,
+"lat": -34.5214804,
+"lon": -58.5231384,
+"timestamp": "2022-11-10T03:08:04Z",
+"version": 2,
+"changeset": 128711490,
+"tags": {
+"addr:housenumber": "3280",
+"addr:street": "Avenida Bartolomé Mitre",
+"name": "Kennen S.R.L.",
+"opening_hours": "Mo-Fr 10:00-15:00",
+"phone": "+54 11 4762-6864",
+"shop": "printer_ink"
+}
+},
+{
+"type": "node",
+"id": 9448056880,
+"lat": -34.5354096,
+"lon": -58.4778945,
+"timestamp": "2022-01-25T17:37:46Z",
+"version": 1,
+"changeset": 116594841,
+"tags": {
+"name": "Recargas del Sur",
+"shop": "printer_ink"
+}
+},
+{
+"type": "node",
+"id": 7055845759,
+"lat": -34.4696786,
+"lon": -58.7556692,
+"timestamp": "2024-10-28T10:21:10Z",
+"version": 3,
+"changeset": 158448674,
+"tags": {
+"addr:city": "Tortuguitas",
+"addr:postcode": "1667",
+"addr:street": "Alfredo L. Palacios",
+"name": "Azulejos Tortuguitas",
+"shop": "tiles"
+}
+},
+{
+"type": "node",
+"id": 7055885742,
+"lat": -34.4702842,
+"lon": -58.7578958,
+"timestamp": "2026-03-18T10:44:11Z",
+"version": 4,
+"changeset": 180052263,
+"tags": {
+"addr:street": "Luis María Drago",
+"shop": "wholesale",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 12293522197,
+"lat": -34.4688414,
+"lon": -58.7568649,
+"timestamp": "2024-10-28T10:09:49Z",
+"version": 1,
+"changeset": 158448255,
+"tags": {
+"name": "El",
+"shop": "wholesale"
+}
+},
+{
+"type": "node",
+"id": 12302832621,
+"lat": -34.4668697,
+"lon": -58.7583613,
+"timestamp": "2024-10-31T22:12:08Z",
+"version": 1,
+"changeset": 158599843,
+"tags": {
+"name": "Leonidas",
+"shop": "wholesale",
+"wholesale": "drinks"
+}
+},
+{
+"type": "node",
+"id": 12293522196,
+"lat": -34.4695647,
+"lon": -58.7570319,
+"timestamp": "2024-10-28T10:09:49Z",
+"version": 1,
+"changeset": 158448255,
+"tags": {
+"name": "chino",
+"shop": "general"
+}
+},
+{
+"type": "node",
+"id": 7054498427,
+"lat": -34.4639994,
+"lon": -58.7606727,
+"timestamp": "2021-08-31T19:37:25Z",
+"version": 2,
+"changeset": 110530048,
+"tags": {
+"name": "Almacén",
+"shop": "general"
+}
+},
+{
+"type": "node",
+"id": 4580505862,
+"lat": -34.5011157,
+"lon": -58.6916815,
+"timestamp": "2017-02-03T16:40:45Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "Avenida Presidente Juan Domingo Perón",
+"name": "The Big Store",
+"shop": "general",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 12293542304,
+"lat": -34.4686652,
+"lon": -58.7578042,
+"timestamp": "2024-10-28T10:09:49Z",
+"version": 1,
+"changeset": 158448255,
+"tags": {
+"name": "Moreno",
+"shop": "mall"
+}
+},
+{
+"type": "node",
+"id": 2491724806,
+"lat": -34.3799933,
+"lon": -58.7467634,
+"timestamp": "2016-05-27T21:28:12Z",
+"version": 4,
+"changeset": 39614191,
+"tags": {
+"addr:city": "Ingeniero Maschwitz",
+"addr:housenumber": "1667",
+"addr:postcode": "1623",
+"addr:street": "Mendoza",
+"description": "Paseo comercial sustentable en Ingeniero Maschwitz construido con containers marinos en desuso. Locales gastronómicos, de diseño, decoración, arte, etc.",
+"name": "QUO Container Center",
+"shop": "mall"
+}
+},
+{
+"type": "node",
+"id": 2599043075,
+"lat": -34.381465,
+"lon": -58.7470872,
+"timestamp": "2013-12-28T23:45:37Z",
+"version": 1,
+"changeset": 19689028,
+"tags": {
+"name": "Paseo Mendoza",
+"shop": "mall"
+}
+},
+{
+"type": "node",
+"id": 12652302396,
+"lat": -34.4441584,
+"lon": -58.7609616,
+"timestamp": "2025-03-11T13:41:36Z",
+"version": 2,
+"changeset": 163485598,
+"tags": {
+"addr:city": "Del Viso",
+"addr:housenumber": "1635",
+"addr:postcode": "1664",
+"addr:street": "Av. 12 de Octubre 1635",
+"air_conditioning": "yes",
+"contact:facebook": "https://www.facebook.com/quimicapilarsrl/reels/",
+"description": "Todo Para Tu Piscina, Jardín Y Hogar Productos de calidad para tu pileta.",
+"name": "Quimica Pilar SRL",
+"opening_hours": "Mo-Fr 08:00-19:00",
+"payment:app": "yes",
+"payment:cash": "yes",
+"payment:cheque": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"phone": "+54 1144400131",
+"shop": "swimming_pool",
+"website": "https://www.quimicapilar.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4605147278,
+"lat": -34.5096514,
+"lon": -58.5257476,
+"timestamp": "2022-05-26T03:54:28Z",
+"version": 3,
+"changeset": 121499242,
+"tags": {
+"addr:street": "Conscripto Marcelo Oscar Romero",
+"name": "New Clor",
+"shop": "swimming_pool"
+}
+},
+{
+"type": "node",
+"id": 9604054423,
+"lat": -34.506826,
+"lon": -58.5345533,
+"timestamp": "2024-08-27T03:05:22Z",
+"version": 3,
+"changeset": 155808695,
+"tags": {
+"addr:city": "Martinez",
+"addr:postcode": "B1640",
+"check_date": "2024-08-26",
+"delivery": "yes",
+"name": "Vanalex",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "swimming_pool"
+}
+},
+{
+"type": "node",
+"id": 573381693,
+"lat": -34.444991,
+"lon": -58.757899,
+"timestamp": "2017-08-07T14:52:43Z",
+"version": 3,
+"changeset": 50920180,
+"tags": {
+"name": "Antiguedades",
+"note": "Horarios: Lunes cerrado. Abierto de Martes a Domingo de 12 hs. al cierre.",
+"shop": "antiques"
+}
+},
+{
+"type": "node",
+"id": 4630840913,
+"lat": -34.495034,
+"lon": -58.6334286,
+"timestamp": "2017-01-25T20:31:42Z",
+"version": 3,
+"changeset": 45489510,
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"name": "Siglo X",
+"shop": "antiques",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4626609639,
+"lat": -34.4738323,
+"lon": -58.5024448,
+"timestamp": "2017-02-11T03:54:19Z",
+"version": 2,
+"changeset": 45989043,
+"tags": {
+"addr:street": "Avenida del Libertador",
+"artwork_type": "ant",
+"name": "Dvrgan",
+"shop": "antiques",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 11639705708,
+"lat": -34.4514977,
+"lon": -58.7261212,
+"timestamp": "2024-10-15T03:40:26Z",
+"version": 2,
+"changeset": 157902537,
+"tags": {
+"addr:place": "Tortugas Open Mall",
+"brand": "Adidas",
+"brand:wikidata": "Q3895",
+"check_date": "2024-10-15",
+"level": "0",
+"name": "Adidas",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "sports"
+}
+},
+{
+"type": "node",
+"id": 11639705718,
+"lat": -34.4512017,
+"lon": -58.7258886,
+"timestamp": "2024-02-19T03:37:30Z",
+"version": 1,
+"changeset": 147631934,
+"tags": {
+"addr:place": "Tortugas Open Mall",
+"brand": "Dash",
+"level": "1",
+"name": "Dash",
+"shop": "sports",
+"website": "https://www.tiendadash.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 13433617667,
+"lat": -34.5896116,
+"lon": -58.5219149,
+"timestamp": "2026-01-06T02:16:23Z",
+"version": 1,
+"changeset": 176885188,
+"tags": {
+"name": "Gold Fitness & Boxeo Outlet",
+"shop": "sports"
+}
+},
+{
+"type": "node",
+"id": 10727143232,
+"lat": -34.4216279,
+"lon": -58.7366848,
+"timestamp": "2023-03-11T06:02:40Z",
+"version": 1,
+"changeset": 133540762,
+"tags": {
+"shop": "ticket"
+}
+},
+{
+"type": "node",
+"id": 7970054492,
+"lat": -34.5026741,
+"lon": -58.6437307,
+"timestamp": "2020-10-03T19:06:31Z",
+"version": 1,
+"changeset": 91912441,
+"tags": {
+"name": "Boletería",
+"operator": "Ferrovías",
+"prepayment:sube": "yes",
+"shop": "ticket"
+}
+},
+{
+"type": "node",
+"id": 7970050378,
+"lat": -34.50241,
+"lon": -58.6415541,
+"timestamp": "2020-10-03T19:06:31Z",
+"version": 1,
+"changeset": 91912441,
+"tags": {
+"name": "Boletería",
+"operator": "Ferrovías",
+"prepayment:sube": "yes",
+"shop": "ticket"
+}
+},
+{
+"type": "node",
+"id": 5896461755,
+"lat": -34.4176018,
+"lon": -58.7251563,
+"timestamp": "2018-09-10T14:22:18Z",
+"version": 1,
+"changeset": 62456296,
+"tags": {
+"addr:city": "Garín",
+"addr:postcode": "1619",
+"addr:street": "Avenida Belgrano",
+"name": "Diarios y revistas",
+"opening_hours": "06:00-19:00",
+"shop": "newsagent"
+}
+},
+{
+"type": "node",
+"id": 10730977019,
+"lat": -34.3810562,
+"lon": -58.7523638,
+"timestamp": "2023-03-12T16:15:11Z",
+"version": 1,
+"changeset": 133591956,
+"tags": {
+"shop": "newsagent"
+}
+},
+{
+"type": "node",
+"id": 1150235725,
+"lat": -34.5916698,
+"lon": -58.5597939,
+"timestamp": "2012-05-11T18:42:28Z",
+"version": 3,
+"changeset": 11570320,
+"tags": {
+"name": "diarios",
+"shop": "newsagent"
+}
+},
+{
+"type": "node",
+"id": 6874281210,
+"lat": -34.3823323,
+"lon": -58.7456185,
+"timestamp": "2019-10-12T21:34:13Z",
+"version": 1,
+"changeset": 75610301,
+"tags": {
+"addr:city": "Ingeniero Maschwitz",
+"addr:housenumber": "2034",
+"addr:postcode": "1623",
+"addr:street": "Entre Ríos",
+"name": "Soda y Agua Mabel",
+"shop": "water"
+}
+},
+{
+"type": "node",
+"id": 2449050076,
+"lat": -34.3345553,
+"lon": -58.8383659,
+"timestamp": "2014-01-25T00:14:55Z",
+"version": 3,
+"changeset": 20186714,
+"tags": {
+"addr:housenumber": "425",
+"addr:postcode": "1625",
+"addr:street": "Los Cerros",
+"name": "Materiales de construcción El Haras",
+"shop": "doityourself"
+}
+},
+{
+"type": "node",
+"id": 2143209506,
+"lat": -34.5424619,
+"lon": -58.5670315,
+"timestamp": "2013-02-05T21:36:28Z",
+"version": 1,
+"changeset": 14927275,
+"tags": {
+"name": "Bulonera",
+"shop": "doityourself"
+}
+},
+{
+"type": "node",
+"id": 10591074236,
+"lat": -34.5626781,
+"lon": -58.5563348,
+"timestamp": "2024-10-19T13:54:30Z",
+"version": 3,
+"changeset": 158092012,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "3773",
+"addr:postcode": "B1650",
+"addr:street": "95 - San Lorenzo",
+"addr:unit": "1099",
+"air_conditioning": "yes",
+"branch": "Factory San Martín",
+"brand": "Easy",
+"brand:wikidata": "Q5331091",
+"check_date": "2024-10-19",
+"delivery": "yes",
+"level": "0",
+"name": "Easy",
+"opening_hours": "08:30-21:00",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "doityourself",
+"toilets": "yes",
+"website": "https://www.easy.com.ar"
+}
+},
+{
+"type": "node",
+"id": 4426548786,
+"lat": -34.3507549,
+"lon": -58.7922095,
+"timestamp": "2016-10-01T15:31:06Z",
+"version": 1,
+"changeset": 42565250,
+"tags": {
+"name": "Heladería Chocorísimo",
+"shop": "chocolate"
+}
+},
+{
+"type": "node",
+"id": 11622951962,
+"lat": -34.4803963,
+"lon": -58.5532296,
+"timestamp": "2024-09-17T16:28:14Z",
+"version": 2,
+"changeset": 156737759,
+"tags": {
+"addr:housenumber": "1291",
+"addr:street": "Juan Segundo Fernández",
+"check_date": "2024-09-17",
+"name": "El Viejo Oso",
+"opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su off",
+"payment:cabal": "yes",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"payment:maestro": "yes",
+"payment:mastercard": "yes",
+"payment:visa": "yes",
+"payment:visa_debit": "yes",
+"phone": "+54 11 4723-1856",
+"shop": "chocolate",
+"wheelchair": "no"
+}
+},
+{
+"type": "node",
+"id": 10032096919,
+"lat": -34.4872336,
+"lon": -58.4961168,
+"timestamp": "2022-09-17T17:37:40Z",
+"version": 1,
+"changeset": 126307831,
+"tags": {
+"name": "Vasalissa",
+"shop": "chocolate",
+"survey:date": "2022-09-16"
+}
+},
+{
+"type": "node",
+"id": 8105646039,
+"lat": -34.2462864,
+"lon": -58.735013,
+"timestamp": "2020-11-11T04:04:02Z",
+"version": 1,
+"changeset": 93894201,
+"tags": {
+"shop": "beverages"
+}
+},
+{
+"type": "node",
+"id": 13233556167,
+"lat": -34.5129461,
+"lon": -58.6686187,
+"timestamp": "2025-10-14T20:43:44Z",
+"version": 1,
+"changeset": 173293467,
+"tags": {
+"addr:city": "Villa de Mayo",
+"addr:housenumber": "318",
+"addr:postcode": "1614",
+"addr:street": "Sucre",
+"name": "Bebidas El Gato",
+"payment:app": "yes",
+"payment:cash": "yes",
+"shop": "beverages"
+}
+},
+{
+"type": "node",
+"id": 4675310789,
+"lat": -34.5576613,
+"lon": -58.6029211,
+"timestamp": "2024-01-03T02:31:02Z",
+"version": 2,
+"changeset": 145820642,
+"tags": {
+"addr:housenumber": "1498",
+"addr:postcode": "1657",
+"addr:street": "139 - Las Rosas",
+"name": "Casa de Luis",
+"name:es": "Casa de Luis",
+"shop": "beverages"
+}
+},
+{
+"type": "node",
+"id": 11152261730,
+"lat": -34.591111,
+"lon": -58.5587731,
+"timestamp": "2023-08-29T05:24:26Z",
+"version": 1,
+"changeset": 140521981,
+"tags": {
+"name": "Roberto",
+"shop": "chemist",
+"source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
+}
+},
+{
+"type": "node",
+"id": 13676889806,
+"lat": -34.5930491,
+"lon": -58.5449498,
+"timestamp": "2026-03-25T05:20:34Z",
+"version": 1,
+"changeset": 180386658,
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:housenumber": "5411",
+"addr:street": "38 - Hipólito Yrigoyen",
+"level": "0",
+"name": "Todo para tu Hogar",
+"shop": "chemist"
+}
+},
+{
+"type": "node",
+"id": 4620903296,
+"lat": -34.5921506,
+"lon": -58.5340562,
+"timestamp": "2024-02-28T19:46:24Z",
+"version": 4,
+"changeset": 148026248,
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:housenumber": "4661",
+"addr:street": "22 - Rodríguez Peña",
+"description": "Articulos de Limpieza",
+"name": "Abril",
+"shop": "chemist",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 11625855762,
+"lat": -34.5922811,
+"lon": -58.5437239,
+"timestamp": "2024-02-22T03:28:52Z",
+"version": 2,
+"changeset": 147756380,
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:housenumber": "5280",
+"addr:postcode": "B1672",
+"addr:street": "38 - Hipólito Yrigoyen",
+"name": "Cocheria Cetera",
+"shop": "funeral_directors"
+}
+},
+{
+"type": "node",
+"id": 13337460171,
+"lat": -34.5652343,
+"lon": -58.5691851,
+"timestamp": "2025-11-28T03:04:35Z",
+"version": 1,
+"changeset": 175221389,
+"tags": {
+"name": "San Alfonso",
+"shop": "funeral_directors"
+}
+},
+{
+"type": "node",
+"id": 4598619592,
+"lat": -34.5776407,
+"lon": -58.5296241,
+"timestamp": "2023-05-26T05:58:15Z",
+"version": 4,
+"changeset": 136568272,
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "1627",
+"addr:postcode": "B1650",
+"addr:street": "79 - 25 de Mayo",
+"contact:email": "bosquedelrecuerdoparque@gmail.com;info@bosquedelrecuerdo.com.ar",
+"contact:phone": "+54 11 4166 3738;+54 11 4830 0770",
+"contact:website": "http://www.bosquedelrecuerdo.com.ar/",
+"name": "Cementerio Parque y Cocheria",
+"operator": "Bosque del Recuerdo",
+"shop": "funeral_directors",
+"source": "Reconocimiento Cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 11625855705,
+"lat": -34.5904926,
+"lon": -58.541894,
+"timestamp": "2024-02-15T04:05:27Z",
+"version": 1,
+"changeset": 147473485,
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:country": "AR",
+"addr:postcode": "B1672",
+"addr:province": "Buenos Aires",
+"addr:street": "38 - Hipólito Yrigoyen",
+"level": "0",
+"shop": "vacant"
+}
+},
+{
+"type": "node",
+"id": 4620903248,
+"lat": -34.5904397,
+"lon": -58.5313051,
+"timestamp": "2023-10-13T23:00:03Z",
+"version": 3,
+"changeset": 142551545,
+"tags": {
+"addr:street": "22 - Rodríguez Peña",
+"shop": "vacant",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4620903258,
+"lat": -34.5905967,
+"lon": -58.5315675,
+"timestamp": "2023-10-13T23:00:03Z",
+"version": 3,
+"changeset": 142551545,
+"tags": {
+"addr:street": "22 - Rodríguez Peña",
+"shop": "vacant",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4620903282,
+"lat": -34.5916801,
+"lon": -58.5332976,
+"timestamp": "2024-02-28T19:46:24Z",
+"version": 5,
+"changeset": 148026248,
+"tags": {
+"addr:street": "22 - Rodríguez Peña",
+"name": "RP Motos",
+"shop": "motorcycle_repair",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 13965783534,
+"lat": -34.5175262,
+"lon": -58.672364,
+"timestamp": "2026-06-25T18:10:33Z",
+"version": 1,
+"changeset": 184599650,
+"tags": {
+"name": "Motos Nico",
+"shop": "motorcycle_repair"
+}
+},
+{
+"type": "node",
+"id": 4580562112,
+"lat": -34.4884992,
+"lon": -58.661529,
+"timestamp": "2017-04-11T17:45:25Z",
+"version": 4,
+"changeset": 47664678,
+"tags": {
+"addr:street": "Avenida del Libertador General San Martín",
+"name": "Motos Par",
+"shop": "motorcycle_repair",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4626210962,
+"lat": -34.5914043,
+"lon": -58.5324746,
+"timestamp": "2017-01-24T18:28:59Z",
+"version": 2,
+"changeset": 45444439,
+"tags": {
+"addr:street": "22 - Rodríguez Peña",
+"name": "Malu Mar",
+"shop": "seafood",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 10666264226,
+"lat": -34.5790885,
+"lon": -58.537073,
+"timestamp": "2023-02-16T05:24:22Z",
+"version": 1,
+"changeset": 132610852,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3855",
+"addr:postcode": "B1650CEO",
+"addr:street": "48 - Moreno",
+"contact:facebook": "https://www.facebook.com/pescaderiaelbesugo/",
+"contact:instagram": "https://www.instagram.com/pescaderiaelbesugo/",
+"contact:phone": "+54 11 4754 1788; +54 11 3445 0479",
+"name": "El Besugo",
+"shop": "seafood"
+}
+},
+{
+"type": "node",
+"id": 10698724642,
+"lat": -34.5761897,
+"lon": -58.5395729,
+"timestamp": "2023-02-28T05:26:53Z",
+"version": 1,
+"changeset": 133113450,
+"tags": {
+"addr:city": "San Martin",
+"addr:housenumber": "2199",
+"addr:postcode": "B1650BQA",
+"addr:street": "91 - San Lorenzo",
+"level": "0",
+"name": "La Sirena",
+"shop": "seafood",
+"source": "Reconocimiento Cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 6333425422,
+"lat": -34.590212,
+"lon": -58.5302048,
+"timestamp": "2019-03-12T15:28:32Z",
+"version": 1,
+"changeset": 68066631,
+"tags": {
+"name": "Vidriería Lynch",
+"shop": "glaziery"
+}
+},
+{
+"type": "node",
+"id": 4398052087,
+"lat": -34.5851852,
+"lon": -58.5380298,
+"timestamp": "2022-10-06T01:29:29Z",
+"version": 3,
+"changeset": 127075137,
+"tags": {
+"mapillary": "373241810681218",
+"name": "Perdriel Vidrios",
+"phone": "+54 11 4752-8754",
+"shop": "glaziery"
+}
+},
+{
+"type": "node",
+"id": 12706373024,
+"lat": -34.5714027,
+"lon": -58.5259687,
+"timestamp": "2025-03-28T02:58:32Z",
+"version": 1,
+"changeset": 164189581,
+"tags": {
+"name": "Guzman",
+"shop": "glaziery"
+}
+},
+{
+"type": "node",
+"id": 11702628390,
+"lat": -34.5880108,
+"lon": -58.5240187,
+"timestamp": "2024-03-08T01:53:47Z",
+"version": 1,
+"changeset": 148365605,
+"tags": {
+"name": "Stilo",
+"shop": "doors"
+}
+},
+{
+"type": "node",
+"id": 13252301709,
+"lat": -34.5260372,
+"lon": -58.6834861,
+"timestamp": "2025-10-23T14:39:02Z",
+"version": 1,
+"changeset": 173678197,
+"tags": {
+"addr:city": "Los Polvorines",
+"addr:housenumber": "2381",
+"addr:street": "Avenida General Juan Gregorio Lemos",
+"name": "Aberturas AGMA",
+"shop": "doors"
+}
+},
+{
+"type": "node",
+"id": 13965793765,
+"lat": -34.5176489,
+"lon": -58.6718159,
+"timestamp": "2026-06-25T18:13:36Z",
+"version": 1,
+"changeset": 184599784,
+"tags": {
+"name": "As Aberturas",
+"shop": "doors"
+}
+},
+{
+"type": "node",
+"id": 13301760261,
+"lat": -34.5090092,
+"lon": -58.6735558,
+"timestamp": "2025-11-13T14:33:20Z",
+"version": 1,
+"changeset": 174609002,
+"tags": {
+"addr:city": "Villa de Mayo",
+"addr:postcode": "1614",
+"addr:street": "Gregorio Marañón y Sucre",
+"name": "Ballon Creaciones",
+"shop": "party"
+}
+},
+{
+"type": "node",
+"id": 4645792358,
+"lat": -34.4848615,
+"lon": -58.6864335,
+"timestamp": "2019-05-07T05:12:51Z",
+"version": 3,
+"changeset": 69959556,
+"tags": {
+"addr:street": "Avenida del Sesquicentenario",
+"name": "Cotillon de Fiesta",
+"shop": "party"
+}
+},
+{
+"type": "node",
+"id": 10882667957,
+"lat": -34.5461899,
+"lon": -58.5572271,
+"timestamp": "2023-05-10T05:11:59Z",
+"version": 1,
+"changeset": 135918612,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "2636",
+"addr:postcode": "1653",
+"addr:street": "126 - Gregorio Aráoz de Lamadrid",
+"name": "Estación Júpiter",
+"shop": "party"
+}
+},
+{
+"type": "node",
+"id": 4580500998,
+"lat": -34.5016183,
+"lon": -58.6941557,
+"timestamp": "2017-02-03T16:40:44Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "General Savio",
+"name": "Santería",
+"shop": "religion",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 9377965338,
+"lat": -34.5078234,
+"lon": -58.5662453,
+"timestamp": "2021-12-30T03:00:20Z",
+"version": 1,
+"changeset": 115544774,
+"tags": {
+"name": "San Antonio",
+"shop": "religion"
+}
+},
+{
+"type": "node",
+"id": 9377983347,
+"lat": -34.5077378,
+"lon": -58.5664637,
+"timestamp": "2021-12-30T03:00:19Z",
+"version": 1,
+"changeset": 115544774,
+"tags": {
+"name": "La Botica de la Bruja",
+"shop": "religion"
+}
+},
+{
+"type": "node",
+"id": 4580501000,
+"lat": -34.5016772,
+"lon": -58.6941046,
+"timestamp": "2017-02-03T16:40:44Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "General Savio",
+"amenity": "ice_cream",
+"name": "Muss",
+"shop": "ice_cream",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4645908393,
+"lat": -34.4748437,
+"lon": -58.5305219,
+"timestamp": "2025-12-27T22:36:25Z",
+"version": 3,
+"changeset": 176507030,
+"tags": {
+"addr:city": "San Isidro",
+"addr:postcode": "B1642",
+"addr:street": "Avenida Andrés Rolón",
+"amenity": "ice_cream",
+"name": "Mateu Helados",
+"shop": "ice_cream",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4619373199,
+"lat": -34.5214853,
+"lon": -58.506691,
+"timestamp": "2025-08-04T13:31:02Z",
+"version": 4,
+"changeset": 169956459,
+"tags": {
+"addr:city": "Olivos",
+"addr:housenumber": "307",
+"addr:street": "Gobernador Manuel Ugarte",
+"amenity": "ice_cream",
+"check_date": "2025-08-04",
+"name": "Heladería Capri",
+"shop": "ice_cream"
+}
+},
+{
+"type": "node",
+"id": 4580421059,
+"lat": -34.5000048,
+"lon": -58.6928722,
+"timestamp": "2017-02-03T16:40:41Z",
+"version": 2,
+"changeset": 45783636,
+"tags": {
+"addr:street": "Avenida Presidente Juan Domingo Perón",
+"name": "Daniela",
+"shop": "accessories",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4633492024,
+"lat": -34.5105096,
+"lon": -58.660186,
+"timestamp": "2017-01-25T22:46:32Z",
+"version": 2,
+"changeset": 45493209,
+"tags": {
+"addr:street": "Avenida General Juan Gregorio Lemos",
+"name": "Venzar Iluminación",
+"shop": "lighting",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 12175156783,
+"lat": -34.4974018,
+"lon": -58.5458685,
+"timestamp": "2024-09-13T16:40:43Z",
+"version": 1,
+"changeset": 156580890,
+"tags": {
+"addr:housenumber": "501",
+"addr:street": "Avenida Fondo de la Legua",
+"check_date": "2024-09-13",
+"email": "info@omniluz.com",
+"name": "Omniluz",
+"opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00; Su off",
+"phone": "+54 11 4765-8238",
+"shop": "lighting",
+"website": "https://www.omniluz.com"
+}
+},
+{
+"type": "node",
+"id": 9203489523,
+"lat": -34.4732693,
+"lon": -58.5138973,
+"timestamp": "2026-03-06T21:54:37Z",
+"version": 6,
+"changeset": 179465646,
+"tags": {
+"addr:city": "San Isidro",
+"addr:housenumber": "136",
+"addr:postcode": "B1642",
+"addr:street": "Avenida Centenario",
+"branch": "San Isidro",
+"check_date": "2026-03-06",
+"name": "San Isdro Luz",
+"opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00; Su,PH off",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"phone": "+54 11 4743-4823",
+"shop": "lighting",
+"website": "https://www.sanisidroluz.com/",
+"wheelchair": "no"
+}
+},
+{
+"type": "node",
+"id": 14157097245,
+"lat": -34.501138,
+"lon": -58.6429081,
+"timestamp": "2026-09-06T10:07:45Z",
+"version": 2,
+"changeset": 188610011,
+"tags": {
+"addr:city": "Don Torcuato",
+"addr:housenumber": "1581",
+"addr:postcode": "1611",
+"addr:street": "Almirante Brown",
+"addr:unit": "11",
+"contact:instagram": "https://www.instagram.com/sauchaespacioholistico/",
+"name": "Saucha Espacio Holístico",
+"opening_hours": "Mo-Sa 10:00-20:00",
+"payment:app": "yes",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "esoteric"
+}
+},
+{
+"type": "node",
+"id": 14157097251,
+"lat": -34.5011635,
+"lon": -58.6429574,
+"timestamp": "2026-09-06T10:07:45Z",
+"version": 2,
+"changeset": 188610011,
+"tags": {
+"addr:city": "Don Torcuato",
+"addr:housenumber": "1581",
+"addr:postcode": "1611",
+"addr:street": "Almirante Brown",
+"addr:unit": "9",
+"contact:instagram": "https://www.instagram.com/tinodeco/",
+"name": "Tino Deco",
+"shop": "craft",
+"website": "https://www.instagram.com/artisticatino/"
+}
+},
+{
+"type": "node",
+"id": 4614415833,
+"lat": -34.5520611,
+"lon": -58.513034,
+"timestamp": "2018-06-25T04:20:44Z",
+"version": 3,
+"changeset": 60134522,
+"tags": {
+"addr:street": "Francisco Narciso de Laprida",
+"name": "Artesanias",
+"shop": "craft",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 13260307216,
+"lat": -34.45369,
+"lon": -58.5382045,
+"timestamp": "2025-10-26T20:25:18Z",
+"version": 1,
+"changeset": 173811140,
+"tags": {
+"addr:housenumber": "3297",
+"addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
+"check_date": "2025-10-25",
+"name": "Artística Victoria",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "craft",
+"wheelchair": "limited"
+}
+},
+{
+"type": "node",
+"id": 13527329611,
+"lat": -34.4882572,
+"lon": -58.6623255,
+"timestamp": "2026-02-05T21:33:56Z",
+"version": 1,
+"changeset": 178158654,
+"tags": {
+"addr:city": "Villa de Mayo",
+"addr:housenumber": "6065",
+"addr:postcode": "1614",
+"addr:street": "Carlos Pellegrini",
+"name": "Electricidad Del Automovil Ariel",
+"shop": "repair"
+}
+},
+{
+"type": "node",
+"id": 10656784824,
+"lat": -34.5785481,
+"lon": -58.5381636,
+"timestamp": "2023-02-14T05:51:13Z",
+"version": 1,
+"changeset": 132519125,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3892",
+"addr:postcode": "B1650CCP",
+"addr:street": "52 - Belgrano",
+"contact:instagram": "https://www.instagram.com/atecellsanmartin/",
+"contact:phone": "+54 11 3003 1400",
+"name": "ATE Cell",
+"repair": "mobile_phone",
+"shop": "repair",
+"source": "local knowledge"
+}
+},
+{
+"type": "node",
+"id": 9029320665,
+"lat": -34.5014512,
+"lon": -58.5396597,
+"timestamp": "2022-10-02T02:21:56Z",
+"version": 2,
+"changeset": 126877817,
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "3579",
+"addr:postcode": "B1640",
+"addr:street": "Cuyo",
+"name": "Bosch Norte",
+"shop": "repair",
+"website": "https://www.boschnorte.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 5307729616,
+"lat": -34.4988605,
+"lon": -58.6399394,
+"timestamp": "2017-12-28T05:02:23Z",
+"version": 1,
+"changeset": 54973255,
+"tags": {
+"name": "Promo Fiesta",
+"shop": "food"
+}
+},
+{
+"type": "node",
+"id": 8568456653,
+"lat": -34.5707324,
+"lon": -58.5418068,
+"timestamp": "2026-07-03T22:09:56Z",
+"version": 2,
+"changeset": 185064804,
+"tags": {
+"check_date": "2026-07-03",
+"name": "Promo Fiesta",
+"shop": "food"
+}
+},
+{
+"type": "node",
+"id": 4615190383,
+"lat": -34.5508997,
+"lon": -58.5532673,
+"timestamp": "2025-01-02T09:12:30Z",
+"version": 6,
+"changeset": 160897752,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "2745",
+"addr:street": "110 - General Juan Martín de Pueyrredón",
+"cuisine": "empanada;pizza",
+"delivery": "only",
+"name": "Solo Empanadas",
+"shop": "food",
+"source": "Reconocimiento cartográfico de campo 2016 por KG.",
+"takeaway": "only"
+}
+},
+{
+"type": "node",
+"id": 4632591622,
+"lat": -34.4903036,
+"lon": -58.6245775,
+"timestamp": "2018-01-24T04:26:16Z",
+"version": 3,
+"changeset": 55702122,
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"name": "Libre Deco Art",
+"shop": "art",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4691300776,
+"lat": -34.4392692,
+"lon": -58.6478066,
+"timestamp": "2017-02-28T18:42:24Z",
+"version": 3,
+"changeset": 46475003,
+"tags": {
+"name": "Artesanos del Mar",
+"shop": "art",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "way",
+"id": 470788836,
+"timestamp": "2017-01-31T23:15:02Z",
+"version": 2,
+"changeset": 45700856,
+"center": {
+"lat": -34.4885374,
+"lon": -58.7249611
+},
+"nodes": [
+4649794896,
+4649794897,
+4649794898,
+4649794899,
+4649794896
+],
+"tags": {
+"addr:street": "El Callao",
+"building": "yes",
+"name": "Imagin Arte",
+"shop": "art",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4632547935,
+"lat": -34.4880091,
+"lon": -58.6197741,
+"timestamp": "2024-10-13T15:04:02Z",
+"version": 4,
+"changeset": 157839288,
+"tags": {
+"addr:housenumber": "2665",
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"check_date": "2024-10-13",
+"shop": "medical_supply",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 13337682965,
+"lat": -34.58445,
+"lon": -58.5372665,
+"timestamp": "2025-11-28T05:09:53Z",
+"version": 1,
+"changeset": 175223448,
+"tags": {
+"name": "Simple Salud",
+"shop": "medical_supply"
+}
+},
+{
+"type": "node",
+"id": 10672241588,
+"lat": -34.5772133,
+"lon": -58.5410853,
+"timestamp": "2023-02-17T05:37:26Z",
+"version": 1,
+"changeset": 132658203,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3983",
+"addr:postcode": "B1650CSO",
+"addr:street": "56 - Domingo Matheu",
+"contact:phone": "+54 11 2302 8388",
+"contact:website": "http://ortopediabagualito.com.ar/",
+"name": "Centro Integral Ortopédico",
+"opening_hours": "Mo-Fr 09:00-12:00,15:30-19:00; Sa 09:00-13:00",
+"operator": "Bagualito Ortopedia",
+"shop": "medical_supply"
+}
+},
+{
+"type": "node",
+"id": 12248730782,
+"lat": -34.4876736,
+"lon": -58.6190983,
+"timestamp": "2024-10-13T18:00:48Z",
+"version": 1,
+"changeset": 157846592,
+"tags": {
+"addr:housenumber": "2705",
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"check_date": "2024-10-13",
+"name": "Lusian",
+"phone": "+54 11 4748-2823",
+"shop": "appliance"
+}
+},
+{
+"type": "node",
+"id": 10711472067,
+"lat": -34.5756384,
+"lon": -58.5347841,
+"timestamp": "2023-03-05T05:49:58Z",
+"version": 1,
+"changeset": 133313392,
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "3446",
+"addr:postcode": "B1650CBF",
+"addr:street": "52 - Belgrano",
+"name": "Gaona",
+"shop": "appliance"
+}
+},
+{
+"type": "node",
+"id": 14181419762,
+"lat": -34.5281088,
+"lon": -58.5361847,
+"timestamp": "2026-09-14T19:14:00Z",
+"version": 1,
+"changeset": 189027924,
+"tags": {
+"check_date": "2026-09-14",
+"name": "Borges Confort",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "appliance"
+}
+},
+{
+"type": "node",
+"id": 12494417575,
+"lat": -34.4881126,
+"lon": -58.6208941,
+"timestamp": "2025-01-12T02:48:03Z",
+"version": 1,
+"changeset": 161259842,
+"tags": {
+"name": "Megamaq",
+"shop": "tool_hire"
+}
+},
+{
+"type": "node",
+"id": 10825858532,
+"lat": -34.518966,
+"lon": -58.5139597,
+"timestamp": "2026-06-25T21:54:48Z",
+"version": 3,
+"changeset": 184610673,
+"tags": {
+"addr:housenumber": "3051",
+"addr:street": "Blas Parera",
+"branch": "Olivos",
+"check_date": "2026-06-25",
+"name": "Alquilo Todo",
+"opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00; Su off",
+"shop": "tool_hire",
+"website": "https://www.alquilotodo.com.ar"
+}
+},
+{
+"type": "way",
+"id": 461916798,
+"timestamp": "2023-03-03T12:33:35Z",
+"version": 3,
+"changeset": 133251896,
+"center": {
+"lat": -34.4826408,
+"lon": -58.628814
+},
+"nodes": [
+4573514684,
+4573514686,
+4573514687,
+4573514688,
+4573514889,
+4573514890,
+4573514891,
+4573514892,
+4573514893,
+4573514684
+],
+"tags": {
+"building": "yes",
+"name": "Yale",
+"shop": "tool_hire"
+}
+},
+{
+"type": "node",
+"id": 4627251023,
+"lat": -34.5649944,
+"lon": -58.5952582,
+"timestamp": "2017-01-25T22:27:34Z",
+"version": 2,
+"changeset": 45492687,
+"tags": {
+"addr:city": "Loma Hermosa",
+"addr:street": "900 - General Juan Lavalle",
+"name": "Rincón Natural",
+"shop": "herbalist",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4617160771,
+"lat": -34.5200618,
+"lon": -58.5442967,
+"timestamp": "2017-01-20T00:05:42Z",
+"version": 2,
+"changeset": 45314125,
+"tags": {
+"addr:street": "Avenida de Mayo",
+"name": "Dietetica Gato",
+"shop": "herbalist",
+"source": "Reconocimiento cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 4675627277,
+"lat": -34.4720273,
+"lon": -58.5145733,
+"timestamp": "2026-08-15T12:47:23Z",
+"version": 3,
+"changeset": 187486983,
+"tags": {
+"addr:housenumber": "261",
+"addr:street": "Avenida Centenario",
+"check_date": "2026-08-13",
+"name": "Verde Limon",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "herbalist",
+"source": "Reconocimiento terrestre por Kaart 2016."
+}
+},
+{
+"type": "node",
+"id": 11294701555,
+"lat": -34.5630897,
+"lon": -58.5900698,
+"timestamp": "2023-10-28T05:00:03Z",
+"version": 1,
+"changeset": 143241200,
+"tags": {
+"addr:city": "Loma Hermosa",
+"addr:housenumber": "6400",
+"addr:street": "Diagonal 101 - Doctor Ricardo Balbín",
+"contact:email": "info@ceramicacaseros.com.ar",
+"contact:facebook": "https://www.facebook.com/p/Ceramica-Caseros-100063588025421/",
+"contact:instagram": "https://www.instagram.com/ceramicacaseros/",
+"contact:mobile": "+54 9 11 5962 7828",
+"contact:website": "https://ceramicacaseros.com.ar/",
+"level": "0",
+"name": "Cerámica Caseros",
+"opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+"shop": "flooring"
+}
+},
+{
+"type": "way",
+"id": 1160323647,
+"timestamp": "2023-04-07T04:48:02Z",
+"version": 1,
+"changeset": 134598875,
+"center": {
+"lat": -34.5796153,
+"lon": -58.5429157
+},
+"nodes": [
+10791397506,
+10791397508,
+10791397512,
+10791397509,
+10791397507,
+10791397506
+],
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "2155",
+"addr:postcode": "B1650",
+"addr:street": "Avenida 101 - Doctor Ricardo Balbín",
+"building": "yes",
+"building:levels": "2",
+"contact:phone": "+54 11 5827 2907",
+"height": "8",
+"name": "Keracasa",
+"opening_hours": "Mo-Sa 09:00-18:00",
+"operator": "Keracasa",
+"operator:website": "https://www.keracasa.com/",
+"roof:height": "1.5",
+"roof:material": "metal",
+"roof:shape": "round",
+"shop": "flooring"
+}
+},
+{
+"type": "way",
+"id": 466474985,
+"timestamp": "2023-05-20T03:09:58Z",
+"version": 4,
+"changeset": 136321204,
+"center": {
+"lat": -34.57083,
+"lon": -58.5546789
+},
+"nodes": [
+4612655260,
+4612655261,
+4612655262,
+4612655263,
+4612655264,
+4612655260
+],
+"tags": {
+"addr:city": "Billinghurst",
+"addr:housenumber": "3302",
+"addr:postcode": "B1650NBR",
+"addr:street": "Avenida 101 - Doctor Ricardo Balbín",
+"building": "yes",
+"name": "Reino",
+"shop": "flooring",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 13337451048,
+"lat": -34.5656217,
+"lon": -58.5670707,
+"timestamp": "2025-11-28T03:04:35Z",
+"version": 1,
+"changeset": 175221389,
+"tags": {
+"name": "Petrini",
+"shop": "security"
+}
+},
+{
+"type": "node",
+"id": 4627147436,
+"lat": -34.5691104,
+"lon": -58.5182229,
+"timestamp": "2023-11-02T03:22:33Z",
+"version": 3,
+"changeset": 143506534,
+"tags": {
+"addr:city": "Villa Maipú",
+"addr:housenumber": "1752",
+"addr:postcode": "B1650",
+"addr:street": "Avenida 44 - Presidente Arturo Umberto Illia",
+"contact:email": "ventas@lacarincendio.com.ar",
+"contact:mobile": "+54 11 4755 8300",
+"contact:phone": "+54 9 11 6635 5403",
+"name": "Lacar",
+"operator": "Lacar Incendio S.R.L.",
+"shop": "security",
+"source": "Reconocimiento cartográfico de campo 2016 por KG.",
+"website": "https://www.lacarincendio.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4618716996,
+"lat": -34.5198009,
+"lon": -58.5661132,
+"timestamp": "2025-01-24T17:00:18Z",
+"version": 5,
+"changeset": 161720815,
+"tags": {
+"addr:city": "José León Suarez",
+"addr:country": "AR",
+"addr:province": "Buenos Aires",
+"addr:street": "Amancio Alcorta",
+"name": "Autoradio Alarmas",
+"shop": "security",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 9778528538,
+"lat": -34.5394553,
+"lon": -58.5645849,
+"timestamp": "2022-05-29T03:52:01Z",
+"version": 1,
+"changeset": 121638352,
+"tags": {
+"name": "Amma",
+"shop": "pet_grooming"
+}
+},
+{
+"type": "node",
+"id": 4617080405,
+"lat": -34.5496429,
+"lon": -58.5448473,
+"timestamp": "2022-05-15T23:16:09Z",
+"version": 4,
+"changeset": 121027821,
+"tags": {
+"addr:street": "49 Catamarca",
+"name": "Black Dog Peluquería Canina",
+"shop": "pet_grooming",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "way",
+"id": 473176638,
+"timestamp": "2023-10-09T21:23:28Z",
+"version": 5,
+"changeset": 142367106,
+"center": {
+"lat": -34.4445676,
+"lon": -58.5503805
+},
+"nodes": [
+4673673524,
+4628944437,
+4673673525,
+4673673521,
+4673673524
+],
+"tags": {
+"addr:city": "San Fernando",
+"addr:housenumber": "1788",
+"addr:postcode": "1646",
+"addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
+"building": "yes",
+"check_date": "2023-10-09",
+"name": "Total Can",
+"payment:cash": "yes",
+"shop": "pet_grooming",
+"source": "Reconocimiento cartográfico de campo 2016 por KG.",
+"wheelchair": "limited"
+}
+},
+{
+"type": "node",
+"id": 13337463124,
+"lat": -34.5744254,
+"lon": -58.5492729,
+"timestamp": "2025-11-28T03:04:37Z",
+"version": 1,
+"changeset": 175221389,
+"tags": {
+"name": "Roller Cica",
+"shop": "window_blind"
+}
+},
+{
+"type": "node",
+"id": 12583744894,
+"lat": -34.5205069,
+"lon": -58.5200286,
+"timestamp": "2026-07-05T12:25:18Z",
+"version": 2,
+"changeset": 185137441,
+"tags": {
+"addr:housenumber": "3136",
+"addr:street": "Intendente Coronel Amaro Ávalos",
+"name": "Cortinas Eclipse",
+"opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00;PH off",
+"phone": "+54 11 4840-8312",
+"shop": "window_blind",
+"website": "https://cortinaseclipse.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4695991527,
+"lat": -34.4544415,
+"lon": -58.5598535,
+"timestamp": "2017-02-21T21:19:48Z",
+"version": 2,
+"changeset": 46287496,
+"tags": {
+"addr:housenumber": "2501",
+"addr:street": "Avenida Nicolás Avellaneda",
+"fixme": "name",
+"shop": "window_blind",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4600637857,
+"lat": -34.5763542,
+"lon": -58.5393746,
+"timestamp": "2023-02-28T05:26:53Z",
+"version": 4,
+"changeset": 133113450,
+"tags": {
+"addr:city": "General San Martín",
+"addr:postcode": "B1650BQA",
+"addr:street": "91 - San Lorenzo",
+"level": "0",
+"name": "El Precio de la Historia",
+"shop": "pawnbroker",
+"source": "Reconocimiento Cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 10718288126,
+"lat": -34.5781924,
+"lon": -58.5402805,
+"timestamp": "2026-02-25T17:57:27Z",
+"version": 2,
+"changeset": 179049538,
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "2107",
+"addr:postcode": "B1650",
+"addr:street": "95 - Caseros",
+"check_date": "2026-02-15",
+"level": "0",
+"shop": "pawnbroker"
+}
+},
+{
+"type": "way",
+"id": 467281853,
+"timestamp": "2017-01-20T19:32:16Z",
+"version": 2,
+"changeset": 45335370,
+"center": {
+"lat": -34.5794772,
+"lon": -58.5414113
+},
+"nodes": [
+4619288176,
+4619288180,
+4619288181,
+4619288182,
+4619288176
+],
+"tags": {
+"building": "yes",
+"name": "La Guarda",
+"shop": "pawnbroker",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4604167650,
+"lat": -34.5763799,
+"lon": -58.539666,
+"timestamp": "2022-06-01T15:03:40Z",
+"version": 3,
+"changeset": 121816495,
+"tags": {
+"addr:city": "San Martin",
+"addr:street": "91 - San Lorenzo",
+"name": "LCC",
+"shop": "hifi",
+"source": "Reconocimiento Cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 4687145516,
+"lat": -34.4811919,
+"lon": -58.5557222,
+"timestamp": "2022-10-24T16:48:56Z",
+"version": 3,
+"changeset": 128005767,
+"tags": {
+"addr:street": "Intendente Tomkinson",
+"name": "Nexxia",
+"shop": "hifi"
+}
+},
+{
+"type": "node",
+"id": 4677079487,
+"lat": -34.4691063,
+"lon": -58.509559,
+"timestamp": "2023-08-13T23:58:14Z",
+"version": 4,
+"changeset": 139848193,
+"tags": {
+"addr:city": "San Isidro",
+"addr:housenumber": "314",
+"addr:postcode": "1642",
+"addr:street": "Avenida 25 de Mayo",
+"name": "Avalon",
+"shop": "hifi",
+"website": "http://www.avalon.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 10666264239,
+"lat": -34.5788602,
+"lon": -58.536903,
+"timestamp": "2023-02-18T15:30:01Z",
+"version": 2,
+"changeset": 132718915,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3813",
+"addr:postcode": "B1650CEO",
+"addr:street": "48 - Moreno",
+"check_date": "2023-02-18",
+"contact:facebook": "https://www.facebook.com/lacampestre.sm/",
+"contact:instagram": "https://www.instagram.com/confiteria.la.campestre/",
+"contact:phone": "+54 11 4713 5556",
+"internet_access": "no",
+"level": "0",
+"name": "La Campestre",
+"opening_hours": "Mo-Fr 08:00-20:00; Su 08:00-13:00",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "pastry",
+"wheelchair": "limited"
+}
+},
+{
+"type": "node",
+"id": 4615001121,
+"lat": -34.5635342,
+"lon": -58.541598,
+"timestamp": "2024-04-16T16:42:56Z",
+"version": 5,
+"changeset": 150094230,
+"tags": {
+"addr:city": "San Andrés",
+"addr:country": "AR",
+"addr:province": "Buenos Aires",
+"addr:street": "Diagonal 73 - Islas Malvinas",
+"name": "Titina",
+"shop": "pastry",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 10600445175,
+"lat": -34.5796366,
+"lon": -58.535686,
+"timestamp": "2023-02-27T02:19:00Z",
+"version": 3,
+"changeset": 133065577,
+"tags": {
+"level": "0",
+"name": "Aromas",
+"opening_hours": "Mo-Fr 06:00-20:00; Sa-Su 07:00-20:00",
+"phone": "+54 11 4789 2385",
+"shop": "pastry",
+"source": "local knowledge"
+}
+},
+{
+"type": "node",
+"id": 12011662187,
+"lat": -34.5783452,
+"lon": -58.5404271,
+"timestamp": "2024-06-26T05:40:11Z",
+"version": 1,
+"changeset": 153184342,
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "4001",
+"addr:postcode": "B1650",
+"addr:street": "54 - Bartolomé Mitre",
+"brand": "GAES",
+"brand:wikidata": "Q98492565",
+"level": "0",
+"name": "GAES",
+"shop": "hearing_aids"
+}
+},
+{
+"type": "node",
+"id": 10607421605,
+"lat": -34.4875184,
+"lon": -58.5019342,
+"timestamp": "2023-11-09T09:21:20Z",
+"version": 2,
+"changeset": 143813305,
+"tags": {
+"name": "GAES",
+"shop": "hearing_aids",
+"website": "https://www.gaesargentina.com.ar/",
+"wheelchair": "no"
+}
+},
+{
+"type": "node",
+"id": 9991394379,
+"lat": -34.4795038,
+"lon": -58.4930406,
+"timestamp": "2023-11-09T09:20:45Z",
+"version": 2,
+"changeset": 143813265,
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "14437",
+"addr:postcode": "1640",
+"addr:street": "Avenida del Libertador",
+"name": "Amplitone Martínez",
+"shop": "hearing_aids",
+"website": "https://www.amplitone.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 13337447273,
+"lat": -34.5786401,
+"lon": -58.5386652,
+"timestamp": "2025-11-28T03:04:40Z",
+"version": 1,
+"changeset": 175221389,
+"tags": {
+"name": "Mundo Inmobiliario",
+"shop": "estate_agent"
+}
+},
+{
+"type": "node",
+"id": 4644991811,
+"lat": -34.4746328,
+"lon": -58.5555105,
+"timestamp": "2022-10-28T22:51:57Z",
+"version": 6,
+"changeset": 128193790,
+"tags": {
+"addr:city": "Beccar",
+"addr:postcode": "B1643",
+"addr:street": "Avenida Sucre",
+"name": "Capani",
+"shop": "estate_agent",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4923224407,
+"lat": -34.4748916,
+"lon": -58.5554471,
+"timestamp": "2024-02-14T14:55:45Z",
+"version": 5,
+"changeset": 147454669,
+"tags": {
+"addr:city": "Beccar",
+"addr:postcode": "B1643",
+"check_date": "2024-02-14",
+"name": "LJ Ramos",
+"opening_hours": "Mo-Fr 10:00-18:00; Sa-Su off",
+"phone": "+54 11 4719-9000",
+"shop": "estate_agent",
+"website": "https://www.ljramos.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 11800583235,
+"lat": -34.562854,
+"lon": -58.557176,
+"timestamp": "2026-02-07T03:06:26Z",
+"version": 2,
+"changeset": 178212957,
+"tags": {
+"name": "Todomoda",
+"shop": "fashion_accessories",
+"website": "https://ar.todomoda.com/"
+}
+},
+{
+"type": "node",
+"id": 10659276777,
+"lat": -34.5767702,
+"lon": -58.5364115,
+"timestamp": "2023-03-05T05:49:58Z",
+"version": 4,
+"changeset": 133313392,
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "3631",
+"addr:postcode": "B1650CBI",
+"addr:street": "52 - Belgrano",
+"brand": "Onda Shop",
+"brand:website": "https://tienda.ondashop.com/",
+"name": "Onda Shop",
+"shop": "fashion_accessories"
+}
+},
+{
+"type": "node",
+"id": 10660468317,
+"lat": -34.5769972,
+"lon": -58.5363823,
+"timestamp": "2026-02-07T03:06:26Z",
+"version": 4,
+"changeset": 178212957,
+"tags": {
+"addr:city": "General San Martín",
+"addr:country": "AR",
+"addr:housenumber": "3654",
+"addr:postcode": "B1650CBJ",
+"addr:street": "52 - Belgrano",
+"brand": "Todomoda",
+"brand:wikidata": "Q115898759",
+"level": "0",
+"name": "Todomoda",
+"shop": "fashion_accessories",
+"website": "https://ar.todomoda.com/"
+}
+},
+{
+"type": "node",
+"id": 11366155759,
+"lat": -34.5660634,
+"lon": -58.5509287,
+"timestamp": "2023-11-21T12:53:47Z",
+"version": 1,
+"changeset": 144286194,
+"tags": {
+"shop": "shoe_repair"
+}
+},
+{
+"type": "way",
+"id": 475948188,
+"timestamp": "2022-06-25T20:29:05Z",
+"version": 3,
+"changeset": 122849365,
+"center": {
+"lat": -34.4547297,
+"lon": -58.5598387
+},
+"nodes": [
+4696274812,
+4696274813,
+4696274814,
+4696274815,
+4696274812
+],
+"tags": {
+"addr:street": "Avenida Nicolás Avellaneda",
+"building": "yes",
+"name": "Taller de Compostura",
+"shop": "shoe_repair",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 12993325720,
+"lat": -34.5860017,
+"lon": -58.5191091,
+"timestamp": "2026-08-07T23:17:21Z",
+"version": 2,
+"changeset": 187110963,
+"tags": {
+"check_date": "2026-08-07",
+"description": "Alquiler y venta de máquinas arcade y juegos de entretenimiento",
+"fixme": "Verificar etiqueta principal",
+"level": "0",
+"name": "Rearte",
+"shop": "video_games",
+"website": "https://shop.rearte.ar/"
+}
+},
+{
+"type": "node",
+"id": 4616376079,
+"lat": -34.5503113,
+"lon": -58.552241,
+"timestamp": "2017-01-19T15:09:20Z",
+"version": 2,
+"changeset": 45299709,
+"tags": {
+"addr:street": "110 Pueyrredón",
+"name": "Play Zone",
+"shop": "video_games",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 12099276899,
+"lat": -34.4350315,
+"lon": -58.5641738,
+"timestamp": "2024-08-08T18:21:25Z",
+"version": 1,
+"changeset": 154992245,
+"tags": {
+"addr:housenumber": "102",
+"addr:street": "Constitución",
+"check_date": "2024-08-08",
+"name": "The black Game",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "video_games",
+"website": "https://theblackgame.mitiendanube.com/"
+}
+},
+{
+"type": "node",
+"id": 12706338580,
+"lat": -34.5722194,
+"lon": -58.5274027,
+"timestamp": "2025-03-28T02:58:32Z",
+"version": 1,
+"changeset": 164189581,
+"tags": {
+"name": "La Simbólica",
+"shop": "spices"
+}
+},
+{
+"type": "node",
+"id": 4687146219,
+"lat": -34.4537066,
+"lon": -58.6425839,
+"timestamp": "2026-08-03T02:50:49Z",
+"version": 3,
+"changeset": 186845079,
+"tags": {
+"addr:street": "Avenida de los Constituyentes",
+"name": "Animales & Sueltos",
+"shop": "spices"
+}
+},
+{
+"type": "node",
+"id": 4612572687,
+"lat": -34.5688627,
+"lon": -58.5216591,
+"timestamp": "2024-03-20T03:57:02Z",
+"version": 3,
+"changeset": 148891037,
+"tags": {
+"addr:city": "Villa Maipú",
+"addr:housenumber": "2038",
+"addr:postcode": "B1650",
+"addr:street": "48 - Estrada",
+"level": "0",
+"name": "Refri & Arte",
+"shop": "hvac",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4627223400,
+"lat": -34.5694689,
+"lon": -58.5197183,
+"timestamp": "2024-03-20T03:57:02Z",
+"version": 4,
+"changeset": 148891037,
+"tags": {
+"addr:city": "Villa Maipú",
+"addr:housenumber": "1901",
+"addr:postcode": "B1650",
+"addr:street": "Avenida 44 - Presidente Arturo Umberto Illia",
+"name": "Bestools",
+"shop": "hvac"
+}
+},
+{
+"type": "node",
+"id": 14111499771,
+"lat": -34.5562121,
+"lon": -58.5509651,
+"timestamp": "2026-08-22T01:42:42Z",
+"version": 1,
+"changeset": 187822543,
+"tags": {
+"addr:city": "Villa General Juan Gregorio de Las Heras",
+"addr:housenumber": "2965",
+"addr:postcode": "1653",
+"addr:street": "100 - Industria",
+"name": "CT Toys 3D",
+"shop": "collector"
+}
+},
+{
+"type": "node",
+"id": 4616635961,
+"lat": -34.5474807,
+"lon": -58.5569365,
+"timestamp": "2023-07-26T19:49:21Z",
+"version": 6,
+"changeset": 139054865,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "5101",
+"addr:postcode": "1653",
+"addr:street": "65 - Independencia",
+"name": "Estilo 2 Revestimientos",
+"shop": "curtain",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 12334714427,
+"lat": -34.5036916,
+"lon": -58.5228799,
+"timestamp": "2025-11-26T21:16:28Z",
+"version": 2,
+"changeset": 175172746,
+"tags": {
+"addr:city": "Martinez",
+"addr:housenumber": "2199",
+"addr:postcode": "B1640",
+"addr:street": "Edison",
+"check_date": "2024-11-12",
+"name": "Edison",
+"shop": "curtain",
+"website": "https://www.edisoncortinas.com.ar"
+}
+},
+{
+"type": "node",
+"id": 13443924013,
+"lat": -34.4556718,
+"lon": -58.5335682,
+"timestamp": "2026-01-09T22:42:30Z",
+"version": 1,
+"changeset": 177043958,
+"tags": {
+"addr:city": "Beccar",
+"addr:housenumber": "1002",
+"addr:postcode": "B1643",
+"addr:street": "Avenida Uruguay",
+"name": "Patricia Lopez",
+"shop": "curtain"
+}
+},
+{
+"type": "node",
+"id": 4615190366,
+"lat": -34.5500622,
+"lon": -58.5522102,
+"timestamp": "2022-05-25T20:02:45Z",
+"version": 3,
+"changeset": 121491334,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "2623",
+"addr:postcode": "1653",
+"addr:street": "110 - General Juan Martín de Pueyrredón",
+"name": "Casa Dora",
+"shop": "hairdresser_supply",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 9377958539,
+"lat": -34.5075415,
+"lon": -58.5654066,
+"timestamp": "2023-05-21T10:54:51Z",
+"version": 2,
+"changeset": 136367429,
+"tags": {
+"name": "Casa Dora",
+"shop": "hairdresser_supply"
+}
+},
+{
+"type": "node",
+"id": 13621745321,
+"lat": -34.5317176,
+"lon": -58.4792406,
+"timestamp": "2026-03-06T02:08:55Z",
+"version": 1,
+"changeset": 179421835,
+"tags": {
+"addr:housenumber": "689",
+"addr:street": "Avenida Maipú",
+"name": "Pelomanía",
+"shop": "hairdresser_supply"
+}
+},
+{
+"type": "node",
+"id": 4615191395,
+"lat": -34.5522603,
+"lon": -58.5562823,
+"timestamp": "2019-10-16T01:20:20Z",
+"version": 3,
+"changeset": 75748519,
+"tags": {
+"addr:street": "112 - Vicente López",
+"name": "Video Club M & M",
+"shop": "video",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4675151129,
+"lat": -34.4351145,
+"lon": -58.5655964,
+"timestamp": "2022-08-10T17:54:38Z",
+"version": 3,
+"changeset": 124742859,
+"tags": {
+"addr:city": "San Fernando",
+"addr:postcode": "1646",
+"addr:street": "3 de Febrero",
+"name": "Video Club",
+"shop": "video",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4616449619,
+"lat": -34.5495296,
+"lon": -58.5512403,
+"timestamp": "2022-05-24T02:10:24Z",
+"version": 3,
+"changeset": 121395545,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "2536",
+"addr:postcode": "1653",
+"addr:street": "110 - General Juan Martín de Pueyrredón",
+"name": "Fiesta Free",
+"shop": "frozen_food",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 10956598608,
+"lat": -34.4535298,
+"lon": -58.5391432,
+"timestamp": "2023-06-05T04:03:32Z",
+"version": 1,
+"changeset": 136953776,
+"tags": {
+"name": "QÜEM",
+"shop": "frozen_food",
+"wheelchair": "yes"
+}
+},
+{
+"type": "node",
+"id": 4659930340,
+"lat": -34.5053059,
+"lon": -58.4939886,
+"timestamp": "2023-11-09T16:55:07Z",
+"version": 4,
+"changeset": 143831084,
+"tags": {
+"addr:city": "Olivos",
+"addr:housenumber": "3316",
+"addr:postcode": "B1636",
+"addr:street": "Avenida Maipú",
+"name": "El Noble",
+"opening_hours": "Mo-Su 09:00-23:00",
+"phone": "+54 11 4711-0407",
+"shop": "frozen_food",
+"source": "Reconocimiento terrestre por Kaart 2016",
+"website": "https://elnoble.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4616570854,
+"lat": -34.5500356,
+"lon": -58.5544088,
+"timestamp": "2026-01-21T12:57:42Z",
+"version": 8,
+"changeset": 177521205,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:housenumber": "2742",
+"addr:street": "114 - Carlos María de Alvear",
+"amenity": "cafe",
+"brand": "Bonafide",
+"brand:wikidata": "Q62122746",
+"check_date": "2026-01-21",
+"name": "Bonafide",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "coffee",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "way",
+"id": 1222588235,
+"timestamp": "2024-04-16T16:42:56Z",
+"version": 2,
+"changeset": 150094230,
+"center": {
+"lat": -34.5644524,
+"lon": -58.5420927
+},
+"nodes": [
+11339377482,
+11339377481,
+11339377480,
+11339377479,
+11339377485,
+11339377484,
+11339377482
+],
+"tags": {
+"addr:city": "San Andrés",
+"addr:country": "AR",
+"addr:housenumber": "3040",
+"addr:postcode": "B1651",
+"addr:province": "Buenos Aires",
+"addr:street": "Diagonal 73 - Islas Malvinas",
+"amenity": "arts_centre",
+"contact:facebook": "https://www.facebook.com/cafejardinmultiespacio",
+"contact:instagram": "https://www.instagram.com/cafejardinmultiespacio",
+"mobile": "+54 9 11 3841 6852",
+"name": "Cafe Jardin Multiespacio Cultural",
+"shop": "coffee"
+}
+},
+{
+"type": "node",
+"id": 4616703402,
+"lat": -34.5492232,
+"lon": -58.5537318,
+"timestamp": "2024-03-27T03:22:53Z",
+"version": 6,
+"changeset": 149202690,
+"tags": {
+"addr:city": "Villa Ballester",
+"addr:department": "18",
+"addr:housenumber": "2643",
+"addr:street": "114 - Carlos María de Alvear",
+"contact:instagram": "https://www.instagram.com/laprimaverabd/",
+"name": "La Primavera Blanco y Decoración",
+"shop": "household_linen",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4614378488,
+"lat": -34.5287075,
+"lon": -58.5209083,
+"timestamp": "2026-08-06T02:23:26Z",
+"version": 3,
+"changeset": 187007522,
+"tags": {
+"addr:street": "Avenida Vélez Sarsfield",
+"check_date": "2026-08-05",
+"name": "Mar Blanco",
+"shop": "household_linen"
+}
+},
+{
+"type": "node",
+"id": 4614629863,
+"lat": -34.5512815,
+"lon": -58.5117502,
+"timestamp": "2018-06-25T04:20:49Z",
+"version": 3,
+"changeset": 60134522,
+"tags": {
+"addr:street": "Francisco Narciso de Laprida",
+"name": "VMP Pesca",
+"shop": "outdoor",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4614546309,
+"lat": -34.5324793,
+"lon": -58.5280791,
+"timestamp": "2017-01-18T17:30:21Z",
+"version": 2,
+"changeset": 45276011,
+"tags": {
+"addr:street": "Avenida Vélez Sarsfield",
+"name": "Munro Camping",
+"shop": "outdoor",
+"source": "Reconocimiento cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 8978574934,
+"lat": -34.4969528,
+"lon": -58.5513307,
+"timestamp": "2026-09-03T12:16:47Z",
+"version": 6,
+"changeset": 188468720,
+"tags": {
+"addr:city": "Boulogne Sur Mer",
+"addr:housenumber": "136",
+"addr:postcode": "B1609",
+"addr:street": "Túpac Amaru",
+"check_date": "2026-09-01",
+"clothes": "sports",
+"email": "vidadecamping136@gmail.com",
+"internet_access": "wlan",
+"name": "Vida de Camping",
+"opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"payment:nfc": "yes",
+"phone": "+54 11 4735-7283",
+"shop": "outdoor",
+"website": "https://www.vidadecamping.com.ar/",
+"wheelchair": "yes"
+}
+},
+{
+"type": "node",
+"id": 4617413249,
+"lat": -34.5268618,
+"lon": -58.5733856,
+"timestamp": "2024-04-18T12:54:08Z",
+"version": 5,
+"changeset": 150174041,
+"tags": {
+"addr:city": "José León Suarez",
+"addr:country": "AR",
+"addr:province": "Buenos Aires",
+"addr:street": "49 - Libertad",
+"name": "Robert TV",
+"shop": "radiotechnics",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 13621742453,
+"lat": -34.5330672,
+"lon": -58.478559,
+"timestamp": "2026-03-06T02:08:33Z",
+"version": 1,
+"changeset": 179421835,
+"tags": {
+"name": "Radio Cersosimo",
+"shop": "radiotechnics"
+}
+},
+{
+"type": "node",
+"id": 4617393618,
+"lat": -34.5115224,
+"lon": -58.5669309,
+"timestamp": "2017-01-19T15:09:31Z",
+"version": 2,
+"changeset": 45299709,
+"tags": {
+"addr:street": "Avenida Avelino Rolón",
+"shop": "boutique",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "way",
+"id": 475880453,
+"timestamp": "2017-02-20T17:08:50Z",
+"version": 3,
+"changeset": 46249929,
+"center": {
+"lat": -34.4591106,
+"lon": -58.6351781
+},
+"nodes": [
+4695643727,
+4695643728,
+4695643729,
+4695643730,
+4695643727
+],
+"tags": {
+"addr:street": "José Manuel Estrada",
+"building": "yes",
+"name": "Las Olivias",
+"shop": "boutique",
+"source": "Reconocimiento terrestre 2016 por Kaart."
+}
+},
+{
+"type": "way",
+"id": 473434425,
+"timestamp": "2017-02-10T17:52:50Z",
+"version": 2,
+"changeset": 45979847,
+"center": {
+"lat": -34.4445213,
+"lon": -58.5651127
+},
+"nodes": [
+4675534680,
+4675534681,
+4675534682,
+4675534683,
+4675534680
+],
+"tags": {
+"addr:street": "Avenida Sobremonte",
+"building": "yes",
+"name": "Mis Soles",
+"shop": "boutique",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 11940750126,
+"lat": -34.5055343,
+"lon": -58.5893986,
+"timestamp": "2025-08-30T23:41:14Z",
+"version": 2,
+"changeset": 171249320,
+"tags": {
+"amenity": "fuel",
+"brand": "YPF",
+"brand:wikidata": "Q2006989",
+"fuel:cng": "no",
+"fuel:diesel": "yes",
+"fuel:diesel_G2": "yes",
+"fuel:octane_95": "yes",
+"fuel:octane_98": "yes",
+"name": "ACA",
+"shop": "no"
+}
+},
+{
+"type": "node",
+"id": 4630247704,
+"lat": -34.4909679,
+"lon": -58.6130484,
+"timestamp": "2017-01-24T21:04:34Z",
+"version": 2,
+"changeset": 45449954,
+"tags": {
+"addr:street": "Triunvirato",
+"name": "Casa Cocina",
+"shop": "kitchen",
+"source": "Reconocimiento cartográfico por KG 2016"
+}
+},
+{
+"type": "node",
+"id": 4590993293,
+"lat": -34.4994787,
+"lon": -58.5420762,
+"timestamp": "2022-02-15T14:59:36Z",
+"version": 3,
+"changeset": 117440078,
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "898",
+"addr:postcode": "B1640",
+"addr:street": "Avenida Fondo de la Legua",
+"name": "Reno",
+"shop": "kitchen",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4678791262,
+"lat": -34.4718829,
+"lon": -58.5127153,
+"timestamp": "2018-07-18T03:41:58Z",
+"version": 3,
+"changeset": 60818680,
+"tags": {
+"addr:street": "Martín y Omar",
+"name": "Vicky & Alerias Kitchen",
+"shop": "kitchen"
+}
+},
+{
+"type": "node",
+"id": 4574279879,
+"lat": -34.4846687,
+"lon": -58.615371,
+"timestamp": "2026-09-26T12:40:13Z",
+"version": 4,
+"changeset": 189586253,
+"tags": {
+"addr:housenumber": "26015",
+"addr:street": "Colectora Panamericana",
+"check_date": "2026-09-25",
+"internet_access": "wlan",
+"internet_access:fee": "customers",
+"name": "Agropark",
+"opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-13:00; Su off",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "groundskeeping",
+"trade": "construction_equipment",
+"website": "https://www.agropark.com.ar",
+"wheelchair": "yes"
+}
+},
+{
+"type": "node",
+"id": 12220428095,
+"lat": -34.5235285,
+"lon": -58.4726995,
+"timestamp": "2024-12-22T05:02:28Z",
+"version": 2,
+"changeset": 160490637,
+"tags": {
+"name": "Nogalpark",
+"shop": "groundskeeping"
+}
+},
+{
+"type": "node",
+"id": 4618872790,
+"lat": -34.5285954,
+"lon": -58.558856,
+"timestamp": "2025-01-25T13:59:36Z",
+"version": 4,
+"changeset": 161747376,
+"tags": {
+"addr:city": "José León Suarez",
+"addr:country": "AR",
+"addr:province": "Buenos Aires",
+"addr:street": "29 Emilio Zolá",
+"name": "Tapicería Auto Fund",
+"shop": "upholstery",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4618758014,
+"lat": -34.5286669,
+"lon": -58.5558128,
+"timestamp": "2025-01-25T13:58:00Z",
+"version": 5,
+"changeset": 161747320,
+"tags": {
+"addr:city": "José León Suarez",
+"addr:country": "AR",
+"addr:province": "Buenos Aires",
+"addr:street": "Amancio Alcorta",
+"name": "Cloro al 100%",
+"shop": "chemicals",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4427130533,
+"lat": -34.5301899,
+"lon": -58.5310666,
+"timestamp": "2016-10-02T00:40:44Z",
+"version": 1,
+"changeset": 42573012,
+"tags": {
+"addr:street": "Carlos Calvo",
+"amenity": "pest_control",
+"name": "Efmarco",
+"shop": "pest_control"
+}
+},
+{
+"type": "node",
+"id": 4690935529,
+"lat": -34.4552272,
+"lon": -58.6313536,
+"timestamp": "2019-10-23T04:26:47Z",
+"version": 4,
+"changeset": 76077860,
+"tags": {
+"addr:street": "General José María Paz",
+"name": "Delta Fumigaciones",
+"shop": "pest_control",
+"source": "Actualizaciones en Argentina. cartográfico 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4614616448,
+"lat": -34.5278941,
+"lon": -58.5189088,
+"timestamp": "2026-08-03T23:53:28Z",
+"version": 6,
+"changeset": 186896476,
+"tags": {
+"check_date": "2026-08-03",
+"name": "Minoa",
+"shop": "fashion_accesories"
+}
+},
+{
+"type": "node",
+"id": 4715498794,
+"lat": -34.5200198,
+"lon": -58.5149531,
+"timestamp": "2024-08-03T03:47:02Z",
+"version": 7,
+"changeset": 154758396,
+"tags": {
+"addr:housenumber": "4002",
+"addr:postcode": "B1605DSR",
+"addr:street": "Roque Sáenz Peña",
+"check_date": "2024-08-03",
+"name": "Pezcalandia SA",
+"opening_hours": "Mo-Sa 09:30-19:30",
+"phone:AR": "0810-777-0392",
+"shop": "fishing",
+"website": "https://www.pezcalandia.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 9183529331,
+"lat": -34.4682019,
+"lon": -58.5179658,
+"timestamp": "2023-03-24T21:01:11Z",
+"version": 2,
+"changeset": 134084548,
+"tags": {
+"addr:city": "San Isidro",
+"addr:housenumber": "729",
+"addr:postcode": "B1642",
+"addr:street": "Avenida Centenario",
+"name": "Top Gun",
+"phone": "+54 11 5768-6643",
+"shop": "fishing",
+"wheelchair": "no"
+}
+},
+{
+"type": "way",
+"id": 474426998,
+"timestamp": "2026-07-22T04:48:47Z",
+"version": 4,
+"changeset": 186155259,
+"center": {
+"lat": -34.4284972,
+"lon": -58.5836467
+},
+"nodes": [
+4683867798,
+4683867799,
+4683867800,
+4683867801,
+4683867798
+],
+"tags": {
+"addr:street": "Luis García",
+"building": "yes",
+"building:levels": "1",
+"name": "Alfredo",
+"shop": "fishing",
+"source": "Reconocimiento terrestre 2016 por Kaart."
+}
+},
+{
+"type": "node",
+"id": 4590192309,
+"lat": -34.5037767,
+"lon": -58.5312269,
+"timestamp": "2017-02-03T18:39:48Z",
+"version": 2,
+"changeset": 45786916,
+"tags": {
+"addr:street": "Hipólito Yrigoyen",
+"name": "Mundo Vinos",
+"shop": "alcohol",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4630848096,
+"lat": -34.4806838,
+"lon": -58.5540338,
+"timestamp": "2024-02-14T02:40:05Z",
+"version": 3,
+"changeset": 147432714,
+"tags": {
+"addr:housenumber": "2940",
+"addr:street": "Intendente Tomkinson",
+"check_date": "2024-02-13",
+"delivery": "yes",
+"name": "Go Bar",
+"payment:cabal": "yes",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"payment:maestro": "yes",
+"payment:mastercard": "yes",
+"payment:visa": "yes",
+"payment:visa_debit": "yes",
+"shop": "alcohol",
+"source": "Reconocimiento terrestre por Kaart 2016",
+"website": "https://www.gobar.com.ar"
+}
+},
+{
+"type": "node",
+"id": 14235832317,
+"lat": -34.4767253,
+"lon": -58.5551554,
+"timestamp": "2026-09-30T20:29:20Z",
+"version": 1,
+"changeset": 189793080,
+"tags": {
+"name": "Frappé",
+"shop": "alcohol"
+}
+},
+{
+"type": "node",
+"id": 4997239243,
+"lat": -34.5032893,
+"lon": -58.5306222,
+"timestamp": "2021-10-05T14:20:51Z",
+"version": 7,
+"changeset": 112125640,
+"tags": {
+"addr:city": "San Isidro",
+"addr:housenumber": "2800",
+"addr:street": "Hipólito Yrigoyen",
+"name": "Mini Cervecería",
+"opening_hours": "Mo-Fr 10:00-14:00; Sa,Su off",
+"phone": "+54 11 4717-5243",
+"shop": "brewing_supplies",
+"website": "https://minicerveceria.com/"
+}
+},
+{
+"type": "node",
+"id": 13334719722,
+"lat": -34.4988442,
+"lon": -58.5115011,
+"timestamp": "2025-11-26T21:16:28Z",
+"version": 1,
+"changeset": 175172746,
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "1118",
+"addr:postcode": "B1640",
+"addr:street": "Edison",
+"name": "Nacho",
+"shop": "bbq"
+}
+},
+{
+"type": "node",
+"id": 13436635653,
+"lat": -34.4462042,
+"lon": -58.7017987,
+"timestamp": "2026-01-07T00:09:38Z",
+"version": 1,
+"changeset": 176923838,
+"tags": {
+"addr:city": "El Triángulo",
+"addr:housenumber": "35,5 3405",
+"addr:postcode": "1667",
+"addr:street": "Colectora Oeste Panamericana",
+"brand": "Iveco",
+"brand:wikidata": "Q29913",
+"name": "IVECO AURELIA",
+"shop": "truck"
+}
+},
+{
+"type": "way",
+"id": 468476265,
+"timestamp": "2025-07-03T06:44:43Z",
+"version": 3,
+"changeset": 168429711,
+"center": {
+"lat": -34.4839713,
+"lon": -58.6298697
+},
+"nodes": [
+4630102536,
+4630102537,
+4630102538,
+4630102539,
+4630102536
+],
+"tags": {
+"addr:street": "Colectora Oeste Acceso Norte Ramal Campana",
+"brand": "Scania",
+"brand:wikidata": "Q219960",
+"building": "yes",
+"name": "Scania",
+"shop": "truck",
+"source": "Reconocimiento cartográfico por KG 2016"
+}
+},
+{
+"type": "way",
+"id": 468476266,
+"timestamp": "2023-01-25T04:46:47Z",
+"version": 3,
+"changeset": 131677558,
+"center": {
+"lat": -34.4841788,
+"lon": -58.628102
+},
+"nodes": [
+4630102540,
+4630102541,
+4630102542,
+4630102543,
+4630102544,
+4630102545,
+4630102540
+],
+"tags": {
+"addr:street": "Colectora Oeste Panamericana",
+"building": "yes",
+"name": "MK Emeka",
+"shop": "truck"
+}
+},
+{
+"type": "node",
+"id": 13227944401,
+"lat": -34.431427,
+"lon": -58.7178802,
+"timestamp": "2025-10-23T03:06:23Z",
+"version": 2,
+"changeset": 173653206,
+"tags": {
+"addr:housenumber": "3",
+"addr:postcode": "1619",
+"addr:street": "Haendel",
+"email": "info@livriz.com",
+"internet_access": "wlan",
+"name": "Livriz",
+"opening_hours": "Mo-Fr 09:00-18:00",
+"shop": "bookmaker",
+"website": "https://livriz.com/"
+}
+},
+{
+"type": "node",
+"id": 4775954605,
+"lat": -34.5413888,
+"lon": -58.482706,
+"timestamp": "2019-01-03T15:02:04Z",
+"version": 2,
+"changeset": 65991913,
+"tags": {
+"name": "Agencia Hípica Número 3",
+"network": "Lotería de la Provincia",
+"ref": "3",
+"shop": "bookmaker"
+}
+},
+{
+"type": "way",
+"id": 1229146104,
+"timestamp": "2024-03-25T02:33:56Z",
+"version": 2,
+"changeset": 149111627,
+"center": {
+"lat": -34.5924126,
+"lon": -58.5209436
+},
+"nodes": [
+11398843996,
+11398844000,
+11398843997,
+11398843998,
+11398843986,
+11398843999,
+4751125596,
+11398843996
+],
+"tags": {
+"addr:city": "Villa Lynch",
+"addr:housenumber": "3745",
+"addr:postcode": "B1672",
+"addr:street": "Avenida 2 - General Paz",
+"building": "yes",
+"name": "Agencia Hípica 73",
+"network": "Lotería de la Provincia",
+"operator": "Alteza",
+"ref": "73",
+"shop": "bookmaker"
+}
+},
+{
+"type": "node",
+"id": 4696290556,
+"lat": -34.4798803,
+"lon": -58.632108,
+"timestamp": "2017-02-28T18:42:28Z",
+"version": 3,
+"changeset": 46475003,
+"tags": {
+"addr:street": "Avenida General Manuel Belgrano",
+"name": "Donto",
+"shop": "leather",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4650212176,
+"lat": -34.5068002,
+"lon": -58.4927361,
+"timestamp": "2017-02-10T20:43:47Z",
+"version": 2,
+"changeset": 45983821,
+"tags": {
+"addr:city": "Olivos",
+"addr:street": "Avenida Maipú",
+"name": "Pieles Marga",
+"shop": "leather",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 4672413310,
+"lat": -34.4976221,
+"lon": -58.4896178,
+"timestamp": "2022-07-21T23:11:50Z",
+"version": 4,
+"changeset": 123913605,
+"tags": {
+"addr:city": "La Lucila",
+"addr:postcode": "1636",
+"addr:street": "Doctor Guillermo Rawson",
+"name": "EnCueros",
+"shop": "leather",
+"source": "Reconocimiento terrestre por Kaart 2016."
+}
+},
+{
+"type": "node",
+"id": 4695658740,
+"lat": -34.4595585,
+"lon": -58.6361978,
+"timestamp": "2017-02-20T16:42:44Z",
+"version": 2,
+"changeset": 46249167,
+"tags": {
+"addr:street": "Avenida de los Constituyentes",
+"name": "Directv",
+"shop": "television",
+"source": "Actualizaciones en Argentina. cartográfico 2016 por KG."
+}
+},
+{
+"type": "node",
+"id": 4690881527,
+"lat": -34.4568653,
+"lon": -58.627661,
+"timestamp": "2026-08-13T13:08:27Z",
+"version": 6,
+"changeset": 187390082,
+"tags": {
+"addr:street": "Avenida Hipólito Yrigoyen",
+"name": "Mangas y Comics Pacheco",
+"shop": "anime"
+}
+},
+{
+"type": "node",
+"id": 4017205760,
+"lat": -34.4541702,
+"lon": -58.6493797,
+"timestamp": "2020-02-13T12:59:47Z",
+"version": 2,
+"changeset": 80958647,
+"tags": {
+"addr:housenumber": "89",
+"addr:street": "Zapiola",
+"description": "Small backyard fishing shop that is able to fill LPG bottles. We had our South African bottles filled here. Open on Sunday.",
+"name": "Buby Pesca",
+"phone": "+54 11 4740-2491",
+"shop": "gas"
+}
+},
+{
+"type": "node",
+"id": 6874281209,
+"lat": -34.4221728,
+"lon": -58.6943777,
+"timestamp": "2019-10-12T21:34:13Z",
+"version": 1,
+"changeset": 75610301,
+"tags": {
+"name": "Caracciolo Gas SRL",
+"shop": "gas"
+}
+},
+{
+"type": "way",
+"id": 1387661283,
+"timestamp": "2025-05-18T01:42:23Z",
+"version": 1,
+"changeset": 166413474,
+"center": {
+"lat": -34.4518386,
+"lon": -58.8520606
+},
+"nodes": [
+12845260951,
+12845260950,
+12845260949,
+12845260948,
+12845260947,
+12845260946,
+12845260945,
+12845260939,
+12845260951
+],
+"tags": {
+"name": "Gas 10",
+"shop": "gas"
+}
+},
+{
+"type": "node",
+"id": 7771677491,
+"lat": -34.4140021,
+"lon": -58.6935902,
+"timestamp": "2020-07-31T03:08:22Z",
+"version": 1,
+"changeset": 88757793,
+"tags": {
+"name": "Tierra Hermosa",
+"shop": "farm"
+}
+},
+{
+"type": "node",
+"id": 12494410532,
+"lat": -34.4171628,
+"lon": -58.5718997,
+"timestamp": "2025-01-12T19:20:19Z",
+"version": 2,
+"changeset": 161284818,
+"tags": {
+"name": "Terneritos",
+"shop": "farm"
+}
+},
+{
+"type": "way",
+"id": 463810080,
+"timestamp": "2025-01-23T04:40:48Z",
+"version": 6,
+"changeset": 161659907,
+"center": {
+"lat": -34.4841177,
+"lon": -58.5122581
+},
+"nodes": [
+4590305722,
+4590305723,
+4590305724,
+4590305725,
+4590305726,
+4590305727,
+4590305728,
+4590305722
+],
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "501",
+"addr:street": "Catamarca",
+"building": "yes",
+"building:levels": "2",
+"check_date:opening_hours": "2025-01-23",
+"name": "Tienda La Choza",
+"opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-13:30",
+"shop": "farm",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 9995350217,
+"lat": -34.4552074,
+"lon": -58.5521707,
+"timestamp": "2024-04-19T03:39:10Z",
+"version": 2,
+"changeset": 150201162,
+"tags": {
+"addr:housenumber": "2620",
+"addr:street": "Avenida Sobremonte",
+"check_date": "2024-04-19",
+"name": "Lacteos 2001",
+"payment:cabal": "yes",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"payment:maestro": "yes",
+"payment:mastercard": "yes",
+"payment:visa": "yes",
+"payment:visa_debit": "yes",
+"phone": "+54 11 45491996",
+"shop": "dairy",
+"survey:date": "2022-09-01"
+}
+},
+{
+"type": "node",
+"id": 3458484394,
+"lat": -34.4511439,
+"lon": -58.5411312,
+"timestamp": "2023-11-25T23:02:48Z",
+"version": 6,
+"changeset": 144455941,
+"tags": {
+"addr:city": "Victoria",
+"addr:housenumber": "2898",
+"addr:postcode": "1644",
+"addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
+"check_date": "2023-11-25",
+"name": "Fiambres y Quesos Gruyenthal",
+"opening_hours": "Mo-Fr 08:30-13:00,16:30-21:00; Sa 10:00-20:00; Su 09:00-13:30,18:30-21:00",
+"phone": "+54 11 4549-1666",
+"shop": "dairy",
+"website": "http://www.gruyenthal.com.ar/",
+"wheelchair": "no"
+}
+},
+{
+"type": "node",
+"id": 9917591608,
+"lat": -34.4545153,
+"lon": -58.5402008,
+"timestamp": "2024-08-09T17:40:13Z",
+"version": 3,
+"changeset": 155034052,
+"tags": {
+"addr:city": "Victoria",
+"addr:housenumber": "1239",
+"addr:postcode": "1644",
+"addr:street": "Santamarina",
+"check_date": "2024-08-08",
+"name": "Fresco y Batata",
+"opening_hours": "Mo-Sa 08:00-13:00,17:00-21:00; Su 09:00-13:00",
+"phone": "+54 11 4725-1118",
+"shop": "dairy",
+"website": "http://frescoybatata.com/"
+}
+},
+{
+"type": "node",
+"id": 9959931603,
+"lat": -34.4442211,
+"lon": -58.5584028,
+"timestamp": "2025-01-15T14:26:53Z",
+"version": 4,
+"changeset": 161383066,
+"tags": {
+"addr:city": "San Fernando",
+"addr:housenumber": "1202",
+"addr:postcode": "B1646",
+"addr:street": "Almirante García Mansilla",
+"check_date": "2025-01-15",
+"delivery": "yes",
+"name": "Boutique de hilados",
+"opening_hours": "Mo-Fr 09:30-17:00; Sa 10:00-14:00; Su,PH off",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "wool",
+"website": "https://www.boutiquedehilados.com/"
+}
+},
+{
+"type": "node",
+"id": 3462461531,
+"lat": -34.445489,
+"lon": -58.5475185,
+"timestamp": "2021-07-19T15:37:35Z",
+"version": 4,
+"changeset": 108262619,
+"tags": {
+"addr:city": "San Fernando",
+"addr:housenumber": "2098",
+"addr:postcode": "1646",
+"addr:street": "Avenida del Libertador",
+"name": "Costanera Uno",
+"opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00",
+"shop": "boat",
+"wheelchair": "yes"
+}
+},
+{
+"type": "node",
+"id": 8868298827,
+"lat": -34.4456661,
+"lon": -58.5486943,
+"timestamp": "2026-05-07T01:59:57Z",
+"version": 2,
+"changeset": 182318255,
+"tags": {
+"addr:city": "San Fernando",
+"addr:housenumber": "2006",
+"addr:postcode": "1646",
+"addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
+"name": "Náutica Folino",
+"payment:debit_cards": "yes",
+"phone": "+54 11 4549-0371",
+"shop": "boat",
+"source": "Reconocimiento cartográfico de campo 2016 por KG.",
+"website": "https://nauticafolino.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4696061069,
+"lat": -34.4399826,
+"lon": -58.5376487,
+"timestamp": "2024-02-01T11:57:37Z",
+"version": 5,
+"changeset": 146943012,
+"tags": {
+"addr:street": "Del Arca",
+"name": "Trimer",
+"opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00; Su off",
+"shop": "boat"
+}
+},
+{
+"type": "node",
+"id": 8896159444,
+"lat": -34.4372372,
+"lon": -58.5610906,
+"timestamp": "2021-07-05T22:56:56Z",
+"version": 1,
+"changeset": 107462454,
+"tags": {
+"addr:city": "San Fernando",
+"addr:housenumber": "1189",
+"addr:postcode": "1646",
+"addr:street": "Ituzaingó",
+"name": "Hellboy",
+"shop": "hobby"
+}
+},
+{
+"type": "node",
+"id": 4699462106,
+"lat": -34.4177999,
+"lon": -58.5963575,
+"timestamp": "2019-10-20T11:16:05Z",
+"version": 4,
+"changeset": 75950680,
+"tags": {
+"addr:street": "Avenida Santa María de las Conchas",
+"name": "Vidrieria",
+"shop": "glass",
+"source": "Reconocimiento terrestre por Kaart 2016."
+}
+},
+{
+"type": "node",
+"id": 4702008924,
+"lat": -34.4239241,
+"lon": -58.5757445,
+"timestamp": "2026-09-21T13:45:00Z",
+"version": 5,
+"changeset": 189349801,
+"tags": {
+"addr:housenumber": "479",
+"addr:street": "Sarmiento",
+"check_date": "2026-09-21",
+"name": "Horbas",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "power_tools",
+"website": "https://casahorbas.com.ar",
+"wheelchair": "yes"
+}
+},
+{
+"type": "node",
+"id": 9943114936,
+"lat": -34.4196658,
+"lon": -58.5687386,
+"timestamp": "2022-08-09T17:31:53Z",
+"version": 1,
+"changeset": 124696130,
+"tags": {
+"addr:city": "Tigre",
+"addr:housenumber": "22",
+"addr:postcode": "1648",
+"addr:street": "Pedro Guareschi",
+"name": "Melee Juegos de Mesa",
+"shop": "games"
+}
+},
+{
+"type": "node",
+"id": 10017183518,
+"lat": -34.5092755,
+"lon": -58.4904404,
+"timestamp": "2023-11-01T10:18:56Z",
+"version": 2,
+"changeset": 143466368,
+"tags": {
+"contact:email": "jugar@conexionberlin.com",
+"contact:telegram": "https://telegram.me/conexionberlin",
+"contact:whatsapp": "+54 11 65 19 92 87",
+"name": "Conexión Berlín Sede Olivos",
+"opening_hours": "Fr 19:00-01:00",
+"shop": "games",
+"survey:date": "2022-09-11",
+"website": "https://www.conexionberlin.com/"
+}
+},
+{
+"type": "node",
+"id": 12848852931,
+"lat": -34.5128456,
+"lon": -58.4888019,
+"timestamp": "2025-11-21T23:16:56Z",
+"version": 3,
+"changeset": 174969504,
+"tags": {
+"addr:city": "Olivos",
+"addr:housenumber": "1473",
+"addr:postcode": "B1636",
+"addr:street": "Corrientes",
+"changing_table": "no",
+"check_date": "2025-11-21",
+"contact:instagram": "https://www.instagram.com/newgameplus.tcg",
+"name": "New Game Plus",
+"opening_hours": "Mo-Fr 12:00-19:00; Sa 14:00-19:00; Su,PH off",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"phone": "+54 9 11 6404 9996",
+"shop": "games",
+"website": "https://newgameplus.com.ar/",
+"wheelchair": "limited"
+}
+},
+{
+"type": "node",
+"id": 13650010201,
+"lat": -34.3984779,
+"lon": -58.5719752,
+"timestamp": "2026-03-15T14:48:26Z",
+"version": 1,
+"changeset": 179901705,
+"tags": {
+"name": "Almacen",
+"shop": "grocery"
+}
+},
+{
+"type": "way",
+"id": 467302632,
+"timestamp": "2017-01-25T22:27:21Z",
+"version": 2,
+"changeset": 45492687,
+"center": {
+"lat": -34.5355397,
+"lon": -58.5927504
+},
+"nodes": [
+4619508938,
+4619508939,
+4619508940,
+4619508941,
+4619508938
+],
+"tags": {
+"building": "yes",
+"name": "Minimercado",
+"shop": "grocery",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "node",
+"id": 14106492270,
+"lat": -34.5421062,
+"lon": -58.5057579,
+"timestamp": "2026-08-19T23:33:48Z",
+"version": 1,
+"changeset": 187716836,
+"tags": {
+"addr:city": "Vicente Lopez",
+"addr:housenumber": "862",
+"addr:postcode": "B1602",
+"addr:street": "Avenida Bartolomé Mitre",
+"check_date": "2026-08-19",
+"name": "Matafuegos Sofocar",
+"safety_equipment": "fire_extinguisher",
+"shop": "safety_equipment",
+"website": "https://gruposofocar.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 12220433853,
+"lat": -34.5336359,
+"lon": -58.4782995,
+"timestamp": "2025-04-27T18:45:32Z",
+"version": 2,
+"changeset": 165518511,
+"tags": {
+"check_date:opening_hours": "2025-04-27",
+"name": "Digi Fora",
+"opening_hours:signed": "no",
+"shop": "tobacco"
+}
+},
+{
+"type": "node",
+"id": 12802498535,
+"lat": -34.4881995,
+"lon": -58.4973484,
+"timestamp": "2025-05-01T15:15:51Z",
+"version": 1,
+"changeset": 165681130,
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "2015",
+"addr:postcode": "1640",
+"addr:street": "Doctor Guillermo Rawson",
+"check_date": "2025-05-01",
+"contact:email": "info@ameroshop.com.ar",
+"currency:XBT": "yes",
+"name": "Tabaquería Amero",
+"opening_hours": "Mo-Sa 11:00-20:00",
+"payment:lightning": "yes",
+"payment:lightning_contactless": "no",
+"payment:onchain": "yes",
+"phone": "+54 11 4792 9634",
+"shop": "tobacco",
+"website": "https://www.ameroshop.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 4602202952,
+"lat": -34.4903438,
+"lon": -58.4846812,
+"timestamp": "2023-11-09T23:54:36Z",
+"version": 4,
+"changeset": 143842486,
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "13023",
+"addr:postcode": "1640",
+"addr:street": "Avenida del Libertador",
+"name": "Pow",
+"shop": "fireworks",
+"source": "Reconocimiento terrestre por Kaart 2016",
+"website": "https://www.pirotecniapow.com.ar/"
+}
+},
+{
+"type": "way",
+"id": 464215713,
+"timestamp": "2024-04-16T16:42:56Z",
+"version": 4,
+"changeset": 150094230,
+"center": {
+"lat": -34.5689633,
+"lon": -58.540943
+},
+"nodes": [
+4593542307,
+4593542308,
+4593542309,
+4593542311,
+4593542310,
+4593542307
+],
+"tags": {
+"addr:city": "San Andrés",
+"addr:country": "AR",
+"addr:province": "Buenos Aires",
+"addr:street": "79 - Ayacucho",
+"building": "yes",
+"name": "Cienfuegos",
+"shop": "fireworks",
+"source": "Reconocimiento Cartográfico 2016 por KG"
+}
+},
+{
+"type": "node",
+"id": 4626609667,
+"lat": -34.4746718,
+"lon": -58.5012036,
+"timestamp": "2022-08-31T19:27:30Z",
+"version": 3,
+"changeset": 125626188,
+"tags": {
+"addr:city": "Acassuso",
+"addr:housenumber": "15213",
+"addr:postcode": "1641",
+"addr:street": "Avenida del Libertador",
+"name": "Renosto",
+"shop": "water_sports",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "way",
+"id": 625906083,
+"timestamp": "2020-01-06T13:45:32Z",
+"version": 2,
+"changeset": 79250836,
+"center": {
+"lat": -34.4082311,
+"lon": -58.7710454
+},
+"nodes": [
+5909353840,
+5909353841,
+5909353845,
+5909353842,
+5909353843,
+5909353840
+],
+"tags": {
+"addr:city": "Maquinista Savio",
+"addr:postcode": "1620",
+"addr:street": "Ruta Provincial 26",
+"building": "yes",
+"shop": "ropa_informal"
+}
+},
+{
+"type": "way",
+"id": 625906089,
+"timestamp": "2018-09-16T07:59:32Z",
+"version": 1,
+"changeset": 62628858,
+"center": {
+"lat": -34.408477,
+"lon": -58.7709058
+},
+"nodes": [
+5909353856,
+5909353859,
+5909353860,
+5909353857,
+5909353856
+],
+"tags": {
+"addr:city": "Maquinista Savio",
+"addr:postcode": "1620",
+"addr:street": "9 de Julio",
+"building": "yes",
+"name": "rapipago",
+"opening_hours": "Mo-Sa 08:00-20:00",
+"shop": "cobros_de_boletas"
+}
+},
+{
+"type": "way",
+"id": 1221077257,
+"timestamp": "2025-02-17T16:49:26Z",
+"version": 4,
+"changeset": 162622345,
+"center": {
+"lat": -34.5878541,
+"lon": -58.5248851
+},
+"nodes": [
+11316331599,
+12596155118,
+11316331600,
+11316331601,
+11316331602,
+11316331603,
+11316331599
+],
+"tags": {
+"addr:street": "Avenida 85 - Libertador General San Martín",
+"building": "industrial",
+"check_date": "2024-02-03",
+"name": "Mega Escaleras",
+"opening_hours": "Mo-Fr 09:00-16:00; Sa-Su off",
+"shop": "ladder",
+"website": "https://www.megaescaleras.com.ar/"
+}
+},
+{
+"type": "way",
+"id": 1228481754,
+"timestamp": "2023-12-03T18:50:38Z",
+"version": 1,
+"changeset": 144729156,
+"center": {
+"lat": -34.5897787,
+"lon": -58.5195288
+},
+"nodes": [
+11392542622,
+6139651489,
+11392542623,
+11392542624,
+11392542622
+],
+"tags": {
+"building": "yes",
+"name": "General Paz Growshop",
+"shop": "cannabis"
+}
+},
+{
+"type": "way",
+"id": 473049216,
+"timestamp": "2025-03-08T01:48:08Z",
+"version": 7,
+"changeset": 163348658,
+"center": {
+"lat": -34.5214951,
+"lon": -58.4846262
+},
+"nodes": [
+4672215291,
+4672215292,
+4672215293,
+4672215294,
+4672215291
+],
+"tags": {
+"addr:city": "Vicente López",
+"addr:housenumber": "1755",
+"addr:postcode": "B1638",
+"addr:street": "Avenida Maipú",
+"building": "yes",
+"check_date": "2025-03-07",
+"name": "Olivos Growshop",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "cannabis",
+"website": "https://olivosgrowshop.net/",
+"wheelchair": "no"
+}
+},
+{
+"type": "way",
+"id": 470804194,
+"timestamp": "2017-01-31T22:18:28Z",
+"version": 2,
+"changeset": 45699457,
+"center": {
+"lat": -34.5196945,
+"lon": -58.7097388
+},
+"nodes": [
+4649950874,
+4649950875,
+4649950876,
+4649950877,
+4649950878,
+4649950879,
+4649950880,
+4649950881,
+4649950882,
+4649950874
+],
+"tags": {
+"addr:street": "José Darragueira",
+"building": "yes",
+"name": "Maderera Burger",
+"shop": "building_materials",
+"source": "Reconocimiento terrestre cartográfico realizado por Kaart en 2016."
+}
+},
+{
+"type": "way",
+"id": 466506779,
+"timestamp": "2017-01-18T17:30:32Z",
+"version": 2,
+"changeset": 45276011,
+"center": {
+"lat": -34.5321098,
+"lon": -58.5116879
+},
+"nodes": [
+4612824928,
+4612824929,
+4612824930,
+4612824931,
+4612824932,
+4612824928
+],
+"tags": {
+"addr:street": "Avenida Bartolomé Mitre",
+"building": "yes",
+"name": "Materiales Martelli",
+"shop": "building_materials",
+"source": "Reconocimiento cartográfico 2016 por KG"
+}
+},
+{
+"type": "way",
+"id": 474441539,
+"timestamp": "2017-02-20T17:08:17Z",
+"version": 3,
+"changeset": 46249929,
+"center": {
+"lat": -34.4555766,
+"lon": -58.6396485
+},
+"nodes": [
+4683967367,
+4683967368,
+4683967359,
+4683967364,
+4683967369,
+4683967370,
+4683967367
+],
+"tags": {
+"addr:street": "Avenida de los Constituyentes",
+"building": "yes",
+"name": "Coralon de Materiales",
+"shop": "building_materials",
+"source": "Reconocimiento terrestre 2016 por Kaart."
+}
+},
+{
+"type": "way",
+"id": 468417200,
+"timestamp": "2017-12-28T05:02:30Z",
+"version": 3,
+"changeset": 54973255,
+"center": {
+"lat": -34.4871239,
+"lon": -58.6189396
+},
+"nodes": [
+4629513671,
+4629513672,
+4629513673,
+4629513674,
+4629513675,
+4629513676,
+4629513671
+],
+"tags": {
+"addr:street": "Avenida Ángel Torcuato de Alvear",
+"building": "yes",
+"name": "Tienda de Venta Benefica Articulos Usados",
+"shop": "charity"
+}
+},
+{
+"type": "way",
+"id": 1154359953,
+"timestamp": "2023-03-14T20:03:38Z",
+"version": 1,
+"changeset": 133683170,
+"center": {
+"lat": -34.5782656,
+"lon": -58.5446453
+},
+"nodes": [
+10735761355,
+10735761356,
+10735761357,
+10735761358,
+10735761359,
+10735761355
+],
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "2301",
+"addr:postcode": "B1650",
+"addr:street": "Avenida 101 - Doctor Ricardo Balbín",
+"barrier": "fence",
+"fence_type": "chain_link",
+"name": "Parrillas Balcarce",
+"shop": "garden_furniture"
+}
+},
+{
+"type": "way",
+"id": 1152331379,
+"timestamp": "2023-03-22T20:03:45Z",
+"version": 2,
+"changeset": 133995105,
+"center": {
+"lat": -34.5791988,
+"lon": -58.539399
+},
+"nodes": [
+10718264794,
+10718264795,
+10754396967,
+10718264796,
+10718264797,
+10718264798,
+10718264794
+],
+"tags": {
+"addr:city": "General San Martín",
+"addr:housenumber": "4001",
+"addr:postcode": "B1650",
+"addr:street": "52 - Belgrano",
+"building": "yes",
+"building:levels": "2",
+"contact:email": "core@sinectis.com.ar",
+"contact:phone": "+54 11 4755 8803;+54 11 4753 8707",
+"name": "Core",
+"shop": "rental"
+}
+},
+{
+"type": "way",
+"id": 1158807313,
+"timestamp": "2023-03-31T19:43:49Z",
+"version": 1,
+"changeset": 134359827,
+"center": {
+"lat": -34.5700068,
+"lon": -58.5397584
+},
+"nodes": [
+4600799992,
+4600799993,
+10776440954,
+10776440963,
+10776440960,
+10776440958,
+10776440957,
+10776440955,
+4600799992
+],
+"tags": {
+"building": "yes",
+"name": "Varalda",
+"shop": "pyrotechnics"
+}
+},
+{
+"type": "way",
+"id": 474917540,
+"timestamp": "2026-08-16T05:14:22Z",
+"version": 6,
+"changeset": 187516978,
+"center": {
+"lat": -34.4924753,
+"lon": -58.5472503
+},
+"nodes": [
+4687734319,
+4687734320,
+4687734321,
+4687734322,
+4687734323,
+4687734319
+],
+"tags": {
+"addr:city": "San Isidro",
+"addr:postcode": "B1642",
+"addr:street": "Avenida Márquez",
+"building": "yes",
+"name": "Juipiter",
+"shop": "pyrotechnics",
+"website": "https://www.fuegosjupiter.com.ar/"
+}
+},
+{
+"type": "way",
+"id": 466456191,
+"timestamp": "2022-11-05T18:46:38Z",
+"version": 4,
+"changeset": 128532439,
+"center": {
+"lat": -34.5291311,
+"lon": -58.5168509
+},
+"nodes": [
+4612506350,
+4612506351,
+4612506352,
+4612506353,
+4612506354,
+4612506350
+],
+"tags": {
+"addr:street": "Avenida Bartolomé Mitre",
+"building": "yes",
+"name": "Luke Munio",
+"opening_hours": "Mo-Fr 11:00-20:00; Sa 10:00-20:00; Su off",
+"shop": "skate",
+"source": "Reconocimiento cartográfico 2016 por KG"
+}
+},
+{
+"type": "way",
+"id": 474917538,
+"timestamp": "2022-10-25T21:30:58Z",
+"version": 7,
+"changeset": 128057220,
+"center": {
+"lat": -34.4926641,
+"lon": -58.5476548
+},
+"nodes": [
+4687734312,
+4687734308,
+4687734309,
+4687734310,
+4687734312
+],
+"tags": {
+"addr:city": "San Isidro",
+"addr:housenumber": "2924",
+"addr:postcode": "B1642",
+"addr:street": "Avenida Márquez",
+"building": "commercial",
+"building:levels": "2",
+"name": "Vidrieria Winglass",
+"opening_hours": "Mo-Fr 10:30-13:30,15:00-19:00; Sa,Su off",
+"roof:levels": "0",
+"shop": "frame",
+"source": "Reconocimiento terrestre 2016 por Kaart."
+}
+},
+{
+"type": "way",
+"id": 463881030,
+"timestamp": "2022-11-30T12:44:41Z",
+"version": 4,
+"changeset": 129560605,
+"center": {
+"lat": -34.4953785,
+"lon": -58.5350356
+},
+"nodes": [
+4590865435,
+4590865436,
+4590865437,
+4590865438,
+4590865435
+],
+"tags": {
+"addr:city": "Martínez",
+"addr:housenumber": "2738",
+"addr:street": "Dardo Rocha",
+"building": "yes",
+"building:levels": "1",
+"name": "Borges",
+"shop": "catalogue"
+}
+},
+{
+"type": "way",
+"id": 463805870,
+"timestamp": "2017-02-11T02:32:05Z",
+"version": 3,
+"changeset": 45988398,
+"center": {
+"lat": -34.4908161,
+"lon": -58.5262314
+},
+"nodes": [
+4590275759,
+4590275760,
+4590275761,
+4590275762,
+4590275763,
+4590275764,
+4590275765,
+4590275766,
+4590275767,
+4590275759
+],
+"tags": {
+"addr:city": "Martínez",
+"addr:street": "Dardo Rocha",
+"building": "yes",
+"building:levels": "1",
+"name": "Navarro Ache",
+"shop": "bathroom",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "way",
+"id": 464110514,
+"timestamp": "2017-02-11T02:32:15Z",
+"version": 2,
+"changeset": 45988398,
+"center": {
+"lat": -34.4938779,
+"lon": -58.5220095
+},
+"nodes": [
+4592638670,
+4592638671,
+4592638672,
+4592638673,
+4592638670
+],
+"tags": {
+"addr:city": "Martínez",
+"addr:street": "Avenida Sir Alexander Fleming",
+"building": "yes",
+"building:levels": "2",
+"name": "Detail Factory",
+"shop": "window_tint",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "way",
+"id": 896591655,
+"timestamp": "2023-09-09T04:55:14Z",
+"version": 5,
+"changeset": 141009581,
+"center": {
+"lat": -34.4686246,
+"lon": -58.6494151
+},
+"nodes": [
+8334432632,
+8334432633,
+8334432634,
+8334432635,
+8334432632
+],
+"tags": {
+"addr:city": "El Talar",
+"addr:housenumber": "1934",
+"addr:postcode": "1618",
+"addr:street": "Avenida Hipólito Yrigoyen",
+"building": "yes",
+"image": "https://ss-static-01.esmsv.com/id/117805/galeriaimagenes/obtenerimagen/?width=75&height=75&id=sitio_logo&ultimaModificacion=2021-01-18+11%3A08%3A47",
+"name": "Aleli Esencias, Depósito.",
+"opening_hours": "Mo-Fr 09:00-17:00",
+"payment:cash": "yes",
+"payment:mercado_pago": "yes",
+"phone": "0054-911-15-5947-1848",
+"shop": "Productos_de_Aromatizacion_y_Limpieza.",
+"website": "https://aleliesencias.com.ar/"
+}
+},
+{
+"type": "way",
+"id": 475963116,
+"timestamp": "2017-02-28T18:46:33Z",
+"version": 3,
+"changeset": 46475003,
+"center": {
+"lat": -34.4639732,
+"lon": -58.6447076
+},
+"nodes": [
+4696407318,
+4696407319,
+4696407320,
+4696407321,
+4696407318
+],
+"tags": {
+"addr:street": "Paul Groussac",
+"building": "yes",
+"name": "Venta al Gremio",
+"shop": "construction",
+"source": "Reconocimiento terrestre por Kaart 2016"
+}
+},
+{
+"type": "way",
+"id": 475879954,
+"timestamp": "2017-02-20T17:08:50Z",
+"version": 3,
+"changeset": 46249929,
+"center": {
+"lat": -34.45848,
+"lon": -58.6334359
+},
+"nodes": [
+4695640305,
+4695640306,
+4695640307,
+4695640308,
+4695640305
+],
+"tags": {
+"addr:street": "Buenos Aires",
+"building": "yes",
+"name": "La Morada",
+"shop": "event",
+"source": "Reconocimiento terrestre 2016 por Kaart."
+}
+},
+{
+"type": "way",
+"id": 474854088,
+"timestamp": "2026-08-03T02:50:49Z",
+"version": 4,
+"changeset": 186845079,
+"center": {
+"lat": -34.4537478,
+"lon": -58.6433936
+},
+"nodes": [
+4687186469,
+4687186470,
+4687186471,
+4687186472,
+4687186469
+],
+"tags": {
+"addr:street": "Avenida de los Constituyentes",
+"building": "yes",
+"name": "Taylor",
+"shop": "industry_supplies"
+}
+},
+{
+"type": "way",
+"id": 742701522,
+"timestamp": "2025-09-01T00:13:25Z",
+"version": 3,
+"changeset": 171291400,
+"center": {
+"lat": -34.4403403,
+"lon": -58.6426934
+},
+"nodes": [
+6952650093,
+6952650092,
+6952650091,
+6952650112,
+6952650097,
+6952650090,
+6952650089,
+6952650088,
+6952650096,
+6952650113,
+6952650093
+],
+"tags": {
+"building": "yes",
+"name": "YPF",
+"shop": "fuel"
+}
+},
+{
+"type": "way",
+"id": 1031461387,
+"timestamp": "2022-02-14T22:09:56Z",
+"version": 1,
+"changeset": 117412463,
+"center": {
+"lat": -34.3975255,
+"lon": -58.6518837
+},
+"nodes": [
+9506330613,
+9506330614,
+9506350321,
+9506330615,
+9506330616,
+9506330613
+],
+"tags": {
+"addr:city": "Nordelta",
+"addr:housenumber": "8037",
+"addr:postcode": "1624",
+"addr:street": "Avenida Agustín M. García",
+"building": "yes",
+"shop": "bateries"
+}
+},
+{
+"type": "way",
+"id": 472702842,
+"timestamp": "2026-10-15T17:10:17Z",
+"version": 4,
+"changeset": 190568940,
+"center": {
+"lat": -34.4658276,
+"lon": -58.5828528
+},
+"nodes": [
+4669021499,
+4669021500,
+4669021501,
+4669021502,
+4669021499
+],
+"tags": {
+"addr:housenumber": "4654",
+"addr:street": "Avenida Nicolás Avellaneda",
+"building": "yes",
+"check_date": "2026-10-14",
+"name": "Materiales Rossi Chico",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "construction_materials",
+"source": "Reconocimiento terrestre 2016 por Kaart.",
+"website": "https://www.rossichico.com.ar",
+"wheelchair": "limited"
+}
+},
+{
+"type": "way",
+"id": 473372030,
+"timestamp": "2026-10-12T17:56:25Z",
+"version": 5,
+"changeset": 190415985,
+"center": {
+"lat": -34.4618314,
+"lon": -58.5746008
+},
+"nodes": [
+4674965706,
+4674965707,
+4674965708,
+4674965709,
+4674965710,
+4674965706
+],
+"tags": {
+"addr:city": "Virreyes",
+"addr:postcode": "B1645",
+"addr:street": "Avenida Nicolás Avellaneda",
+"building": "yes",
+"building:levels": "2",
+"check_date": "2026-10-12",
+"name": "Baterias Eben-Ezer",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "battery",
+"source": "Reconocimiento terrestre 2016 por Kaart.",
+"website": "https://bateriasebenezer.com"
+}
+},
+{
+"type": "way",
+"id": 473836246,
+"timestamp": "2022-11-01T18:35:41Z",
+"version": 4,
+"changeset": 128359234,
+"center": {
+"lat": -34.4533359,
+"lon": -58.5769365
+},
+"nodes": [
+4678701978,
+4678701979,
+4678701980,
+4678701981,
+4678701982,
+4678701978
+],
+"tags": {
+"addr:city": "San Fernando",
+"addr:postcode": "1646",
+"addr:street": "Avenida Hipólito Yrigoyen",
+"building": "yes",
+"name": "Redimec",
+"shop": "aviation_supplies",
+"source": "Reconocimiento terrestre 2016 por Kaart."
+}
+},
+{
+"type": "way",
+"id": 473836230,
+"timestamp": "2017-02-14T07:06:36Z",
+"version": 3,
+"changeset": 46070224,
+"center": {
+"lat": -34.4454337,
+"lon": -58.5798337
+},
+"nodes": [
+4678701939,
+4678701940,
+4678701941,
+4678701942,
+4678701939
+],
+"tags": {
+"addr:street": "Colectora Ramal Oeste Acceso A Tigre",
+"building": "yes",
+"name": "Daniel Castillo",
+"shop": "zingueria",
+"source": "Reconocimiento terrestre 2016 por Kaart."
+}
+},
+{
+"type": "way",
+"id": 473129979,
+"timestamp": "2022-09-18T15:02:30Z",
+"version": 4,
+"changeset": 126334367,
+"center": {
+"lat": -34.4469549,
+"lon": -58.5463735
+},
+"nodes": [
+1052980281,
+4673009019,
+4673009020,
+4673009021,
+1052980281
+],
+"tags": {
+"addr:city": "Victoria",
+"addr:postcode": "1646",
+"addr:street": "Quintana",
+"building": "yes",
+"name": "Renault Minuto",
+"shop": "car;car_repair",
+"source": "Reconocimiento cartográfico de campo 2016 por KG."
+}
+},
+{
+"type": "way",
+"id": 475344715,
+"timestamp": "2022-09-18T15:02:30Z",
+"version": 3,
+"changeset": 126334367,
+"center": {
+"lat": -34.4475901,
+"lon": -58.5406937
+},
+"nodes": [
+3462461532,
+4691042684,
+4691042685,
+4691042686,
+3462461532
+],
+"tags": {
+"addr:city": "Victoria",
+"addr:postcode": "1644",
+"addr:street": "Avenida del Libertador",
+"building": "commercial",
+"delivery": "yes",
+"name": "Esquina Canela",
+"shop": "tea",
+"source": "Reconocimiento terrestre 2016 por Kaart.",
+"takeaway": "yes"
+}
+},
+{
+"type": "way",
+"id": 475920880,
+"timestamp": "2017-02-27T22:41:27Z",
+"version": 2,
+"changeset": 46453706,
+"center": {
+"lat": -34.4089169,
+"lon": -58.5926702
+},
+"nodes": [
+4696000222,
+4696000223,
+4696000224,
+4696000225,
+4696000226,
+4696000222
+],
+"tags": {
+"addr:street": "Caupolicán",
+"building": "yes",
+"name": "Folino",
+"shop": "boat_parts",
+"source": "Reconocimiento terrestre por Kaart 2016."
+}
+},
+{
+"type": "way",
+"id": 476377772,
+"timestamp": "2026-08-05T20:47:18Z",
+"version": 3,
+"changeset": 187000442,
+"center": {
+"lat": -34.4235131,
+"lon": -58.5844063
+},
+"nodes": [
+4699744606,
+4699744607,
+4699744608,
+4699744609,
+4699744606
+],
+"tags": {
+"addr:street": "General Lavalle",
+"building": "yes",
+"check_date": "2026-08-05",
+"name": "Náutica Sarthou",
+"shop": "boat_repair",
+"source": "Reconocimiento terrestre por Kaart 2016."
+}
+},
+{
+"type": "way",
+"id": 472816725,
+"timestamp": "2025-07-01T20:21:36Z",
+"version": 6,
+"changeset": 168370499,
+"center": {
+"lat": -34.5155342,
+"lon": -58.4886152
+},
+"nodes": [
+4670193158,
+4657350863,
+4657350861,
+4670193159,
+4670193160,
+12967223465,
+4670193158
+],
+"tags": {
+"addr:housenumber": "2230",
+"addr:street": "Avenida Maipú",
+"building": "yes",
+"name": "La Vaca Tuerta",
+"payment:cash": "yes",
+"payment:credit_cards": "yes",
+"payment:debit_cards": "yes",
+"shop": "fireplace",
+"source": "Reconocimiento terrestre por Kaart 2016.",
+"website": "https://www.lavacatuerta.com/"
+}
+},
+{
+"type": "way",
+"id": 513319720,
+"timestamp": "2022-08-31T02:01:10Z",
+"version": 2,
+"changeset": 125592514,
+"center": {
+"lat": -34.4846026,
+"lon": -58.4810382
+},
+"nodes": [
+5018096456,
+5018096457,
+5018096458,
+5018096459,
+5018096460,
+5018096461,
+5018096462,
+5018096463,
+5018096464,
+5018096465,
+5018096466,
+5018096467,
+5018096468,
+5018096469,
+5018096470,
+5018096471,
+5018096456
+],
+"tags": {
+"addr:city": "Martínez",
+"addr:postcode": "B1640",
+"building": "yes",
+"shop": "massage"
+}
+},
+{
+"type": "node",
+"id": 2616627114,
+"lat": -34.4524861,
+"lon": -58.932079,
+"timestamp": "2014-01-09T21:32:02Z",
+"version": 1,
+"changeset": 19908274,
+"tags": {
+"amenity": "restaurant",
+"cuisine": "italian",
+"name": "Cornelio",
+"old_name": "Cornelio Mez-Mez",
+"website": "http://www.corneliorestaurante.com.ar/"
+}
+},
+{
+"type": "node",
+"id": 6874281213,
+"lat": -34.4875963,
+"lon": -58.7261888,
+"timestamp": "2019-10-12T21:34:13Z",
+"version": 1,
+"changeset": 75610301,
+"tags": {
+"name": "Aberturas Daniel",
+"shop": "yes"
+}
+},
+{
+"type": "node",
+"id": 5242649551,
+"lat": -34.4643964,
+"lon": -58.9097624,
+"timestamp": "2017-11-22T12:43:34Z",
+"version": 1,
+"changeset": 54000582,
+"tags": {
+"name": "Carnicería JS",
+"shop": "butcher"
+}
+},
+{
+"type": "node",
+"id": 2576564314,
+"lat": -34.4593851,
+"lon": -58.9139901,
+"timestamp": "2013-12-12T03:57:01Z",
+"version": 1,
+"changeset": 19405869,
+"tags": {
+"addr:city": "Pilar",
+"addr:housename": "El Colonial",
+"addr:housenumber": "656",
+"addr:postcode": "1629",
+"addr:street": "Lorenzo López",
+"amenity": "restaurant",
+"cuisine": "regional",
+"name": "El Colonial"
+}
+},
+{
+"type": "node",
+"id": 2588707672,
+"lat": -34.4599929,
+"lon": -58.914683,
+"timestamp": "2013-12-21T06:33:11Z",
+"version": 1,
+"changeset": 19561692,
+"tags": {
+"amenity": "restaurant",
+"name": "Pizza Rolo"
+}
+},
+{
+"type": "node",
+"id": 2588707677,
+"lat": -34.4570205,
+"lon": -58.9105846,
+"timestamp": "2013-12-21T06:33:12Z",
+"version": 1,
+"changeset": 19561692,
+"tags": {
+"amenity": "restaurant",
+"name": "Planeta Pilar"
+}
+},
+{
+"type": "node",
+"id": 4966507677,
+"lat": -34.4584819,
+"lon": -58.9131144,
+"timestamp": "2017-07-12T17:25:13Z",
+"version": 1,
+"changeset": 50236216,
+"tags": {
+"name": "DASH",
+"shop": "shoes"
+}
+},
+{
+"type": "node",
+"id": 4966507678,
+"lat": -34.4577145,
+"lon": -58.9134738,
+"timestamp": "2017-07-12T17:25:13Z",
+"version": 1,
+"changeset": 50236216,
+"tags": {
+"name": "DASH",
+"shop": "shoes"
+}
+},
+{
+"type": "node",
+"id": 5242649549,
+"lat": -34.4617264,
+"lon": -58.9118116,
+"timestamp": "2017-11-22T12:43:34Z",
+"version": 1,
+"changeset": 54000582,
+"tags": {
+"name": "Muebles Majo III",
+"shop": "yes"
+}
+},
+{
+"type": "node",
+"id": 8777914464,
+"lat": -34.4605753,
+"lon": -58.9145995,
+"timestamp": "2021-05-29T01:13:48Z",
+"version": 1,
+"changeset": 105516292,
+"tags": {
+"name": "Panadería del Pilar",
+"shop": "bakery"
+}
+},
+{
+"type": "node",
+"id": 2588707701,
+"lat": -34.458458,
+"lon": -58.9095292,
+"timestamp": "2013-12-21T06:33:12Z",
+"version": 1,
+"changeset": 19561692,
+"tags": {
+"amenity": "restaurant",
+"name": "El Encuentro"
+}
+},
+{
+"type": "node",
+"id": 5241058993,
+"lat": -34.4579161,
+"lon": -58.9092544,
+"timestamp": "2017-11-21T13:18:47Z",
+"version": 1,
+"changeset": 53975692,
+"tags": {
+"name": "Carnicería JS",
+"shop": "butcher"
+}
+},
+{
+"type": "node",
+"id": 13228428550,
+"lat": -34.4568956,
+"lon": -58.9058228,
+"timestamp": "2025-10-12T20:03:05Z",
+"version": 1,
+"changeset": 173197964,
+"tags": {
+"brand": "Volkswagen",
+"brand:wikidata": "Q699709",
+"name": "Línea Autopartes",
+"shop": "car_parts"
+}
+},
+{
+"type": "node",
+"id": 5990658219,
+"lat": -34.4497423,
+"lon": -58.9170976,
+"timestamp": "2018-10-16T16:14:10Z",
+"version": 1,
+"changeset": 63581761,
+"tags": {
+"name": "Rever Pass",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990658222,
+"lat": -34.4494976,
+"lon": -58.9171726,
+"timestamp": "2018-10-16T16:14:10Z",
+"version": 1,
+"changeset": 63581761,
+"tags": {
+"amenity": "pharmacy",
+"dispensing": "yes",
+"healthcare": "pharmacy",
+"name": "Farmacia del Nuevo Paseo"
+}
+},
+{
+"type": "node",
+"id": 5990696223,
+"lat": -34.4496171,
+"lon": -58.9170098,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "Chaperonas",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990696226,
+"lat": -34.4494075,
+"lon": -58.9168865,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "Ramira",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990696228,
+"lat": -34.4492919,
+"lon": -58.9169543,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "Fanáticos",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990696229,
+"lat": -34.4492703,
+"lon": -58.9169066,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "CR Sweaters",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 2686872573,
+"lat": -34.4542167,
+"lon": -58.9106013,
+"timestamp": "2014-02-23T15:51:57Z",
+"version": 1,
+"changeset": 20734211,
+"tags": {
+"amenity": "fast_food",
+"name": "Super 8"
+}
+},
+{
+"type": "node",
+"id": 5990696231,
+"lat": -34.4492271,
+"lon": -58.9168341,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "47 Street",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990696232,
+"lat": -34.4491953,
+"lon": -58.9167725,
+"timestamp": "2018-10-16T16:22:30Z",
+"version": 1,
+"changeset": 63582033,
+"tags": {
+"name": "Kooga",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990734173,
+"lat": -34.4492347,
+"lon": -58.9164151,
+"timestamp": "2018-10-16T16:27:53Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "Awada",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990734174,
+"lat": -34.4492779,
+"lon": -58.9163766,
+"timestamp": "2018-10-16T16:27:53Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "Honky Tonk",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990734175,
+"lat": -34.4493249,
+"lon": -58.9163412,
+"timestamp": "2018-10-16T16:27:53Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "Body Sculp",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990734176,
+"lat": -34.4493846,
+"lon": -58.916295,
+"timestamp": "2018-10-16T16:27:53Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "Sol para Mi",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990734180,
+"lat": -34.4494329,
+"lon": -58.9161671,
+"timestamp": "2018-10-16T16:27:53Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "Wanama/Cook",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990734181,
+"lat": -34.4494735,
+"lon": -58.916127,
+"timestamp": "2018-10-16T16:27:53Z",
+"version": 1,
+"changeset": 63582208,
+"tags": {
+"name": "Cormery",
+"shop": "jewelry"
+}
+},
+{
+"type": "node",
+"id": 5990842762,
+"lat": -34.4503043,
+"lon": -58.9164644,
+"timestamp": "2018-10-16T16:41:55Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"amenity": "restaurant",
+"cuisine": "pizza",
+"name": "Pizza Cero"
+}
+},
+{
+"type": "node",
+"id": 5990842768,
+"lat": -34.4499756,
+"lon": -58.9156648,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "New Garden",
+"shop": "deli"
+}
+},
+{
+"type": "node",
+"id": 5990842773,
+"lat": -34.4497266,
+"lon": -58.9157896,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Novotech",
+"shop": "computer"
+}
+},
+{
+"type": "node",
+"id": 5990842776,
+"lat": -34.4496034,
+"lon": -58.915805,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Lady Stork / Stork Man",
+"shop": "shoes"
+}
+},
+{
+"type": "node",
+"id": 5990842778,
+"lat": -34.4496529,
+"lon": -58.9159267,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Womanly",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990842779,
+"lat": -34.4496872,
+"lon": -58.9159945,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Wow",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990842780,
+"lat": -34.4497203,
+"lon": -58.9160654,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Muaa",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990842781,
+"lat": -34.4497558,
+"lon": -58.9161193,
+"timestamp": "2018-10-16T16:41:56Z",
+"version": 1,
+"changeset": 63582698,
+"tags": {
+"name": "Krodo",
+"shop": "jewelry"
+}
+},
+{
+"type": "node",
+"id": 5990961943,
+"lat": -34.4500061,
+"lon": -58.9160115,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"amenity": "restaurant",
+"name": "Alma Natura"
+}
+},
+{
+"type": "node",
+"id": 5990961944,
+"lat": -34.4499439,
+"lon": -58.9159822,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"name": "Total Look",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990961945,
+"lat": -34.4499743,
+"lon": -58.9160623,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"amenity": "fast_food",
+"cuisine": "regional",
+"name": "El Noble"
+}
+},
+{
+"type": "node",
+"id": 5990961948,
+"lat": -34.449954,
+"lon": -58.9162533,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"name": "Paseo Sports",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990961949,
+"lat": -34.449846,
+"lon": -58.9163874,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"name": "Kevingston",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990961950,
+"lat": -34.4498486,
+"lon": -58.9162965,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"name": "Baby Home",
+"shop": "baby_goods"
+}
+},
+{
+"type": "node",
+"id": 5990961951,
+"lat": -34.4498676,
+"lon": -58.9162009,
+"timestamp": "2018-10-16T17:05:37Z",
+"version": 1,
+"changeset": 63583416,
+"tags": {
+"name": "Victoria de Jezús",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990992526,
+"lat": -34.4496872,
+"lon": -58.9164998,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 1,
+"changeset": 63583607,
+"tags": {
+"name": "Cheeky",
+"shop": "baby_goods"
+}
+},
+{
+"type": "node",
+"id": 5990992528,
+"lat": -34.4495005,
+"lon": -58.9165337,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 1,
+"changeset": 63583607,
+"tags": {
+"name": "Sweet",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5990992532,
+"lat": -34.4494738,
+"lon": -58.9168064,
+"timestamp": "2018-10-16T17:12:19Z",
+"version": 1,
+"changeset": 63583607,
+"tags": {
+"name": "Polo Club",
+"shop": "clothes"
+}
+},
+{
+"type": "node",
+"id": 5991323248,
+"lat": -34.4494363,
+"lon": -58.9159953,
+"timestamp": "2018-10-16T18:51:49Z",
+"version": 1,
+"changeset": 63586665,
+"tags": {
+"level": "1",
+"name": "Nextel",
+"shop": "mobile_phone"
+}
+},
+{
+"type": "node",
+"id": 6298022208,
+"lat": -34.4547369,
+"lon": -58.9164665,
+"timestamp": "2019-02-23T21:04:33Z",
+"version": 1,
+"changeset": 67503287,
+"tags": {
+"addr:housenumber": "802",
+"addr:street": "Avenida Estanislao López",
+"name": "Soco",
+"shop": "baby_goods"
+}
+},
+{
+"type": "node",
+"id": 5241058990,
+"lat": -34.4506043,
+"lon": -58.9061918,
+"timestamp": "2017-11-21T13:18:47Z",
+"version": 1,
+"changeset": 53975692,
+"tags": {
+"addr:street": "Avenida Tratado del Pilar",
+"amenity": "pharmacy",
+"healthcare": "pharmacy"
+}
+},
+{
+"type": "node",
+"id": 8750827365,
+"lat": -34.4434159,
+"lon": -58.9120394,
+"timestamp": "2021-05-20T18:44:05Z",
+"version": 1,
+"changeset": 105046087,
+"tags": {
+"addr:housenumber": "810",
+"addr:street": "Paraguay",
+"name": "Supermercado Cosmos",
+"shop": "supermarket"
+}
+}
+]
+}
