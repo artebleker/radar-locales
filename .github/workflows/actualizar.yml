@@ -1,0 +1,63 @@
+# Corrida diaria (y a demanda desde la pestaña Actions): recolecta, publica los datos y despliega el sitio.
+name: Actualizar radar
+
+on:
+  schedule:
+    - cron: "37 9 * * *"   # 6:37 en Argentina; fuera del minuto 0 para evitar la hora pico de GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit de data/ y site/data/
+  pages: write
+  id-token: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      TZ: America/Argentina/Buenos_Aires
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - name: Instalar
+        run: |
+          pip install -r requirements.txt
+          pip install --no-deps -e .
+
+      - name: Recolectar, unificar y generar site/data
+        run: radar run
+
+      - name: Commit de datos (solo si hubo cambios)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos."
+            exit 0
+          fi
+          TOTALES=$(python -c "import json; t=json.load(open('site/data/estado.json'))['totales_ventana']; e=t['por_estado']; c=t['por_confianza']; print(f\"{t['candidatos']} candidatos en 30 días ({e.get('por_abrir',0)} por abrir, {e.get('abrio',0)} abrieron; {c.get('alta',0)} confianza alta)\")")
+          git commit -m "Datos $(date +%F): $TOTALES"
+          git push
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v5
