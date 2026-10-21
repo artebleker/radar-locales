@@ -1,0 +1,119 @@
+{
+ "actualizado": "2026-10-20T22:50:27-03:00",
+ "zona_horaria": "America/Argentina/Buenos_Aires",
+ "ventanas_dias": [
+  7,
+  14,
+  30,
+  90
+ ],
+ "ventana_defecto": 30,
+ "totales_ventana": {
+  "candidatos": 33,
+  "por_estado": {
+   "abrio": 4,
+   "por_abrir": 2,
+   "detectado": 27
+  },
+  "por_confianza": {
+   "alta": 1,
+   "media": 5,
+   "baja": 27
+  }
+ },
+ "partidos": [
+  "Vicente López",
+  "San Isidro",
+  "San Fernando",
+  "Tigre",
+  "San Martín",
+  "Escobar",
+  "Pilar",
+  "Malvinas Argentinas"
+ ],
+ "rubros": [
+  "Gastronomía",
+  "Indumentaria y calzado",
+  "Electro y tecnología",
+  "Alimentos y supermercados",
+  "Belleza y salud",
+  "Hogar y construcción",
+  "Otros"
+ ],
+ "salud": [
+  {
+   "fuente": "osm",
+   "tipo": "listado",
+   "url": "https://www.openstreetmap.org",
+   "licencia": "ODbL — © colaboradores de OpenStreetMap",
+   "ok": true,
+   "error": null,
+   "senales": 27,
+   "avisos": [],
+   "detalle": {},
+   "segundos": 0.2
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo": "prensa",
+   "url": "config.yaml → medios_rss.feeds",
+   "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
+   "ok": true,
+   "error": null,
+   "senales": 6,
+   "avisos": [],
+   "detalle": {},
+   "segundos": 5.2
+  },
+  {
+   "fuente": "directorios",
+   "tipo": "directorio",
+   "url": "config.yaml → directorios.sitios",
+   "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
+   "ok": true,
+   "error": null,
+   "senales": 0,
+   "avisos": [],
+   "detalle": {
+    "Unicenter": 316,
+    "Palmas del Pilar": 137,
+    "Portal Escobar": 27,
+    "Factory San Martín": 30,
+    "Paseo Champagnat": 95,
+    "Remeros Plaza": 83,
+    "Soleil Premium Outlet": 81,
+    "Tortugas Open Mall": 144
+   },
+   "segundos": 3.3
+  },
+  {
+   "fuente": "sucursales",
+   "tipo": "cadena",
+   "url": "config.yaml → sucursales.cadenas",
+   "licencia": "Datos públicos de sucursales publicados por cada cadena",
+   "ok": true,
+   "error": null,
+   "senales": 0,
+   "avisos": [],
+   "detalle": {
+    "Frávega": 10,
+    "Supermercados Día": 98,
+    "Carrefour": 70,
+    "Easy": 12,
+    "Blaisten": 2,
+    "Simplicity": 17,
+    "Bonafide": 25,
+    "Havanna": 15
+   },
+   "segundos": 3.5
+  }
+ ],
+ "arca": {
+  "estado": "verificacion_manual_enlazada",
+  "comprobado_el": "2026-10-20",
+  "url_constancia": "https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do",
+  "nota": "Si conocés el CUIT del comercio, podés verificar su inscripción en ARCA. Una inscripción no prueba que el local esté abierto."
+ },
+ "repo": "https://github.com/artebleker/radar-locales",
+ "hoy": "2026-10-20"
+}

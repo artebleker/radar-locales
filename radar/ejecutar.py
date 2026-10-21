@@ -42,6 +42,8 @@ def recolectar(config, pedidas: list[str] | None = None, limite: int | None = No
             log.error("Fuente %s falló: %s", fuente.NOMBRE, e)
             log.debug(traceback.format_exc())
             estado.update(ok=False, error=f"{type(e).__name__}: {e}")
+        estado["avisos"] = (config.get("_avisos") or {}).get(fuente.NOMBRE) or []
+        estado["detalle"] = (config.get("_resumen") or {}).get(fuente.NOMBRE) or {}
         estado["segundos"] = round(time.monotonic() - t0, 1)
         salud.append(estado)
     return senales, salud

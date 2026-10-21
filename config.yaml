@@ -281,3 +281,40 @@ arca:
   comprobado_el: "2026-10-20"
   url_constancia: "https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do"
   nota: "Si conocés el CUIT del comercio, podés verificar su inscripción en ARCA. Una inscripción no prueba que el local esté abierto."
+
+# Puntaje de confianza (0-100). Reglas en radar/scoring.py; acá solo los números.
+puntaje:
+  base:                       # peso de la mejor señal del candidato
+    alta_sucursal: 65
+    alta_directorio: 65
+    nota_prensa: 50
+    por_abrir_osm: 35
+    cambio_osm: 30
+    creacion_osm: 25
+    alta_osm: 25
+    corroboracion_arca: 0     # nunca prueba autónoma de apertura
+    baja_osm: 0
+  bonos:
+    fuente_adicional: 20      # por cada fuente distinta además de la primera
+    fecha_exacta: 10
+    direccion: 5
+  penalizaciones:
+    sin_nombre: -15
+    partido_dudoso: -15
+    partido_del_medio: -10
+    lugar_solo_en_resumen: -5
+    exclusion_debil: -15
+    sin_contexto_comercial: -15
+    menciona_anio_viejo: -20
+  umbrales: {alta: 60, media: 35}
+
+deduplicacion:
+  umbral_nombre: 88           # rapidfuzz token_set_ratio sobre nombres normalizados
+  distancia_m: 150
+  # Se quitan al comparar nombres (en cualquier posición): «Supermercados Día» ≈ «Día».
+  palabras_genericas: [srl, "s r l", sa, "s a", sas, sucursal, local, tienda, supermercados, supermercado]
+
+publicacion:
+  ventanas_dias: [7, 14, 30, 90]
+  ventana_defecto: 30
+  historial_dias: 180

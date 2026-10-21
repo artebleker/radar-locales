@@ -11,7 +11,7 @@ import sys
 from collections import Counter
 
 from . import config as cfg
-from . import ejecutar, geo
+from . import ejecutar, geo, historial, publicar
 from .http import Cliente
 
 
@@ -78,12 +78,48 @@ def resumen_senales(senales: list, salud: list[dict], ejemplos: int = 10):
 
 def cmd_run(config, args) -> int:
     pedidas = args.fuentes.split(",") if args.fuentes else None
+    ahora = config.ahora()
+    hoy = ahora.date().isoformat()
     senales, salud = ejecutar.recolectar(config, pedidas, args.limite, args.dry_run)
-    if not args.dry_run:
-        ruta = ejecutar.guardar_corrida(config, senales, salud)
-        print(f"Señales guardadas en {ruta.relative_to(cfg.RAIZ)}")
     resumen_senales(senales, salud)
+
+    entradas = historial.actualizar(config, historial.cargar(config), senales, hoy)
+    activas = historial.senales_activas(entradas, hoy, config["publicacion"]["historial_dias"])
+    candidatos = publicar.unificar(activas, config, hoy)
+    vigentes = [c for c in candidatos if c["vigente"]]
+    print(f"\nUnificación: {len(activas)} señales en historial → {len(candidatos)} candidatos "
+          f"({len(vigentes)} vigentes; {Counter(c['confianza'] for c in vigentes)})")
+    if args.dry_run:
+        print("--dry-run: no se escribió historial, snapshots ni site/data.")
+    else:
+        ejecutar.guardar_corrida(config, senales, salud)
+        historial.guardar(config, entradas, hoy)
+        rutas = publicar.publicar(config, candidatos, salud, ahora)
+        print("Publicado: " + ", ".join(str(r.relative_to(cfg.RAIZ)) for r in rutas))
     return 0 if any(e["ok"] for e in salud) else 1
+
+
+def cmd_report(config, args) -> int:
+    datos = json.loads((config.ruta("site_data") / "candidatos.json").read_text(encoding="utf-8"))
+    estado = json.loads((config.ruta("site_data") / "estado.json").read_text(encoding="utf-8"))
+    cands = datos["candidatos"]
+    print(f"Actualizado: {estado['actualizado']} · {len(cands)} candidatos vigentes (ventana {max(estado['ventanas_dias'])} días)\n")
+    print("Salud de la última corrida:")
+    for e in estado["salud"]:
+        print(f"  {e['fuente']:<14}{'OK ' if e['ok'] else 'FALLÓ'} {e['senales']:>4} señales"
+              + (f"  avisos: {len(e['avisos'])}" if e.get("avisos") else "") + (f"  {e['error']}" if e["error"] else ""))
+    for titulo, clave_fn in [("fuente", lambda c: c["fuentes"]), ("partido", lambda c: [c["partido"] or "(sin partido)"]),
+                             ("rubro", lambda c: [c["rubro"]]), ("confianza", lambda c: [c["confianza"]]),
+                             ("estado", lambda c: [c["estado"]])]:
+        cnt = Counter(v for c in cands for v in clave_fn(c))
+        print(f"\nPor {titulo}: " + ", ".join(f"{k} {v}" for k, v in cnt.most_common()))
+    print("\nMuestra aleatoria de 15 para revisión manual:")
+    for c in random.Random().sample(cands, min(15, len(cands))):
+        s = c["senales"][0]
+        print(f"  [{c['confianza']} {c['puntaje']:>3}] {c['nombre'] or '(sin nombre)'} — {c['rubro']} — "
+              f"{c['localidad'] or c['partido']} — {c['estado']} {c['fecha_estimada']} ({c['precision_fecha']})\n"
+              f"      {', '.join(c['fuentes'])}: {s['detalle']}\n      {s['url']}")
+    return 0
 
 
 def _sin_contactos(obj):
@@ -194,7 +230,7 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("serve", help="sirve site/ en http://localhost:8000")
     p.add_argument("--puerto", type=int, default=8000)
     p.set_defaults(func=pendiente("7"))
-    sub.add_parser("report", help="totales y muestra aleatoria").set_defaults(func=pendiente("6"))
+    sub.add_parser("report", help="totales y muestra aleatoria").set_defaults(func=cmd_report)
 
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.WARNING,
