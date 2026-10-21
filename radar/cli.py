@@ -205,11 +205,19 @@ def cmd_record(config, args) -> int:
     return 1
 
 
-def pendiente(fase: str):
-    def _cmd(config, args) -> int:
-        print(f"Comando pendiente: se implementa en la fase {fase}.")
-        return 1
-    return _cmd
+def cmd_serve(config, args) -> int:
+    import functools
+    import http.server
+    sitio = cfg.RAIZ / "site"
+    manejador = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(sitio))
+    with http.server.ThreadingHTTPServer(("0.0.0.0", args.puerto), manejador) as srv:
+        print(f"Sirviendo {sitio.relative_to(cfg.RAIZ)}/ en http://localhost:{args.puerto} (Ctrl+C para cortar).")
+        print("Desde el celular, en la misma red Wi-Fi: http://<IP-de-esta-computadora>:" + str(args.puerto))
+        try:
+            srv.serve_forever()
+        except KeyboardInterrupt:
+            pass
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -229,7 +237,7 @@ def main(argv: list[str] | None = None) -> int:
     p.set_defaults(func=cmd_record)
     p = sub.add_parser("serve", help="sirve site/ en http://localhost:8000")
     p.add_argument("--puerto", type=int, default=8000)
-    p.set_defaults(func=pendiente("7"))
+    p.set_defaults(func=cmd_serve)
     sub.add_parser("report", help="totales y muestra aleatoria").set_defaults(func=cmd_report)
 
     args = ap.parse_args(argv)
