@@ -64,7 +64,13 @@ jobs:
           fi
           TOTALES=$(python -c "import json; t=json.load(open('site/data/estado.json'))['totales_ventana']; e=t['por_estado']; c=t['por_confianza']; print(f\"{t['candidatos']} candidatos en 30 días ({e.get('por_abrir',0)} por abrir, {e.get('abrio',0)} abrieron; {c.get('alta',0)} confianza alta)\")")
           git commit -m "Datos $(date +%F): $TOTALES"
-          git push
+          # La corrida tarda; si mientras tanto alguien pusheó a main, se rebasa encima y se reintenta.
+          for intento in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push rechazado (intento $intento); reintentando..."
+            sleep $((intento * 10))
+          done
+          echo "::error::No se pudo pushear el commit de datos"; exit 1
 
       - uses: actions/configure-pages@v6
 
