@@ -27,6 +27,10 @@ def cmd_bootstrap(config, args) -> int:
     ruta = geo.guardar_localidades(config, dicc)
     print(f"  {len(dicc)} nombres → {ruta.relative_to(cfg.RAIZ)}\n")
 
+    fuera = geo.descargar_fuera_de_zona(config, cliente)
+    ruta = geo.guardar_fuera_de_zona(config, fuera)
+    print(f"  {len(fuera)} lugares fuera de zona (otros partidos y barrios de CABA) → {ruta.relative_to(cfg.RAIZ)}\n")
+
     conteo = {p: 0 for p in limites.geoms}
     for ent in dicc.values():
         for p in ent["partidos"]:
@@ -105,6 +109,17 @@ def cmd_record(config, args) -> int:
         ruta = destino / "overpass_muestra.json"
         ruta.write_text(json.dumps(datos, ensure_ascii=False, indent=0), encoding="utf-8")
         print(f"{len(muestra)} de {len(elems)} elementos → {ruta.relative_to(cfg.RAIZ)}")
+        return 0
+    if args.fuente == "medios_rss":
+        from .fuentes import medios_rss
+        notas, errores = medios_rss.descargar(config, cliente)
+        # Derechos: solo título, medio, fecha, link y categorías; el resumen del medio no se graba.
+        guardar = [{"medio": n["medio"], "titulo": n["titulo"], "link": n["link"],
+                    "fecha_publicacion": n["fecha_publicacion"].isoformat() if n["fecha_publicacion"] else None,
+                    "categorias": n["categorias"], "partido_defecto": n["partido_defecto"]} for n in notas]
+        ruta = destino / "notas.json"
+        ruta.write_text(json.dumps(guardar, ensure_ascii=False, indent=0), encoding="utf-8")
+        print(f"{len(guardar)} notas → {ruta.relative_to(cfg.RAIZ)}; feeds con error: {errores or 'ninguno'}")
         return 0
     print(f"record no implementado para {args.fuente}")
     return 1

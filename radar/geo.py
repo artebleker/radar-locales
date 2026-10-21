@@ -20,6 +20,7 @@ log = logging.getLogger(__name__)
 ARCHIVO_LIMITES = "partidos.geojson"
 ARCHIVO_LOCALIDADES = "localidades.json"
 ARCHIVO_CORRECCIONES = "localidades_correcciones.yaml"
+ARCHIVO_FUERA = "fuera_de_zona.json"
 OFFSET_AREA = 3_600_000_000  # id de área Overpass = id de relación + 3 600 000 000
 
 
@@ -176,6 +177,12 @@ def guardar_localidades(config, dicc: dict) -> Path:
     return ruta
 
 
+def nombres_localidades(config) -> dict[str, str]:
+    """Clave normalizada → nombre con tildes, para mostrar."""
+    base = json.loads((config.ruta("ref") / ARCHIVO_LOCALIDADES).read_text(encoding="utf-8"))
+    return {k: v["nombre"] for k, v in base.items()}
+
+
 def cargar_localidades(config) -> dict[str, list[str]]:
     """Diccionario normalizado nombre → partidos, con correcciones manuales aplicadas."""
     ref = config.ruta("ref")
@@ -189,3 +196,35 @@ def cargar_localidades(config) -> dict[str, list[str]]:
         for nombre, partido in (corr.get("agregar") or {}).items():
             dicc[normalizar(nombre)] = [partido] if isinstance(partido, str) else list(partido)
     return dicc
+
+
+# --- lugares fuera de zona ---------------------------------------------------
+def descargar_fuera_de_zona(config, cliente) -> list[str]:
+    """Nombres normalizados de partidos bonaerenses no activos y barrios de CABA, para descartar
+    notas que solo hablan de otro lugar. Las localidades de la zona tienen prioridad sobre esta lista."""
+    t = config["overpass"]["timeout_query_s"]
+    nivel = config["geo"]["admin_level_partido"]
+    q = (f'[out:json][timeout:{t}];area["ISO3166-2"="{config["geo"]["provincia_iso"]}"]["admin_level"="4"]->.p;'
+         f'rel(area.p)["boundary"="administrative"]["admin_level"="{nivel}"];out tags;'
+         'area["ISO3166-2"="AR-C"]->.c;rel(area.c)["boundary"="administrative"]["admin_level"~"^(8|9|10)$"];out tags;')
+    datos = overpass.consultar(cliente, config, q, ttl=30 * 86400)
+    activos = {normalizar(p["osm_nombre"]) for p in config.partidos()}
+    nombres = set()
+    for e in datos["elements"]:
+        n = normalizar(e.get("tags", {}).get("name", ""))
+        if not n or n in activos or n.startswith("comuna"):
+            continue
+        nombres.add(re.sub(r"^partido (de |del )?", "", n))
+    return sorted(nombres)
+
+
+def guardar_fuera_de_zona(config, nombres: list[str]) -> Path:
+    ruta = config.ruta("ref") / ARCHIVO_FUERA
+    ruta.write_text(json.dumps(nombres, ensure_ascii=False, indent=0), encoding="utf-8")
+    return ruta
+
+
+def cargar_fuera_de_zona(config) -> set[str]:
+    ruta = config.ruta("ref") / ARCHIVO_FUERA
+    base = set(json.loads(ruta.read_text(encoding="utf-8"))) if ruta.exists() else set()
+    return base | {normalizar(x) for x in config["extraccion"]["fuera_de_zona_extra"]}

@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-20T21:52:52-03:00",
+ "fecha": "2026-10-20T22:12:16-03:00",
  "salud": [
   {
    "fuente": "osm",
@@ -9,7 +9,17 @@
    "ok": true,
    "error": null,
    "senales": 27,
-   "segundos": 0.1
+   "segundos": 0.2
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo": "prensa",
+   "url": "config.yaml → medios_rss.feeds",
+   "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
+   "ok": true,
+   "error": null,
+   "senales": 6,
+   "segundos": 5.4
   }
  ],
  "senales": [
@@ -686,6 +696,164 @@
     "etiqueta": "amenity=pub",
     "version": 1,
     "marca": null
+   }
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo_senal": "nota_prensa",
+   "nombre": "Skinko",
+   "rubro": "Belleza y salud",
+   "partido": "Tigre",
+   "detectado_el": "2026-10-20",
+   "url": "https://latroncal.com.ar/skinko-apertura-centro-comercial-nordelta/",
+   "localidad": "Nordelta",
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "fecha_evento": null,
+   "precision_fecha": "sin_fecha",
+   "titulo_fuente": "Nordelta: Skinko inauguró su local en el centro comercial con una jornada de cosmética",
+   "fecha_publicacion": "2026-10-15",
+   "fecha_registro": null,
+   "id_externo": "nota:77f0f09588bf",
+   "detalle": "Nota en La Troncal: «inauguro»",
+   "extra": {
+    "medio": "La Troncal",
+    "estado_sugerido": "abrio",
+    "verbo": "inauguro",
+    "penalizaciones": []
+   }
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo_senal": "nota_prensa",
+   "nombre": "SportClub",
+   "rubro": "Otros",
+   "partido": "Tigre",
+   "detectado_el": "2026-10-20",
+   "url": "https://latroncal.com.ar/sportclub-nordelta-apertura-17-octubre/",
+   "localidad": "Nordelta",
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "fecha_evento": "2026-10-17",
+   "precision_fecha": "exacta",
+   "titulo_fuente": "Nordelta: SportClub inaugura el sábado 17 de octubre su gimnasio de 2.700 m²",
+   "fecha_publicacion": "2026-10-08",
+   "fecha_registro": null,
+   "id_externo": "nota:f4feb711b071",
+   "detalle": "Nota en La Troncal: «inaugura», fecha anunciada 2026-10-17",
+   "extra": {
+    "medio": "La Troncal",
+    "estado_sugerido": "abrio",
+    "verbo": "inaugura",
+    "penalizaciones": []
+   }
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo_senal": "nota_prensa",
+   "nombre": "Mr. Tasty",
+   "rubro": "Gastronomía",
+   "partido": "Escobar",
+   "detectado_el": "2026-10-20",
+   "url": "https://eldiadeescobar.com.ar/mr-tasty-abrira-un-local-en-escobar-con-una-promo-de-hamburguesas-a-3-500/",
+   "localidad": "Escobar",
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "fecha_evento": null,
+   "precision_fecha": "sin_fecha",
+   "titulo_fuente": "Mr. Tasty abrirá un local en Escobar con una promo de hamburguesas a $3.500",
+   "fecha_publicacion": "2026-10-09",
+   "fecha_registro": null,
+   "id_externo": "nota:984dba0be837",
+   "detalle": "Nota en El Día de Escobar: «abrira»",
+   "extra": {
+    "medio": "El Día de Escobar",
+    "estado_sugerido": "por_abrir",
+    "verbo": "abrira",
+    "penalizaciones": []
+   }
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo_senal": "nota_prensa",
+   "nombre": null,
+   "rubro": "Alimentos y supermercados",
+   "partido": "Escobar",
+   "detectado_el": "2026-10-20",
+   "url": "https://eldiadeescobar.com.ar/un-frigorifico-mayorista-y-minorista-busca-personal-para-su-futura-sucursal-en-escobar/",
+   "localidad": "Escobar",
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "fecha_evento": null,
+   "precision_fecha": "sin_fecha",
+   "titulo_fuente": "Un frigorífico mayorista y minorista busca personal para su futura sucursal en Escobar",
+   "fecha_publicacion": "2026-10-06",
+   "fecha_registro": null,
+   "id_externo": "nota:17f7b8a9d475",
+   "detalle": "Nota en El Día de Escobar: «futura sucursal»",
+   "extra": {
+    "medio": "El Día de Escobar",
+    "estado_sugerido": "por_abrir",
+    "verbo": "futura sucursal",
+    "penalizaciones": [
+     "sin_nombre"
+    ]
+   }
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo_senal": "nota_prensa",
+   "nombre": "Sherwin Williams",
+   "rubro": "Otros",
+   "partido": "Escobar",
+   "detectado_el": "2026-10-20",
+   "url": "https://eldiadeescobar.com.ar/sherwin-williams-desembarco-en-loma-verde-con-la-apertura-de-un-moderno-edificio/",
+   "localidad": "Loma Verde",
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "fecha_evento": null,
+   "precision_fecha": "sin_fecha",
+   "titulo_fuente": "Sherwin Williams desembarcó en Loma Verde con la apertura de un moderno edificio",
+   "fecha_publicacion": "2026-10-03",
+   "fecha_registro": null,
+   "id_externo": "nota:1f92e2a06da0",
+   "detalle": "Nota en El Día de Escobar: «desembarco»",
+   "extra": {
+    "medio": "El Día de Escobar",
+    "estado_sugerido": "abrio",
+    "verbo": "desembarco",
+    "penalizaciones": []
+   }
+  },
+  {
+   "fuente": "medios_rss",
+   "tipo_senal": "nota_prensa",
+   "nombre": "PedidosYa Market",
+   "rubro": "Alimentos y supermercados",
+   "partido": "Escobar",
+   "detectado_el": "2026-10-20",
+   "url": "https://eldiadeescobar.com.ar/pedidosya-market-inauguro-dos-nuevas-tiendas-para-escobar-maschwitz-y-garin/",
+   "localidad": "Escobar",
+   "direccion": null,
+   "lat": null,
+   "lon": null,
+   "fecha_evento": null,
+   "precision_fecha": "sin_fecha",
+   "titulo_fuente": "PedidosYa Market inauguró dos nuevas tiendas para Escobar, Maschwitz y Garín",
+   "fecha_publicacion": "2026-09-25",
+   "fecha_registro": null,
+   "id_externo": "nota:06b3fa84acb6",
+   "detalle": "Nota en El Día de Escobar: «inauguro»",
+   "extra": {
+    "medio": "El Día de Escobar",
+    "estado_sugerido": "abrio",
+    "verbo": "inauguro",
+    "penalizaciones": []
    }
   }
  ]

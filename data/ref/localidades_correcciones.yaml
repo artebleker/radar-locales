@@ -1,4 +1,5 @@
 # Correcciones manuales al diccionario localidad → partido (se aplican sobre localidades.json).
 # agregar: {"Nombre": "Partido"}   quitar: ["Nombre"]
-agregar: {}
+agregar:
+  General San Martín: San Martín   # nombre oficial del partido, usado por la prensa
 quitar: []

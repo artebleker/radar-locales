@@ -30,7 +30,14 @@ class BloqueadoPorRobots(Exception):
 def _resuelve(host: str, timeout: float) -> bool:
     """getaddrinfo en un hilo aparte: un DNS colgado no debe congelar la corrida."""
     ok = []
-    hilo = threading.Thread(target=lambda: ok.append(bool(socket.getaddrinfo(host, 443))), daemon=True)
+
+    def _resolver():
+        try:
+            ok.append(bool(socket.getaddrinfo(host, 443)))
+        except OSError:
+            pass
+
+    hilo = threading.Thread(target=_resolver, daemon=True)
     hilo.start()
     hilo.join(timeout)
     return bool(ok)

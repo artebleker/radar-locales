@@ -78,7 +78,7 @@ rubros:
     palabras: [electro, electrodomesticos, tecnologia, celulares, celular, computacion, gaming, electronica]
   Alimentos y supermercados:
     osm: {shop: [supermarket, convenience, greengrocer, butcher, deli, wholesale, beverages, alcohol]}
-    palabras: [supermercado, super, mayorista, almacen, autoservicio, verduleria, carniceria, fiambreria, dietetica, vinoteca, minimercado, hipermercado]
+    palabras: [supermercado, super, mayorista, almacen, autoservicio, market, minimarket, verduleria, carniceria, fiambreria, dietetica, vinoteca, minimercado, hipermercado]
   Belleza y salud:
     osm: {shop: [hairdresser, beauty, cosmetics, chemist, optician, perfumery], amenity: [pharmacy]}
     palabras: [farmacia, peluqueria, barberia, estetica, belleza, cosmetica, perfumeria, optica, spa, manicuria]
@@ -99,3 +99,54 @@ osm:
   # que un local vacío pasó a tener rubro, pero no generan altas.
   shop_no_comercio: [vacant, "no"]
   ttl_cache_h: 20
+
+# Feeds de medios locales. Verificados con pedidos reales el 2026-10-20.
+# tipo: rss (RSS/Atom; paginable = WordPress acepta ?paged=N) | wp_json (API pública /wp-json/wp/v2/posts
+#   de WordPress, para sitios con el feed desactivado). partido_defecto: si la nota no nombra lugar,
+#   se asume el partido del medio (con penalización).
+medios_rss:
+  activa: true
+  ventana_dias: 30
+  paginas_max: 5
+  feeds:
+    - {nombre: Zona Norte Diario,      tipo: rss,     url: "https://www.zonanortediario.com.ar/feed/", paginable: true}
+    - {nombre: Qué Pasa Web,           tipo: rss,     url: "https://www.quepasaweb.com.ar/feed/", paginable: true}
+    - {nombre: Diario Resumen,         tipo: rss,     url: "https://www.resumendelaregion.com/feed/", paginable: true, partido_defecto: Pilar}
+    - {nombre: Escobar a Diario,       tipo: rss,     url: "https://escobaradiario.com.ar/feed/", paginable: true, partido_defecto: Escobar}
+    - {nombre: La Troncal,             tipo: rss,     url: "https://latroncal.com.ar/feed/", paginable: true}
+    - {nombre: Periódico Para Todos,   tipo: rss,     url: "https://periodicoparatodos.com.ar/feed/", paginable: true}
+    - {nombre: Zonales,                tipo: rss,     url: "https://zonales.com/feed/", paginable: true}
+    - {nombre: Pilar a Diario,         tipo: rss,     url: "https://www.pilaradiario.com/rss/pages/ultimas-noticias.xml", partido_defecto: Pilar}
+    - {nombre: Pilar a Diario,         tipo: rss,     url: "https://www.pilaradiario.com/rss/pages/economia.xml", partido_defecto: Pilar}
+    - {nombre: Pilar a Diario,         tipo: rss,     url: "https://www.pilaradiario.com/rss/pages/locales.xml", partido_defecto: Pilar}
+    - {nombre: Pilar de Todos,         tipo: rss,     url: "https://pilardetodosapiv3.eleco.com.ar/feed-notes", partido_defecto: Pilar}
+    - {nombre: El Día de Escobar,      tipo: wp_json, url: "https://eldiadeescobar.com.ar/wp-json/wp/v2/posts", partido_defecto: Escobar}
+    - {nombre: Zona Norte Visión,      tipo: wp_json, url: "https://zonanortevision.com.ar/wp-json/wp/v2/posts"}
+  # Probados y descartados (2026-10-20):
+  #   eldiadeescobar.com.ar/feed/ y zonanortevision.com.ar/feed/: devuelven HTML (feed desactivado) → se usa wp_json.
+  #   pilaradiario.com/feed/: 404 → se usan sus feeds por sección.
+  #   tigrealdia.com.ar: redirige a un sitio de apuestas.  zonanortehoy.com: sin feed.  infoescobar.com.ar: error SSL.
+  #   zonalnorte.com.ar, eldiariodepilar.com.ar, sanisidroaldia.com.ar, primeraseccion.com.ar, diariosietedias.com.ar,
+  #   elvecinaldesanisidro.com.ar, prensalibre-online.com.ar, laopiniondetigre.com.ar: el dominio no resuelve.
+  #   Búsquedas de WordPress (/?s=...&feed=rss2): descartadas, robots.txt de varios medios prohíbe /?s=.
+  #   news.google.com/rss: robots.txt prohíbe /rss; excluido por decisión del proyecto.
+
+# Extracción por reglas para notas (sin IA). Todo se compara normalizado (minúsculas, sin tildes).
+extraccion:
+  # Verbos/frases de apertura. Pasado → «abrió»; futuro o presente → «por abrir» salvo fecha pasada.
+  verbos_pasado: [abrio, abrieron, inauguro, inauguraron, desembarco, desembarcaron, reabrio, llego, llegaron, estreno, "abrio sus puertas", "ya funciona", "ya esta abierto", "ya esta abierta"]
+  verbos_futuro: [abre, abren, abrira, abriran, inaugura, inauguran, inaugurara, inauguraran, "se inaugura", desembarca, desembarcara, llega, llegan, llegara, reabre, reabrira, "proxima apertura", "abrira sus puertas", "nuevo local", "nueva sucursal", "nueva tienda", "nuevo restaurante", "nueva cafeteria", "nuevo bar", apertura, "futura sucursal", "futuro local", "futura tienda", "nueva sede", "nuevo punto de venta", proximamente, "se instala", "se instalara"]
+  # Contexto comercial (además de las palabras de rubros). Sin esto la nota se conserva solo si hay
+  # nombre y lugar, y con penalización.
+  contexto_comercial: [local, locales, tienda, tiendas, sucursal, sucursales, comercio, comercios, negocio, franquicia, cadena, marca, showroom, outlet, shopping, "centro comercial", "paseo comercial", "open mall", emprendimiento, supermercado]
+  # Exclusiones fuertes: la nota se descarta (no es un local comercial).
+  exclusiones: ["unidad basica", "local partidario", "locales partidarios", "centro de monitoreo", escuela, escuelas, colegio, jardin de infantes, universidad, "edificio educativo", "edificios educativos", plaza, parque, "espacio publico", "espacio verde", hospital, "centro de salud", caps, upa, comisaria, teatro, obra, obras, festival, concierto, recital, fiesta, feria, desfile, muestra, exposicion, congreso, inscripcion, inscripciones, juegos, torneo, competencia, linea, estacion, tren, trenes, colectivo, ciclovia, "paso bajo nivel", corredor, polideportivo, "campo de deportes", oficina, registro, cementerio, comedor, parroquia, capilla, iglesia, museo, pileta, colonia, vacunacion, operativo, anses, pami, temporada, "fin de mes", ciclo, carrera, carreras, cursos, curso, taller, talleres, jazz, musica, espectaculo, espectaculos, show, shows, banda, cultura, cultural, agenda]
+  # Exclusiones débiles: no descartan, bajan la confianza.
+  exclusiones_debiles: [convocatoria, municipio, municipal, intendente, intendenta, gobierno, provincia, ministro, ministra, concejo, concejal, diputado, diputada, senador, gobernador, presidente]
+  # Homónimos de otras provincias o países: la nota habla de otro lugar y se descarta.
+  homonimos: ["pilar de cordoba", "pilar cordoba", "pilar en cordoba", "san martin de los andes", "general san martin de mendoza", "san martin mendoza", "san isidro de lules", "san isidro lules", "san fernando del valle", "san fernando de catamarca"]
+  # Nombres que contienen un partido pero no ubican la nota: se ignoran al buscar el lugar.
+  nombres_neutros: ["club atletico tigre", "club tigre", "pablo escobar", "jose de san martin"]
+  palabras_calle: [av, avenida, calle, ruta, colectora, pasaje, pje, esquina, diagonal, boulevard, bv, autopista, acceso, plaza]
+  # Lugares fuera de zona escritos de otra forma que en OSM (los partidos y barrios porteños salen de OSM).
+  fuera_de_zona_extra: [caba, "capital federal", "ciudad de buenos aires", "la plata", "mar del plata", cordoba, rosario, mendoza, tucuman, salta, neuquen, bariloche, "santa fe", "conurbano sur", "zona sur", "zona oeste", china, uruguay, chile, brasil, "estados unidos", espana]

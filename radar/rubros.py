@@ -17,12 +17,16 @@ def clasificar_osm(tags: dict, config) -> str:
     return OTROS
 
 
-def clasificar_texto(texto: str, config) -> str:
-    """Primer rubro cuya palabra clave aparece como palabra completa en el texto."""
+def rubro_por_palabras(texto: str, config) -> str | None:
+    """Primer rubro cuya palabra clave aparece como palabra completa en el texto, o None."""
     palabras = set(normalizar(texto).split())
     for rubro, reglas in config["rubros"].items():
         for p in reglas.get("palabras") or []:
             p = normalizar(p)
             if (" " in p and re.search(rf"\b{re.escape(p)}\b", normalizar(texto))) or p in palabras:
                 return rubro
-    return OTROS
+    return None
+
+
+def clasificar_texto(texto: str, config) -> str:
+    return rubro_por_palabras(texto, config) or OTROS
