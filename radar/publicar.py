@@ -4,10 +4,11 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from collections import Counter
 from datetime import date, timedelta
 
-from . import dedupe, scoring
+from . import __version__, dedupe, scoring
 from .enriquecer_cuit import sin_personas_fisicas
 from .historial import clave
 from .rubros import OTROS
@@ -121,6 +122,8 @@ def publicar(config, candidatos: list[dict], salud: list[dict], ahora) -> tuple:
         "salud": salud,
         "arca": {k: config["arca"][k] for k in ("estado", "comprobado_el", "url_constancia", "nota")},
         "repo": config["proyecto"]["repo_url"],
+        "version": __version__,
+        "commit": os.environ.get("GITHUB_SHA"),  # lo define Actions; en corridas locales queda en null
         "hoy": hoy,
     }
     (destino / "estado.json").write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")

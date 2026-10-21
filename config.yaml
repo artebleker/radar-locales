@@ -277,7 +277,7 @@ sucursales:
   #   Café Martínez, Grido, Mostaza, KFC, Burger King, Starbucks, Lucciano's, Rapanui: listado cargado por JS
   #   sin endpoint público identificable en el HTML.  Dexter, Grimoldi: sin API VTEX.  Freddo: no responde.
 
-# ARCA (ver docs/ARCA.md): integración automática no viable; el sitio enlaza la consulta oficial manual.
+# ARCA (ver docs/ARCA.md): los web services no son viables; el CUIT se asocia con el padrón (sección padron) y el sitio enlaza la consulta oficial manual.
 arca:
   estado: verificacion_manual_enlazada
   comprobado_el: "2026-10-20"

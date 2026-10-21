@@ -57,6 +57,6 @@ En la práctica, el trámite es gratis, pero el proyecto tendría que operar con
 
 En el detalle de cada candidato se muestra un enlace a la consulta oficial de constancias, con esta nota: «Si conocés el CUIT del comercio, podés verificar su inscripción en ARCA. Una inscripción no prueba que el local esté abierto».
 
-No se guarda ni se publica ningún CUIT. No se piden credenciales.
+Desde el 2026-10-21 también se muestran el CUIT y la razón social asociados por el padrón, solo de personas jurídicas, con el tipo de coincidencia y su confianza. Nunca se guardan ni se publican CUITs de personas físicas. No se piden credenciales.
 
 La integración automática está en `radar/padron/` y `radar/enriquecer_cuit.py`. No es una «fuente» de señales: enriquece a los candidatos que ya existen y no les cambia el puntaje.

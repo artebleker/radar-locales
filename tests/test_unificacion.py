@@ -150,3 +150,13 @@ def test_publicar_genera_json(conf):
     rc, re_ = publicar.publicar(conf, cands, [{"fuente": "osm", "ok": True, "senales": 1}], conf.ahora())
     datos = json.loads(rc.read_text())
     assert len(datos["candidatos"]) == 1 and json.loads(re_.read_text())["arca"]["estado"] == "verificacion_manual_enlazada"
+
+
+def test_version_publicada_y_en_readme(conf):
+    import json
+    from pathlib import Path
+    from radar import __version__
+    _, re_ = publicar.publicar(conf, [], [{"fuente": "osm", "ok": True, "senales": 0}], conf.ahora())
+    assert json.loads(re_.read_text())["version"] == __version__
+    readme = (Path(__file__).parent.parent / "README.md").read_text(encoding="utf-8")
+    assert f"**Versión:** {__version__}" in readme

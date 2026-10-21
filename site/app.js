@@ -312,10 +312,13 @@ async function iniciar() {
   opciones(document.getElementById("f-fuente"), [...new Set(m.salud.filter((s) => s.tipo !== "enriquecimiento").map((s) => s.fuente))],
     (f) => ETIQUETAS.fuente[f] || f);
   if (m.arca) {
-    document.getElementById("arca").replaceChildren("Verificación tributaria: la integración automática con ARCA no es viable (",
-      el("a", { href: m.repo + "/blob/main/docs/ARCA.md" }, "por qué"), "); cada candidato enlaza la ",
+    document.getElementById("arca").replaceChildren("Verificación tributaria: el CUIT de personas jurídicas se asocia por nombre con el ",
+      el("a", { href: m.repo + "/blob/main/docs/ARCA.md" }, "padrón público de ARCA"), " (confianza baja); cada candidato enlaza la ",
       el("a", { href: m.arca.url_constancia, target: "_blank", rel: "noopener noreferrer" }, "consulta oficial de constancias"), ".");
   }
+  if (m.version) document.getElementById("version").replaceChildren("Versión " + m.version,
+    m.commit ? " · commit " : "", m.commit ? el("a", { href: m.repo + "/commit/" + m.commit }, m.commit.slice(0, 7)) : "",
+    " · datos del " + fechaCorta(m.actualizado.slice(0, 10)) + ".");
   document.getElementById("repo").href = m.repo;
 
   // Filtros desde la URL (#partido=Tigre&estado=abrio…) para poder compartir una vista.

@@ -1,6 +1,6 @@
 # Radar de aperturas comerciales — Zona Norte GBA
 
-**Sitio:** https://artebleker.github.io/radar-locales/
+**Sitio:** https://artebleker.github.io/radar-locales/ · **Versión:** 1.0.0 (también figura en el pie del sitio, con el commit desplegado)
 
 Sitio estático y público con locales comerciales **recién abiertos o por abrir** en zona norte del Gran Buenos Aires. Se detectan automáticamente, todos los días, a partir de fuentes públicas: OpenStreetMap, medios locales, directorios de shoppings y buscadores de sucursales de cadenas.
 
