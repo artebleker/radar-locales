@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T23:32:14-03:00",
+ "actualizado": "2026-10-21T09:33:50-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 34,
+  "candidatos": 29,
   "por_estado": {
    "abrio": 4,
    "por_abrir": 3,
-   "detectado": 27
+   "detectado": 22
   },
   "por_confianza": {
    "alta": 1,
    "media": 6,
-   "baja": 27
+   "baja": 22
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 27,
+   "senales": 22,
    "avisos": [],
    "detalle": {},
-   "segundos": 43.0
+   "segundos": 46.8
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 7,
    "avisos": [],
    "detalle": {},
-   "segundos": 136.7
+   "segundos": 137.8
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 249.5
+   "segundos": 256.6
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,23 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 271.7
+   "segundos": 269.8
+  },
+  {
+   "fuente": "padron",
+   "tipo": "enriquecimiento",
+   "url": "https://www.afip.gob.ar/genericos/cInscripcion/archivos/apellidoNombreDenominacion.zip",
+   "licencia": "Datos públicos de ARCA; solo personas jurídicas",
+   "ok": true,
+   "error": null,
+   "senales": 4,
+   "avisos": [],
+   "detalle": {
+    "descarga": "actualizada",
+    "periodo": "2026-10",
+    "personas_juridicas": 534981
+   },
+   "segundos": 668.1
   }
  ],
  "arca": {
@@ -116,5 +132,7 @@
   "nota": "Si conocés el CUIT del comercio, podés verificar su inscripción en ARCA. Una inscripción no prueba que el local esté abierto."
  },
  "repo": "https://github.com/artebleker/radar-locales",
- "hoy": "2026-10-20"
+ "version": "1.0.0",
+ "commit": "9c33e2ee8ba0fe10272c39011a8e82015bca42ff",
+ "hoy": "2026-10-21"
 }
