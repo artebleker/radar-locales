@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T09:33:50-03:00",
+ "actualizado": "2026-10-21T11:53:59-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -51,7 +51,7 @@
    "senales": 22,
    "avisos": [],
    "detalle": {},
-   "segundos": 46.8
+   "segundos": 48.2
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 7,
    "avisos": [],
    "detalle": {},
-   "segundos": 137.8
+   "segundos": 138.4
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 256.6
+   "segundos": 248.1
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 269.8
+   "segundos": 269.2
   },
   {
    "fuente": "padron",
@@ -118,11 +118,11 @@
    "senales": 4,
    "avisos": [],
    "detalle": {
-    "descarga": "actualizada",
+    "descarga": "omitida",
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 668.1
+   "segundos": 1.6
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "9c33e2ee8ba0fe10272c39011a8e82015bca42ff",
+ "commit": "0fa9fa898513b82e2dc6579db13ae8776ce01394",
  "hoy": "2026-10-21"
 }
