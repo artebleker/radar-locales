@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T11:53:59-03:00",
+ "actualizado": "2026-10-22T11:46:18-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -12,13 +12,13 @@
   "candidatos": 29,
   "por_estado": {
    "abrio": 4,
-   "por_abrir": 3,
-   "detectado": 22
+   "por_abrir": 5,
+   "detectado": 20
   },
   "por_confianza": {
    "alta": 1,
-   "media": 6,
-   "baja": 22
+   "media": 8,
+   "baja": 20
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 22,
+   "senales": 20,
    "avisos": [],
    "detalle": {},
-   "segundos": 48.2
+   "segundos": 50.6
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 7,
+   "senales": 9,
    "avisos": [],
    "detalle": {},
-   "segundos": 138.4
+   "segundos": 135.7
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 248.1
+   "segundos": 246.9
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 269.2
+   "segundos": 268.5
   },
   {
    "fuente": "padron",
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "0fa9fa898513b82e2dc6579db13ae8776ce01394",
- "hoy": "2026-10-21"
+ "commit": "821a46a404665518dfdf39f42dda0f633ce33922",
+ "hoy": "2026-10-22"
 }
