@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T11:46:18-03:00",
+ "actualizado": "2026-10-23T11:21:52-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 29,
+  "candidatos": 31,
   "por_estado": {
-   "abrio": 4,
-   "por_abrir": 5,
-   "detectado": 20
+   "abrio": 6,
+   "por_abrir": 4,
+   "detectado": 21
   },
   "por_confianza": {
    "alta": 1,
-   "media": 8,
-   "baja": 20
+   "media": 9,
+   "baja": 21
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 20,
+   "senales": 21,
    "avisos": [],
    "detalle": {},
-   "segundos": 50.6
+   "segundos": 71.9
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 9,
    "avisos": [],
    "detalle": {},
-   "segundos": 135.7
+   "segundos": 185.2
   },
   {
    "fuente": "directorios",
@@ -75,7 +75,7 @@
    "senales": 0,
    "avisos": [],
    "detalle": {
-    "Unicenter": 316,
+    "Unicenter": 311,
     "Palmas del Pilar": 137,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 246.9
+   "segundos": 247.7
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 268.5
+   "segundos": 269.5
   },
   {
    "fuente": "padron",
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "821a46a404665518dfdf39f42dda0f633ce33922",
- "hoy": "2026-10-22"
+ "commit": "f8a529eee6fbdf8d86319ebbeb974914bdfdc5b0",
+ "hoy": "2026-10-23"
 }

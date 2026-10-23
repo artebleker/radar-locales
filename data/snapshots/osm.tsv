@@ -1,4 +1,4 @@
-# {"fecha": "2026-10-22", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11005}
+# {"fecha": "2026-10-23", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11006}
 node/573381693	1178b0c48a	shop=antiques	-34.444991	-58.757899	Antiguedades
 node/573459331	113fffb544	amenity=bar	-34.547265	-58.558874	
 node/573459334	99c8fb3a88	amenity=pharmacy	-34.552386	-58.558438	Farmacia El Aguila II
@@ -7318,6 +7318,7 @@ node/14288058275	b830ffacc1	shop=clothes	-34.524289	-58.473597	Ático Studios
 node/14294283701	2971722a26	leisure=fitness_centre	-34.578902	-58.561975	Fortaleza
 node/14299147955	e0d281ecf9	shop=optician	-34.525343	-58.483273	Óptica Vicente Lopez
 node/14299446050	eb2dd4e825	shop=bicycle	-34.529366	-58.518512	Leo
+node/14311422705	18db399ded	amenity=fast_food	-34.525225	-58.471867	McDonald's
 relation/4273949	87acc64c7c	amenity=ice_cream	-34.360932	-58.800668	Helados Munchi's
 relation/4275234	973e722c83	shop=supermarket	-34.362958	-58.797344	Jumbo
 relation/6822367	fefecef5a1	shop=car	-34.482904	-58.625370	Hino
