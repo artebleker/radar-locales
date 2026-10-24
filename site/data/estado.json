@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T11:21:52-03:00",
+ "actualizado": "2026-10-24T10:31:52-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 31,
+  "candidatos": 40,
   "por_estado": {
-   "abrio": 6,
-   "por_abrir": 4,
-   "detectado": 21
+   "abrio": 16,
+   "por_abrir": 5,
+   "detectado": 19
   },
   "por_confianza": {
-   "alta": 1,
-   "media": 9,
-   "baja": 21
+   "alta": 11,
+   "media": 10,
+   "baja": 19
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 21,
+   "senales": 19,
    "avisos": [],
    "detalle": {},
-   "segundos": 71.9
+   "segundos": 77.4
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 9,
+   "senales": 10,
    "avisos": [],
    "detalle": {},
-   "segundos": 185.2
+   "segundos": 137.5
   },
   {
    "fuente": "directorios",
@@ -72,10 +72,10 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 0,
+   "senales": 10,
    "avisos": [],
    "detalle": {
-    "Unicenter": 311,
+    "Unicenter": 321,
     "Palmas del Pilar": 137,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
@@ -106,7 +106,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 269.5
+   "segundos": 269.1
   },
   {
    "fuente": "padron",
@@ -115,14 +115,14 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 4,
+   "senales": 5,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.6
+   "segundos": 1.4
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "f8a529eee6fbdf8d86319ebbeb974914bdfdc5b0",
- "hoy": "2026-10-23"
+ "commit": "e103ae943c6c4414b907b073ffe25221067b9e93",
+ "hoy": "2026-10-24"
 }
