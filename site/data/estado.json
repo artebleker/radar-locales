@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T10:31:52-03:00",
+ "actualizado": "2026-10-25T10:51:54-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -51,7 +51,7 @@
    "senales": 19,
    "avisos": [],
    "detalle": {},
-   "segundos": 77.4
+   "segundos": 76.8
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 10,
    "avisos": [],
    "detalle": {},
-   "segundos": 137.5
+   "segundos": 135.1
   },
   {
    "fuente": "directorios",
@@ -72,19 +72,19 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 10,
+   "senales": 0,
    "avisos": [],
    "detalle": {
     "Unicenter": 321,
     "Palmas del Pilar": 137,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
-    "Paseo Champagnat": 95,
+    "Paseo Champagnat": 94,
     "Remeros Plaza": 83,
     "Soleil Premium Outlet": 81,
     "Tortugas Open Mall": 144
    },
-   "segundos": 247.7
+   "segundos": 264.7
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 269.1
+   "segundos": 269.9
   },
   {
    "fuente": "padron",
@@ -122,7 +122,7 @@
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.4
+   "segundos": 1.6
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "e103ae943c6c4414b907b073ffe25221067b9e93",
- "hoy": "2026-10-24"
+ "commit": "7017269033aba601b41920ce3dd2464628a9da2d",
+ "hoy": "2026-10-25"
 }
