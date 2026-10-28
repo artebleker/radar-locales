@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T12:30:44-03:00",
+ "actualizado": "2026-10-28T13:13:53-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 37,
+  "candidatos": 45,
   "por_estado": {
-   "abrio": 16,
-   "por_abrir": 5,
-   "detectado": 16
+   "abrio": 21,
+   "por_abrir": 6,
+   "detectado": 18
   },
   "por_confianza": {
-   "alta": 12,
-   "media": 9,
-   "baja": 16
+   "alta": 16,
+   "media": 11,
+   "baja": 18
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 16,
+   "senales": 18,
    "avisos": [],
    "detalle": {},
-   "segundos": 675.3
+   "segundos": 46.0
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 9,
+   "senales": 14,
    "avisos": [],
    "detalle": {},
-   "segundos": 141.6
+   "segundos": 137.9
   },
   {
    "fuente": "directorios",
@@ -72,19 +72,19 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 1,
+   "senales": 4,
    "avisos": [],
    "detalle": {
     "Unicenter": 321,
-    "Palmas del Pilar": 135,
+    "Palmas del Pilar": 138,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
     "Paseo Champagnat": 94,
     "Remeros Plaza": 83,
-    "Soleil Premium Outlet": 81,
+    "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 144
    },
-   "segundos": 255.0
+   "segundos": 247.5
   },
   {
    "fuente": "sucursales",
@@ -95,7 +95,8 @@
    "error": null,
    "senales": 0,
    "avisos": [
-    "Frávega: BloqueadoPorRobots: robots.txt no permite https://www.fravega.com/sucursales"
+    "Frávega: BloqueadoPorRobots: robots.txt no permite https://www.fravega.com/sucursales",
+    "Bonafide: HTTPError: 404 Client Error: Not Found for url: https://www.bonafide.com.ar/wp-admin/admin-ajax.php?action=store_search&lat=-34.5266&lng=-58.5045&max_results=100&search_radius=5"
    ],
    "detalle": {
     "Supermercados Día": 98,
@@ -103,10 +104,9 @@
     "Easy": 12,
     "Blaisten": 2,
     "Simplicity": 17,
-    "Bonafide": 25,
     "Havanna": 15
    },
-   "segundos": 268.4
+   "segundos": 247.9
   },
   {
    "fuente": "padron",
@@ -115,7 +115,7 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 5,
+   "senales": 9,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "60715162f651ad82e439d78dc9a19f4ba9e368de",
- "hoy": "2026-10-27"
+ "commit": "f58316c4d0ef54e394e6fb62c58cf9e74316e085",
+ "hoy": "2026-10-28"
 }
