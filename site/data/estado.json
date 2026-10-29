@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T13:13:53-03:00",
+ "actualizado": "2026-10-29T13:22:42-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 18,
+   "senales": 16,
    "avisos": [],
    "detalle": {},
-   "segundos": 46.0
+   "segundos": 92.0
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 14,
    "avisos": [],
    "detalle": {},
-   "segundos": 137.9
+   "segundos": 137.3
   },
   {
    "fuente": "directorios",
@@ -72,7 +72,7 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 4,
+   "senales": 0,
    "avisos": [],
    "detalle": {
     "Unicenter": 321,
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 144
    },
-   "segundos": 247.5
+   "segundos": 256.7
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 247.9
+   "segundos": 246.2
   },
   {
    "fuente": "padron",
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "f58316c4d0ef54e394e6fb62c58cf9e74316e085",
- "hoy": "2026-10-28"
+ "commit": "fd620be46305d2f06ac84fb37289ea708d2f78c2",
+ "hoy": "2026-10-29"
 }
