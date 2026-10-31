@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T13:10:33-03:00",
+ "actualizado": "2026-10-31T12:28:40-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 49,
+  "candidatos": 46,
   "por_estado": {
    "abrio": 23,
    "por_abrir": 8,
-   "detectado": 18
+   "detectado": 15
   },
   "por_confianza": {
    "alta": 17,
    "media": 14,
-   "baja": 18
+   "baja": 15
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 16,
+   "senales": 13,
    "avisos": [],
    "detalle": {},
-   "segundos": 50.8
+   "segundos": 44.5
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 15,
+   "senales": 14,
    "avisos": [],
    "detalle": {},
-   "segundos": 141.6
+   "segundos": 136.3
   },
   {
    "fuente": "directorios",
@@ -72,19 +72,19 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 1,
+   "senales": 0,
    "avisos": [],
    "detalle": {
     "Unicenter": 321,
     "Palmas del Pilar": 139,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
-    "Paseo Champagnat": 94,
+    "Paseo Champagnat": 93,
     "Remeros Plaza": 82,
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 144
    },
-   "segundos": 247.1
+   "segundos": 246.8
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 246.1
+   "segundos": 246.6
   },
   {
    "fuente": "padron",
@@ -122,7 +122,7 @@
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.5
+   "segundos": 1.1
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "6dc59f1297009d995fe14041cc1a48a5da3be31a",
- "hoy": "2026-10-30"
+ "commit": "876be1354529a631b72e8220ac892038975f220e",
+ "hoy": "2026-10-31"
 }
