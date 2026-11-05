@@ -1,4 +1,4 @@
-# {"fecha": "2026-11-04", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11009}
+# {"fecha": "2026-11-05", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11009}
 node/573381693	1178b0c48a	shop=antiques	-34.444991	-58.757899	Antiguedades
 node/573459331	113fffb544	amenity=bar	-34.547265	-58.558874	
 node/573459334	99c8fb3a88	amenity=pharmacy	-34.552386	-58.558438	Farmacia El Aguila II
@@ -1861,7 +1861,7 @@ node/4617078677	a1a708d227	amenity=pharmacy	-34.541592	-58.554830	Farmacia Checc
 node/4617080404	5909a17b0e	shop=bicycle	-34.548541	-58.546271	Bicicletería
 node/4617080405	ff3431af42	shop=pet_grooming	-34.549643	-58.544847	Black Dog Peluquería Canina
 node/4617080406	b5e4a91ff4	shop=supermarket	-34.549977	-58.544452	Ballester
-node/4617101891	8bb731b9ee	shop=toys	-34.527938	-58.551035	El Globo Rojo
+node/4617101891	92ae1d4b35	shop=toys	-34.527938	-58.551035	El Globo Rojo
 node/4617101903	0609496d12	shop=bakery	-34.527254	-58.550281	Delicias
 node/4617143756	8083d32b2c	shop=kiosk	-34.524326	-58.546888	M Kiosko
 node/4617143774	8e5db44428	amenity=pharmacy	-34.521791	-58.545050	Caminos

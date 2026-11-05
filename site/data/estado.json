@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T14:41:59-03:00",
+ "actualizado": "2026-11-05T14:35:30-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 53,
+  "candidatos": 58,
   "por_estado": {
    "abrio": 27,
-   "por_abrir": 8,
+   "por_abrir": 13,
    "detectado": 18
   },
   "por_confianza": {
    "alta": 22,
-   "media": 16,
-   "baja": 15
+   "media": 20,
+   "baja": 16
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 14,
+   "senales": 13,
    "avisos": [],
    "detalle": {},
-   "segundos": 1307.2
+   "segundos": 74.7
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 13,
+   "senales": 18,
    "avisos": [],
    "detalle": {},
-   "segundos": 137.6
+   "segundos": 136.8
   },
   {
    "fuente": "directorios",
@@ -72,7 +72,7 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 1,
+   "senales": 0,
    "avisos": [],
    "detalle": {
     "Unicenter": 322,
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 256.1
+   "segundos": 247.0
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 245.6
+   "segundos": 246.5
   },
   {
    "fuente": "padron",
@@ -122,7 +122,7 @@
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.7
+   "segundos": 1.5
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "e07f8f6126da8180ce2112e51f8c6ffa9e5bf5e4",
- "hoy": "2026-11-04"
+ "commit": "a5e02f099e3160d15c9f7a5fb68df68a4730fc13",
+ "hoy": "2026-11-05"
 }
