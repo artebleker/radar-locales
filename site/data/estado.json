@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T14:35:30-03:00",
+ "actualizado": "2026-11-06T13:53:50-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 58,
+  "candidatos": 63,
   "por_estado": {
-   "abrio": 27,
+   "abrio": 28,
    "por_abrir": 13,
-   "detectado": 18
+   "detectado": 22
   },
   "por_confianza": {
    "alta": 22,
-   "media": 20,
-   "baja": 16
+   "media": 22,
+   "baja": 19
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 13,
+   "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 74.7
+   "segundos": 44.6
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 18,
+   "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 136.8
+   "segundos": 141.2
   },
   {
    "fuente": "directorios",
@@ -79,12 +79,12 @@
     "Palmas del Pilar": 139,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
-    "Paseo Champagnat": 93,
+    "Paseo Champagnat": 92,
     "Remeros Plaza": 81,
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 247.0
+   "segundos": 248.7
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 246.5
+   "segundos": 246.0
   },
   {
    "fuente": "padron",
@@ -115,14 +115,14 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 10,
+   "senales": 11,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.5
+   "segundos": 1.6
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "a5e02f099e3160d15c9f7a5fb68df68a4730fc13",
- "hoy": "2026-11-05"
+ "commit": "1aad49ebd17f56b0f715e155282f47dce2cc4d63",
+ "hoy": "2026-11-06"
 }
