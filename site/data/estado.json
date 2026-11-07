@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T13:53:50-03:00",
+ "actualizado": "2026-11-07T12:51:16-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 17,
+   "senales": 16,
    "avisos": [],
    "detalle": {},
-   "segundos": 44.6
+   "segundos": 31.8
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 141.2
+   "segundos": 136.2
   },
   {
    "fuente": "directorios",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 246.0
+   "segundos": 245.7
   },
   {
    "fuente": "padron",
@@ -122,7 +122,7 @@
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.6
+   "segundos": 1.4
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "1aad49ebd17f56b0f715e155282f47dce2cc4d63",
- "hoy": "2026-11-06"
+ "commit": "6ca96d585e1796a18a353ff89a23f92e62559b8e",
+ "hoy": "2026-11-07"
 }
