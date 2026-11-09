@@ -1,4 +1,4 @@
-# {"fecha": "2026-11-08", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11012}
+# {"fecha": "2026-11-09", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11014}
 node/573381693	1178b0c48a	shop=antiques	-34.444991	-58.757899	Antiguedades
 node/573459331	113fffb544	amenity=bar	-34.547265	-58.558874	
 node/573459334	99c8fb3a88	amenity=pharmacy	-34.552386	-58.558438	Farmacia El Aguila II
@@ -7326,6 +7326,8 @@ node/14352816260	315b8ee680	shop=paint	-34.456277	-58.562952	Las Tropas
 node/14352816261	9a71fba38e	shop=hardware	-34.455670	-58.561827	La Bulonera
 node/14353627171	df7fc90122	shop=car_repair	-34.532976	-58.594988	Lobo's
 node/14357460401	82bcdd6957	amenity=restaurant	-34.436331	-58.991674	Las Marías
+node/14359811201	6020ab435c	shop=supermarket	-34.348707	-58.808057	24 horas
+node/14359811401	3e2066c839	shop=supermarket	-34.346659	-58.812699	Kiosco fabian
 relation/4273949	87acc64c7c	amenity=ice_cream	-34.360932	-58.800668	Helados Munchi's
 relation/4275234	973e722c83	shop=supermarket	-34.362958	-58.797344	Jumbo
 relation/6822367	fefecef5a1	shop=car	-34.482904	-58.625370	Hino
@@ -8010,7 +8012,7 @@ way/466694418	c13f52143e	amenity=restaurant	-34.530008	-58.523721	Arnaldo's
 way/466694420	965b242556	shop=shoes	-34.529537	-58.522774	Calzados Genesis
 way/466694421	64ae3c8db9	amenity=restaurant	-34.529434	-58.522449	La Fábrica
 way/466694422	6992cd7b14	shop=clothes	-34.529198	-58.522006	El Emporio de las Medias
-way/466694423	bd2580a7d3	shop=bakery	-34.529094	-58.521862	El Nuevo Progreso
+way/466694423	c8faf811dd	shop=bakery	-34.529094	-58.521862	El Nuevo Progreso
 way/466695693	7c3238aa64	shop=shoes	-34.529030	-58.521698	Sacha
 way/466695694	2fcb92c388	shop=shoes	-34.528889	-58.521400	Humma
 way/466697447	16a03db1fc	shop=yes	-34.527980	-58.519663	Indiva
