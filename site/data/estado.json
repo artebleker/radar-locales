@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T16:58:28-03:00",
+ "actualizado": "2026-11-10T14:14:12-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 66,
+  "candidatos": 75,
   "por_estado": {
-   "abrio": 28,
-   "por_abrir": 13,
-   "detectado": 25
+   "abrio": 32,
+   "por_abrir": 12,
+   "detectado": 31
   },
   "por_confianza": {
-   "alta": 22,
-   "media": 22,
-   "baja": 22
+   "alta": 24,
+   "media": 25,
+   "baja": 26
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 19,
+   "senales": 24,
    "avisos": [],
    "detalle": {},
-   "segundos": 51.4
+   "segundos": 47.5
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 16,
+   "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 137.4
+   "segundos": 141.8
   },
   {
    "fuente": "directorios",
@@ -72,11 +72,11 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 0,
+   "senales": 2,
    "avisos": [],
    "detalle": {
     "Unicenter": 322,
-    "Palmas del Pilar": 139,
+    "Palmas del Pilar": 141,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
     "Paseo Champagnat": 92,
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 247.5
+   "segundos": 248.3
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 246.5
+   "segundos": 246.2
   },
   {
    "fuente": "padron",
@@ -115,14 +115,14 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 11,
+   "senales": 13,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.3
+   "segundos": 1.6
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "4e6e02aafdd5bcd3b5836efb718d523062f62c84",
- "hoy": "2026-11-09"
+ "commit": "af1f70c8242c4c9394b7bd2ad8d9f341f1d5daee",
+ "hoy": "2026-11-10"
 }
