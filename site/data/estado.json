@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T14:14:12-03:00",
+ "actualizado": "2026-11-11T14:23:49-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 75,
+  "candidatos": 293,
   "por_estado": {
    "abrio": 32,
    "por_abrir": 12,
-   "detectado": 31
+   "detectado": 249
   },
   "por_confianza": {
    "alta": 24,
-   "media": 25,
-   "baja": 26
+   "media": 118,
+   "baja": 151
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 24,
+   "senales": 229,
    "avisos": [],
    "detalle": {},
-   "segundos": 47.5
+   "segundos": 777.0
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 141.8
+   "segundos": 135.8
   },
   {
    "fuente": "directorios",
@@ -72,7 +72,7 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 2,
+   "senales": 0,
    "avisos": [],
    "detalle": {
     "Unicenter": 322,
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 248.3
+   "segundos": 248.6
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 246.2
+   "segundos": 245.4
   },
   {
    "fuente": "padron",
@@ -115,7 +115,7 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 13,
+   "senales": 32,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "af1f70c8242c4c9394b7bd2ad8d9f341f1d5daee",
- "hoy": "2026-11-10"
+ "commit": "9de6660fe910a6bcf51b2e93ab86b0e9afd446e7",
+ "hoy": "2026-11-11"
 }
