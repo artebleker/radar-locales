@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T14:23:49-03:00",
+ "actualizado": "2026-11-12T14:42:28-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 293,
+  "candidatos": 438,
   "por_estado": {
-   "abrio": 32,
-   "por_abrir": 12,
-   "detectado": 249
+   "abrio": 34,
+   "por_abrir": 14,
+   "detectado": 390
   },
   "por_confianza": {
    "alta": 24,
-   "media": 118,
-   "baja": 151
+   "media": 124,
+   "baja": 290
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 229,
+   "senales": 289,
    "avisos": [],
    "detalle": {},
-   "segundos": 777.0
+   "segundos": 42.8
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 17,
+   "senales": 19,
    "avisos": [],
    "detalle": {},
-   "segundos": 135.8
+   "segundos": 146.2
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 248.6
+   "segundos": 250.0
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 245.4
+   "segundos": 246.6
   },
   {
    "fuente": "padron",
@@ -115,7 +115,7 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 32,
+   "senales": 55,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "9de6660fe910a6bcf51b2e93ab86b0e9afd446e7",
- "hoy": "2026-11-11"
+ "commit": "aad850e8315e6da15684d96b977fde644e837169",
+ "hoy": "2026-11-12"
 }
