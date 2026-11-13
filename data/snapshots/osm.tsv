@@ -1,4 +1,4 @@
-# {"fecha": "2026-11-12", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11012}
+# {"fecha": "2026-11-13", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11012}
 node/573381693	1178b0c48a	shop=antiques	-34.444991	-58.757899	Antiguedades
 node/573459331	113fffb544	amenity=bar	-34.547265	-58.558874	
 node/573459334	99c8fb3a88	amenity=pharmacy	-34.552386	-58.558438	Farmacia El Aguila II
@@ -237,7 +237,7 @@ node/2378587633	75c65e867c	shop=mobile_phone	-34.351956	-58.793417	Marthe Celula
 node/2378599336	89d2e96f74	shop=convenience	-34.356460	-58.796795	YPF
 node/2378599338	a424979ded	amenity=pharmacy	-34.358768	-58.800145	
 node/2378599340	69424db4cd	amenity=restaurant	-34.359649	-58.800884	
-node/2379204927	a3dfb84621	amenity=pharmacy	-34.325016	-58.847299	
+node/2379204927	a3dfb84621	amenity=pharmacy	-34.325015	-58.847302	
 node/2385843137	d19a6843ed	shop=supermarket	-34.394486	-58.573180	El fauno
 node/2388403983	2b0abe18f0	shop=bakery	-34.520409	-58.497478	La Norma
 node/2401030948	90ebbecbf9	amenity=bar	-34.546207	-58.559893	Lo de Bilbo
