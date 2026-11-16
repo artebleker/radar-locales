@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T13:31:29-03:00",
+ "actualizado": "2026-11-16T16:47:05-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 443,
+  "candidatos": 447,
   "por_estado": {
-   "abrio": 34,
-   "por_abrir": 15,
-   "detectado": 394
+   "abrio": 35,
+   "por_abrir": 17,
+   "detectado": 395
   },
   "por_confianza": {
-   "alta": 25,
-   "media": 126,
-   "baja": 292
+   "alta": 26,
+   "media": 127,
+   "baja": 294
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 19,
+   "senales": 18,
    "avisos": [],
    "detalle": {},
-   "segundos": 33.7
+   "segundos": 1587.3
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 15,
+   "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 136.0
+   "segundos": 137.2
   },
   {
    "fuente": "directorios",
@@ -72,19 +72,20 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 0,
-   "avisos": [],
+   "senales": 1,
+   "avisos": [
+    "Soleil Premium Outlet: HTTPError: 404 Client Error: Not Found for url: https://www.soleilpremiumoutlet.com.ar/marcas/categoria/accesorios"
+   ],
    "detalle": {
-    "Unicenter": 323,
+    "Unicenter": 324,
     "Palmas del Pilar": 141,
     "Portal Escobar": 27,
     "Factory San Martín": 30,
     "Paseo Champagnat": 92,
     "Remeros Plaza": 81,
-    "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 247.2
+   "segundos": 222.6
   },
   {
    "fuente": "sucursales",
@@ -106,7 +107,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 245.5
+   "segundos": 245.8
   },
   {
    "fuente": "padron",
@@ -133,6 +134,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "fb136f469c13bcbd07a6807805e62cb90d70524b",
- "hoy": "2026-11-15"
+ "commit": "cee61dce2b320c063d28e9f28fac9940c656da70",
+ "hoy": "2026-11-16"
 }
