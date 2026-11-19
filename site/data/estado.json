@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T15:20:18-03:00",
+ "actualizado": "2026-11-19T15:33:09-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 452,
+  "candidatos": 453,
   "por_estado": {
-   "abrio": 39,
-   "por_abrir": 19,
-   "detectado": 394
+   "abrio": 40,
+   "por_abrir": 21,
+   "detectado": 392
   },
   "por_confianza": {
    "alta": 30,
-   "media": 129,
-   "baja": 293
+   "media": 131,
+   "baja": 292
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 17,
+   "senales": 15,
    "avisos": [],
    "detalle": {},
-   "segundos": 45.7
+   "segundos": 117.7
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 9,
+   "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 91.2
+   "segundos": 134.2
   },
   {
    "fuente": "directorios",
@@ -72,20 +72,19 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 3,
-   "avisos": [
-    "Paseo Champagnat: RuntimeError: 0 elementos contra 92 del snapshot; respuesta incompleta",
-    "Remeros Plaza: RuntimeError: 0 elementos contra 81 del snapshot; respuesta incompleta"
-   ],
+   "senales": 0,
+   "avisos": [],
    "detalle": {
     "Unicenter": 324,
     "Palmas del Pilar": 141,
     "Portal Escobar": 27,
     "Factory San Martín": 31,
+    "Paseo Champagnat": 92,
+    "Remeros Plaza": 81,
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 250.5
+   "segundos": 276.2
   },
   {
    "fuente": "sucursales",
@@ -107,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 245.5
+   "segundos": 246.9
   },
   {
    "fuente": "padron",
@@ -116,14 +115,14 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 60,
+   "senales": 61,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
     "periodo": "2026-10",
     "personas_juridicas": 534981
    },
-   "segundos": 1.2
+   "segundos": 1.6
   }
  ],
  "arca": {
@@ -134,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "1343a59095ccd13ed8931a76d9c9e71d0bd6527b",
- "hoy": "2026-11-18"
+ "commit": "27d6a09b75655b37390e09d9acac2bc4828e322b",
+ "hoy": "2026-11-19"
 }
