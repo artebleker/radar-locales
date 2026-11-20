@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T15:33:09-03:00",
+ "actualizado": "2026-11-20T14:57:15-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,15 +9,15 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 453,
+  "candidatos": 452,
   "por_estado": {
    "abrio": 40,
-   "por_abrir": 21,
+   "por_abrir": 20,
    "detectado": 392
   },
   "por_confianza": {
    "alta": 30,
-   "media": 131,
+   "media": 130,
    "baja": 292
   }
  },
@@ -51,7 +51,7 @@
    "senales": 15,
    "avisos": [],
    "detalle": {},
-   "segundos": 117.7
+   "segundos": 61.3
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 17,
    "avisos": [],
    "detalle": {},
-   "segundos": 134.2
+   "segundos": 147.0
   },
   {
    "fuente": "directorios",
@@ -79,12 +79,12 @@
     "Palmas del Pilar": 141,
     "Portal Escobar": 27,
     "Factory San Martín": 31,
-    "Paseo Champagnat": 92,
+    "Paseo Champagnat": 91,
     "Remeros Plaza": 81,
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 276.2
+   "segundos": 263.5
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 246.9
+   "segundos": 245.2
   },
   {
    "fuente": "padron",
@@ -115,14 +115,14 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 61,
+   "senales": 62,
    "avisos": [],
    "detalle": {
-    "descarga": "omitida",
-    "periodo": "2026-10",
-    "personas_juridicas": 534981
+    "descarga": "actualizada",
+    "periodo": "2026-11",
+    "personas_juridicas": 538814
    },
-   "segundos": 1.6
+   "segundos": 559.5
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "27d6a09b75655b37390e09d9acac2bc4828e322b",
- "hoy": "2026-11-19"
+ "commit": "aed93773c7459eeab37cca5170c4686922bc2714",
+ "hoy": "2026-11-20"
 }
