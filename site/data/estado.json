@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T13:55:25-03:00",
+ "actualizado": "2026-11-22T14:19:33-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 504,
+  "candidatos": 623,
   "por_estado": {
-   "abrio": 40,
+   "abrio": 38,
    "por_abrir": 18,
-   "detectado": 446
+   "detectado": 567
   },
   "por_confianza": {
    "alta": 30,
-   "media": 150,
-   "baja": 324
+   "media": 152,
+   "baja": 441
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 285,
+   "senales": 443,
    "avisos": [],
    "detalle": {},
-   "segundos": 613.1
+   "segundos": 56.7
   },
   {
    "fuente": "medios_rss",
@@ -61,11 +61,9 @@
    "ok": true,
    "error": null,
    "senales": 14,
-   "avisos": [
-    "Diario Resumen: HTTPError: HTTP 502 en https://www.resumendelaregion.com/feed/"
-   ],
+   "avisos": [],
    "detalle": {},
-   "segundos": 232.3
+   "segundos": 136.7
   },
   {
    "fuente": "directorios",
@@ -86,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 145
    },
-   "segundos": 249.7
+   "segundos": 258.4
   },
   {
    "fuente": "sucursales",
@@ -108,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 246.6
+   "segundos": 245.7
   },
   {
    "fuente": "padron",
@@ -117,14 +115,14 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 64,
+   "senales": 81,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
     "periodo": "2026-11",
     "personas_juridicas": 538814
    },
-   "segundos": 2.7
+   "segundos": 2.8
   }
  ],
  "arca": {
@@ -135,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "3e23903710b02587cc79c8bfe74aeaae8734fe94",
- "hoy": "2026-11-21"
+ "commit": "5158e7867ad6bb4fec653851855bc623cec027f2",
+ "hoy": "2026-11-22"
 }
