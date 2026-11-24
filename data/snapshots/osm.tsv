@@ -1,4 +1,4 @@
-# {"fecha": "2026-11-23", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11015}
+# {"fecha": "2026-11-24", "partidos": ["Escobar", "Malvinas Argentinas", "Pilar", "San Fernando", "San Isidro", "San Martín", "Tigre", "Vicente López"], "elementos": 11016}
 node/573381693	1178b0c48a	shop=antiques	-34.444991	-58.757899	Antiguedades
 node/573459331	113fffb544	amenity=bar	-34.547265	-58.558874	
 node/573459334	99c8fb3a88	amenity=pharmacy	-34.552386	-58.558438	Farmacia El Aguila II
@@ -5617,7 +5617,7 @@ node/9919515863	9c421c4ad1	shop=mobile_phone	-34.450482	-58.552513	Digital Store
 node/9919515864	93dad500df	leisure=fitness_centre	-34.450964	-58.553329	Gold's Gym
 node/9919515865	06852aa61f	shop=pet	-34.451035	-58.552537	TOTAL CAN
 node/9919693118	3024092241	amenity=fast_food	-34.447258	-58.867931	Mostaza
-node/9920987617	6b31e36fd4	amenity=pharmacy	-34.496687	-58.544527	Farmaplus
+node/9920987617	6b31e36fd4	amenity=pharmacy	-34.496697	-58.544559	Farmaplus
 node/9923360818	c651a3b60c	amenity=restaurant	-34.405542	-58.619367	Granero
 node/9923360819	408e75da09	amenity=pharmacy	-34.461182	-58.636164	Farmacia Pacheco
 node/9923360820	20f28515f7	shop=bed	-34.460213	-58.634913	SommierCenter
@@ -11014,3 +11014,4 @@ way/1549530874	aca9d01670	shop=trade	-34.421915	-58.591644	Polytemp
 way/1549530878	a1631b7eb7	shop=car_repair	-34.421816	-58.592481	Boxes
 way/1549530880	ffc8751f47	shop=car_repair	-34.421413	-58.592111	Chapa Pintura
 way/1549799017	a928ef1bf4	shop=wholesale	-34.441057	-58.585432	Yaguar
+way/1583931740	c79443642f	amenity=pharmacy	-34.496774	-58.544505	

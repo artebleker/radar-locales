@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T18:37:43-03:00",
+ "actualizado": "2026-11-24T17:18:23-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 621,
+  "candidatos": 613,
   "por_estado": {
-   "abrio": 39,
+   "abrio": 30,
    "por_abrir": 16,
-   "detectado": 566
+   "detectado": 567
   },
   "por_confianza": {
-   "alta": 30,
+   "alta": 21,
    "media": 151,
-   "baja": 440
+   "baja": 441
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 14,
+   "senales": 15,
    "avisos": [],
    "detalle": {},
-   "segundos": 66.7
+   "segundos": 126.6
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 13,
    "avisos": [],
    "detalle": {},
-   "segundos": 132.8
+   "segundos": 136.7
   },
   {
    "fuente": "directorios",
@@ -72,7 +72,7 @@
    "licencia": "Nombre de la tienda y link al directorio público de cada shopping",
    "ok": true,
    "error": null,
-   "senales": 0,
+   "senales": 1,
    "avisos": [],
    "detalle": {
     "Unicenter": 324,
@@ -82,9 +82,9 @@
     "Paseo Champagnat": 91,
     "Remeros Plaza": 81,
     "Soleil Premium Outlet": 80,
-    "Tortugas Open Mall": 145
+    "Tortugas Open Mall": 146
    },
-   "segundos": 279.6
+   "segundos": 249.6
   },
   {
    "fuente": "sucursales",
@@ -95,10 +95,10 @@
    "error": null,
    "senales": 0,
    "avisos": [
-    "Frávega: BloqueadoPorRobots: robots.txt no permite https://www.fravega.com/sucursales",
     "Bonafide: HTTPError: 404 Client Error: Not Found for url: https://www.bonafide.com.ar/wp-admin/admin-ajax.php?action=store_search&lat=-34.5266&lng=-58.5045&max_results=100&search_radius=5"
    ],
    "detalle": {
+    "Frávega": 10,
     "Supermercados Día": 98,
     "Carrefour": 70,
     "Easy": 12,
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 245.6
+   "segundos": 249.3
   },
   {
    "fuente": "padron",
@@ -122,7 +122,7 @@
     "periodo": "2026-11",
     "personas_juridicas": 538814
    },
-   "segundos": 3.1
+   "segundos": 2.4
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "7f87e7cfdf9934c7dad135209698812b8c3ddb5a",
- "hoy": "2026-11-23"
+ "commit": "7fa2ce6c4ce02bf884ddac47f9425aab8a3f1ae2",
+ "hoy": "2026-11-24"
 }
