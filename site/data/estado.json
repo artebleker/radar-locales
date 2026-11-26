@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T16:31:59-03:00",
+ "actualizado": "2026-11-26T16:14:39-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -9,16 +9,16 @@
  ],
  "ventana_defecto": 30,
  "totales_ventana": {
-  "candidatos": 614,
+  "candidatos": 632,
   "por_estado": {
-   "abrio": 31,
+   "abrio": 33,
    "por_abrir": 16,
-   "detectado": 567
+   "detectado": 583
   },
   "por_confianza": {
    "alta": 21,
-   "media": 152,
-   "baja": 441
+   "media": 155,
+   "baja": 456
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 15,
+   "senales": 31,
    "avisos": [],
    "detalle": {},
-   "segundos": 80.3
+   "segundos": 84.2
   },
   {
    "fuente": "medios_rss",
@@ -60,10 +60,10 @@
    "licencia": "Solo título, medio, fecha y link de cada nota; el contenido es de cada medio",
    "ok": true,
    "error": null,
-   "senales": 14,
+   "senales": 12,
    "avisos": [],
    "detalle": {},
-   "segundos": 135.7
+   "segundos": 135.2
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 146
    },
-   "segundos": 268.5
+   "segundos": 250.3
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 247.0
+   "segundos": 245.4
   },
   {
    "fuente": "padron",
@@ -115,14 +115,14 @@
    "licencia": "Datos públicos de ARCA; solo personas jurídicas",
    "ok": true,
    "error": null,
-   "senales": 82,
+   "senales": 88,
    "avisos": [],
    "detalle": {
     "descarga": "omitida",
     "periodo": "2026-11",
     "personas_juridicas": 538814
    },
-   "segundos": 2.8
+   "segundos": 3.3
   }
  ],
  "arca": {
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "5ca78f1f96ae46aff2f27c88544c113f53554d5d",
- "hoy": "2026-11-25"
+ "commit": "e44f33f20fa0f0f9de4109abe9c3f95f2d8120d3",
+ "hoy": "2026-11-26"
 }
