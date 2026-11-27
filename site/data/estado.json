@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T16:14:39-03:00",
+ "actualizado": "2026-11-27T16:08:21-03:00",
  "zona_horaria": "America/Argentina/Buenos_Aires",
  "ventanas_dias": [
   7,
@@ -11,14 +11,14 @@
  "totales_ventana": {
   "candidatos": 632,
   "por_estado": {
-   "abrio": 33,
-   "por_abrir": 16,
+   "abrio": 32,
+   "por_abrir": 17,
    "detectado": 583
   },
   "por_confianza": {
-   "alta": 21,
+   "alta": 20,
    "media": 155,
-   "baja": 456
+   "baja": 457
   }
  },
  "partidos": [
@@ -48,10 +48,10 @@
    "licencia": "ODbL — © colaboradores de OpenStreetMap",
    "ok": true,
    "error": null,
-   "senales": 31,
+   "senales": 29,
    "avisos": [],
    "detalle": {},
-   "segundos": 84.2
+   "segundos": 37.6
   },
   {
    "fuente": "medios_rss",
@@ -63,7 +63,7 @@
    "senales": 12,
    "avisos": [],
    "detalle": {},
-   "segundos": 135.2
+   "segundos": 136.7
   },
   {
    "fuente": "directorios",
@@ -84,7 +84,7 @@
     "Soleil Premium Outlet": 80,
     "Tortugas Open Mall": 146
    },
-   "segundos": 250.3
+   "segundos": 249.9
   },
   {
    "fuente": "sucursales",
@@ -106,7 +106,7 @@
     "Simplicity": 17,
     "Havanna": 15
    },
-   "segundos": 245.4
+   "segundos": 246.0
   },
   {
    "fuente": "padron",
@@ -133,6 +133,6 @@
  },
  "repo": "https://github.com/artebleker/radar-locales",
  "version": "1.0.0",
- "commit": "e44f33f20fa0f0f9de4109abe9c3f95f2d8120d3",
- "hoy": "2026-11-26"
+ "commit": "3a2f839e183e32132c5968d77c66f7bca8e39066",
+ "hoy": "2026-11-27"
 }
